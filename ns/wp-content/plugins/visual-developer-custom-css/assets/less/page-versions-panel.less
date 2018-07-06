@@ -1,0 +1,179 @@
+body.visual-developer-page-versions-panel-active {
+  overflow:hidden !important;
+}
+
+#visual-developer-page-versions-panel {
+  background : #191A1E;
+  background : rgba(26, 28, 31, 0.99);
+  margin     : 0;
+  border     : 0;
+  z-index    : @minZIndex + 999;
+
+  > #visual-developer-page-versions-panel-top-section {
+    background : #1a1c1f;
+    max-width  : @mainContainerMaxWidth;
+    margin     : 0 auto;
+    padding    : 20px 10px;
+
+    > h2 {
+      color        : #FFFFFF;
+      float        : left;
+      font-size    : 17px;
+      font-weight  : 300;
+      font-family  : 'Raleway', sans-serif;
+      line-height  : 1.9;
+      background   : url("img/logo.png") no-repeat;
+      padding-left : 40px;
+
+      > span {
+        padding-left : 20px;
+        margin-left  : 20px;
+        border-left  : 1px solid #2e3032;
+        color        : #2e3032;
+        font-size    : 14px;
+        line-height  : 1.9;
+        font-family  : 'Open Sans', sans-serif;
+        font-weight  : 700;
+      }
+    }
+
+    > #visual-developer-page-versions-panel-top-close {
+      display       : block;
+      width         : 33.33%;
+      max-width     : 125px;
+      margin-left   : 2px;
+      padding       : 10px 0;
+      text-align    : center;
+      background    : #FF644B;
+      color         : #FFFFFF;
+      cursor        : pointer;
+      float         : right;
+      font-size     : 13px;
+      font-family   : 'Raleway', sans-serif;
+    }
+  }
+
+  > #visual-developer-page-versions-panel-container {
+    padding     : 20px 10px;
+    max-width   : @mainContainerMaxWidth;
+    margin      : 0 auto;
+
+    > h2 {
+      color       : #F0F1F3;
+      font-size   : 14px;
+      margin      : 0 0 5px 0;
+      padding     : 20px 10px;
+      font-family : 'Raleway', sans-serif;
+      font-weight : 300;
+    }
+
+    > .warning {
+      color       : #f1c40f;
+      padding     : 5px;
+      font-size   : 1.2em;
+      font-family : 'Raleway', sans-serif;
+    }
+
+    > #visual-developer-page-versions-panel-add-new-toggle-form {
+      &.visual-developer-page-versions-panel-add-new-toggle-active {
+        background    : #FF644B;
+      }
+
+      display       : block;
+      width         : 25%;
+      max-width     : 125px;
+      padding       : 10px 0;
+      text-align    : center;
+      background    : #84C028;
+      color         : #f0f1f3;
+      cursor        : pointer;
+      float         : left;
+      font-size     : 13px;
+      font-family   : 'Raleway', sans-serif;
+    }
+
+    > #visual-developer-page-versions-panel-add-new-form {
+      display      : none;
+      float        : left;
+      width        : 75%;
+
+      > label {
+        float         : left;
+        display       : block;
+        font-size     : 13px;
+        font-family   : 'Raleway', sans-serif;
+        color         : #f0f1f3;
+        margin-top    : 8px;
+        padding       : 0 10px;
+      }
+
+      > input[type="text"] {
+        &.visual-developer-error {
+          border : 1px solid #FF644B;
+        }
+
+        float         : left;
+        display       : block;
+        border-radius : 0;
+        border        : 1px solid #2e3032;
+        color         : #f0f1f3;
+        background    : transparent;
+      }
+
+      > input[type="submit"] {
+        float         : left;
+        display       : block;
+        border        : 0;
+        border-radius : 0;
+        text-align    : center;
+        background    : #84C028;
+        color         : #f0f1f3;
+        cursor        : pointer;
+      }
+
+      &.visual-developer-page-versions-panel-processing-event {
+
+        > input[type="submit"] {
+          background: #4FC0EC;
+        }
+      }
+    }
+
+    > #visual-developer-page-versions-panel-container-list {
+      margin-top : 20px;
+      width      : 100%;
+      display    : none;
+
+      > thead > tr > th,
+      > tbody > tr > td {
+        text-align : left;
+        color      : #f0f1f3;
+        padding    : 10px 5px;
+        border     : 1px solid #2e3032;
+
+        > .visual-developer-page-version-customize,
+        > .visual-developer-page-version-delete {
+          display       : inline-block;
+          font-size     : 13px;
+          font-family   : 'Raleway', sans-serif;
+          color         : #f0f1f3;
+          padding       : 5px 15px;
+          cursor        : pointer;
+          margin-left   : 5px;
+        }
+
+        > .visual-developer-page-version-customize {
+          background    : #84C028;
+        }
+
+        > .visual-developer-page-version-delete {
+          background    : #FF644B;
+        }
+      }
+
+      > tbody > tr > td:last-child {
+        width:142px;
+      }
+    }
+  }
+}

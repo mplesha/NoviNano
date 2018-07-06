@@ -1,0 +1,248 @@
+#visual-developer-element-panel {
+  z-index       : @minZIndex + 100;
+  background    : #191A1E;
+  width         : 360px;
+  left          : 0;
+
+  > #visual-developer-element-panel-operations-options-container {
+    background : #212226;
+    width      : 100%;
+    margin     : 0;
+    padding    : 0;
+    border     : 0;
+
+    > #visual-developer-element-panel-option-toggle-spectral-mode,
+    > #visual-developer-element-panel-option-reset,
+    > #visual-developer-element-panel-option-selector,
+    > #visual-developer-element-panel-option-macro {
+      display     : inline-block;
+      height      : 40px;
+      padding     : 10px 13px;
+      color       : #787878;
+      cursor      : pointer;
+      text-align  : center;
+      font-family : 'Raleway', sans-serif;
+      font-size   : 13px;
+      line-height : 1.5em;
+
+      &:hover {
+        color : #FFFFFF;
+      }
+
+      &.visual-developer-element-panel-option-active,
+      &.visual-developer-element-panel-option-selector-active {
+        color : #1BBBED;
+      }
+    }
+
+    > #visual-developer-element-panel-option-filter {
+      margin         : 0;
+      border         : 0;
+      width          : 100%;
+      height         : 35px;
+      border-radius  : 0;
+      font-size      : 10px;
+      font-family    : 'Open Sans', sans-serif;
+      font-weight    : 400;
+      color          : #777777;
+      background     : #26272B;
+      text-align     : center;
+      display        : none;
+    }
+
+    > #visual-developer-element-panel-option-selector {
+      width      : 100%;
+      text-align : right;
+      display    : none;
+    }
+
+    &.visual-developer-element-panel-operations-container-has-selector {
+
+      > #visual-developer-element-panel-option-selector {
+        display: inline-block;
+      }
+
+      > #visual-developer-element-panel-option-filter {
+        width : 60%;
+      }
+
+    }
+
+    &.visual-developer-element-panel-operations-container-has-search {
+
+      > #visual-developer-element-panel-option-filter {
+        display: inline-block;
+      }
+      
+      > #visual-developer-element-panel-option-selector {
+        width      : 40%;
+        text-align : center;
+      }
+
+    }
+  }
+
+  > #visual-developer-element-panel-operations-container {
+    overflow-x     : hidden;
+    overflow-y     : scroll;
+
+    &::-webkit-scrollbar {
+      width: 2px;
+    }
+    &::-webkit-scrollbar-thumb {
+      background-color: #191A1E;
+      outline: 1px solid #191A1E;
+    }
+
+    > .visual-developer-operation-group-label-container,
+    > .visual-developer-operation-group {
+      float   : left;
+      display : block;
+      padding : 10px;
+    }
+
+    > .visual-developer-operation-group {
+      margin        : 0;
+      padding       : 0;
+      width         : 100%;
+      display       : block;
+      .visual-developer-element-operations-field-container {
+        &.visual-developer-element-operations-active-rule {
+          .visual-developer-element-operations-field-label {
+            opacity : 1;
+          }
+        }
+        .visual-developer-element-operations-field-label {
+          display      : block;
+          width        : 100%;
+          text-align   : center;
+          color        : #FFFFFF;
+          padding      : 15px;
+          cursor       : pointer;
+          opacity      : 0.8;
+          font-size    : 15px;
+          font-family  : 'Open Sans', sans-serif;
+          font-weight  : 300;
+          position     : relative;
+
+          .visual-developer-element-operations-field-important-toggle {
+            background     : #d62f28;
+            text-align     : center;
+            cursor         : pointer;
+            font-family    : 'Open Sans', sans-serif !important;
+            font-weight    : 400 !important;
+            font-size      : 14px !important;
+            color          : #FFFFFF !important;
+            width          : 80px !important;
+            position       : absolute;
+            left           : 0;
+            top            : 10px;
+            border-radius  : 0 2px 2px 0;
+            padding        : 5px 0;
+            opacity        : 0.9;
+
+            &:hover {
+              background : #82b541;
+            }
+
+            &.visual-developer-element-operations-field-important-active {
+              background : #82b541;
+
+              &:hover {
+                background : #d62f28;
+              }
+            }
+          }
+        }
+
+        > ul {
+          display: block;
+          width  : 100%;
+
+          > li {
+            font-size       : 1.2em;
+            color           : #FFFFFF;
+            width           : 50%;
+            display         : inline-block;
+            margin          : 0;
+            padding         : 0;
+
+            input, select {
+              margin         : 0;
+              border         : 0;
+              width          : 100%;
+              height         : 45px;
+              border-radius  : 0;
+              font-size      : 10px;
+              font-family    : 'Open Sans', sans-serif;
+              font-weight    : 400;
+              color          : #777777;
+            }
+
+            input {
+              text-align    : right;
+              background    : transparent;
+              padding-right : 10px;
+
+              &.visual-developer-color-picker-field {
+                background     : #3c3e45;
+                color          : #FFFFFF;
+                text-transform : uppercase;
+              }
+            }
+
+            select {
+              padding-left   : 10px;
+              background     : #26272B;
+            }
+          }
+
+          &.visual-developer-element-operations-model-border {
+            > li {
+              &:last-child {
+                margin-top : 5px;
+                width      : 100%;
+              }
+              &:first-child input {
+                text-align: right;
+              }
+
+              width : 33.33%;
+
+              input {
+                text-align: center;
+              }
+            }
+          }
+
+          &.visual-developer-element-operations-model-single-select {
+            > li {
+              width : 100%;
+
+              select {
+                text-align : left;
+                width      : 100%;
+              }
+            }
+          }
+
+          &.visual-developer-element-operations-model-single {
+            > li {
+              width : 100%;
+
+              input {
+                text-align: center;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+body {
+  .visual-developer-element-panel-active-pattern {
+    box-shadow: 0 1px 1px rgb(255, 255, 255) inset, 0 0 8px rgb(0, 0, 0) !important;
+  }
+}

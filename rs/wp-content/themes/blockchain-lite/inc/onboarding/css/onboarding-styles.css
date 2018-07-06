@@ -1,0 +1,79 @@
+.blockchain-lite-onboarding-wrap .wp-badge {
+  background: #fff;
+  padding: 50px 0;
+  height: auto;
+}
+
+.blockchain-lite-onboarding-wrap .wp-badge img {
+  width: 80px;
+  position: relative;
+  left: -5px;
+}
+
+.blockchain-lite-onboarding-wrap .blockchain-lite-onboarding-box {
+  background: #fff;
+  border-left: solid 4px #fff;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+  padding: 15px 15px 5px;
+  margin: 15px 0 30px 0;
+}
+
+.blockchain-lite-onboarding-wrap .blockchain-lite-onboarding-box .box-title {
+  margin: 0 0 5px 0;
+}
+
+.blockchain-lite-onboarding-wrap .blockchain-lite-onboarding-box .box-description {
+  font-size: 13px;
+  margin: 0;
+}
+
+.blockchain-lite-onboarding-wrap .blockchain-lite-onboarding-box-warning {
+  border-left: solid 4px red;
+}
+
+.blockchain-lite-onboarding-wrap .blockchain-lite-onboarding-box-info {
+  border-left: solid 4px orange;
+}
+
+.blockchain-lite-onboarding-wrap .blockchain-lite-onboarding-box-success {
+  border-left: solid 4px green;
+}
+
+.blockchain-lite-onboarding-wrap .blockchain-lite-onboarding-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.blockchain-lite-onboarding-wrap .blockchain-lite-onboarding-table tr {
+  border-bottom: solid 1px #ccc;
+}
+
+.blockchain-lite-onboarding-wrap .blockchain-lite-onboarding-table tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+.blockchain-lite-onboarding-wrap .blockchain-lite-onboarding-table tr:nth-child(even) .blockchain-lite-onboarding-pro {
+  background: #9dba6f;
+}
+
+.blockchain-lite-onboarding-wrap .blockchain-lite-onboarding-table th {
+  font-weight: bold;
+}
+
+.blockchain-lite-onboarding-wrap .blockchain-lite-onboarding-table th, .blockchain-lite-onboarding-wrap .blockchain-lite-onboarding-table td {
+  padding: 15px 8px;
+}
+
+.blockchain-lite-onboarding-wrap .blockchain-lite-onboarding-table .blockchain-lite-onboarding-col {
+  width: 150px;
+  text-align: center;
+}
+
+.blockchain-lite-onboarding-wrap .blockchain-lite-onboarding-table .blockchain-lite-onboarding-pro {
+  background: #92af64;
+  color: #fff;
+}
+
+.blockchain-lite-onboarding-wrap a.button-action {
+  margin: 0 auto;
+}

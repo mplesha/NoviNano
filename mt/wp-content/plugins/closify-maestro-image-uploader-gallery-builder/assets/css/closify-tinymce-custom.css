@@ -1,0 +1,36 @@
+/* 
+    Document   : closify-tinymce-custom
+    Created on : Feb 29, 2016, 2:06:40 PM
+    Author     : aelbuni
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body{
+  font-family: 'Roboto', sans-serif !important;
+  font-size:12px !important;
+  margin:10px !important;
+}
+table.closify-tinymce-table, table.closify-tinymce-table td, table.closify-tinymce-table tr
+{
+  font-size:small;
+  text-align:center;
+}
+select.closify-tinymce-select
+{
+  margin: 10;
+  padding: 10;
+  font-family: inherit;
+}
+button.closify-tinymce-button
+{
+  padding: 10;
+  margin: 5px;
+  font-family: 'Roboto';
+}
+
+fieldset.closify-tinymce-fieldset legend
+{
+  font-size: 16px;
+  margin-bottom: 12px;
+}

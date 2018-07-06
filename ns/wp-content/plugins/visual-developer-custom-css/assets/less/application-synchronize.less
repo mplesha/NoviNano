@@ -1,0 +1,128 @@
+#visual-developer-application-synchronize-overlay {
+  top        : 0;
+  left       : 0;
+  position   : fixed;
+  display    : block;
+  padding    : 0;
+  background : #191A1E;
+  background : rgba(26, 28, 31, 0.99);
+  z-index    : @minZIndex + 1000;
+
+  > ul {
+    margin     : 20% auto 0 auto;
+    width      : 150px;
+    height     : 150px;
+    padding    : 0;
+    list-style : none;
+
+    > li {
+      position      : absolute;
+      width         : 150px;
+      height        : 150px;
+      border-radius : 5px;
+      background    : #1892c5;
+
+      &:nth-child(2) {
+        background         : #25a3d7;
+        animation          : visualDeveloperLoaderRotation1 3s infinite;
+        -o-animation       : visualDeveloperLoaderRotation1 3s infinite;
+        -moz-animation     : visualDeveloperLoaderRotation1 3s infinite;
+        -webkit-animation  : visualDeveloperLoaderRotation1 3s infinite;
+      }
+      &:nth-child(3) {
+        background              : #30b0e4;
+        animation               : visualDeveloperLoaderRotation2 3s infinite;
+        -o-animation            : visualDeveloperLoaderRotation2 3s infinite;
+        -moz-animation          : visualDeveloperLoaderRotation2 3s infinite;
+        -webkit-animation       : visualDeveloperLoaderRotation2 3s infinite;
+        animation-delay         : 0.2s;
+        -o-animation-delay      : 0.2s;
+        -moz-animation-delay    : 0.2s;
+        -webkit-animation-delay : 0.2s;
+      }
+      &:nth-child(4) {
+        background              : #40baed;
+        animation               : visualDeveloperLoaderRotation3 3s infinite;
+        -o-animation            : visualDeveloperLoaderRotation3 3s infinite;
+        -moz-animation          : visualDeveloperLoaderRotation3 3s infinite;
+        -webkit-animation       : visualDeveloperLoaderRotation3 3s infinite;
+        animation-delay         : 0.4s;
+        -o-animation-delay      : 0.4s;
+        -ms-animation-delay     : 0.4s;
+        -moz-animation-delay    : 0.4s;
+        -webkit-animation-delay : 0.4s;
+      }
+    }
+  }
+
+  > p {
+    text-align  : center;
+    margin-top  : 50px;
+    font-family : 'Raleway', sans-serif;
+    font-weight : 400;
+    color       : #FFFFFF;
+  }
+}
+
+@keyframes visualDeveloperLoaderRotation1 {
+  from     { transform:rotate(-360deg); }
+  30%,60%  { transform:rotate(20deg); }
+  80%      { transform:rotate(0); }
+}
+@-o-keyframes visualDeveloperLoaderRotation1 {
+  from     { -o-transform:rotate(-360deg); }
+  30%,60%  { -o-transform:rotate(20deg); }
+  80%      { -o-transform:rotate(0); }
+}
+@-moz-keyframes visualDeveloperLoaderRotation1 {
+  from     { -moz-transform:rotate(-360deg); }
+  30%,60%  { -moz-transform:rotate(20deg); }
+  80%      { -moz-transform:rotate(0); }
+}
+@-webkit-keyframes visualDeveloperLoaderRotation1 {
+  from     { -webkit-transform:rotate(-360deg); }
+  30%,60%  { -webkit-transform:rotate(20deg); }
+  80%      { -webkit-transform:rotate(0); }
+}
+
+@keyframes visualDeveloperLoaderRotation2 {
+  from     { transform:rotate(-360deg); }
+  30%, 60% { transform:rotate(45deg); }
+  80%      { transform:rotate(0); }
+}
+@-o-keyframes visualDeveloperLoaderRotation2 {
+  from     { -o-transform:rotate(-360deg); }
+  30%, 60% { -o-transform:rotate(45deg); }
+  80%      { -o-transform:rotate(0); }
+}
+@-moz-keyframes visualDeveloperLoaderRotation2 {
+  from     { -moz-transform:rotate(-360deg); }
+  30%, 60% { -moz-transform:rotate(45deg); }
+  80%      { -moz-transform:rotate(0); }
+}
+@-webkit-keyframes visualDeveloperLoaderRotation2 {
+  from     { -webkit-transform:rotate(-360deg); }
+  30%, 60% { -webkit-transform:rotate(45deg); }
+  80%      { -webkit-transform:rotate(0); }
+}
+
+@keyframes visualDeveloperLoaderRotation3 {
+  from    { transform:rotate(-360deg); }
+  30%,60% { transform:rotate(75deg); }
+  80%     { transform:rotate(0); }
+}
+@-o-keyframes visualDeveloperLoaderRotation3 {
+  from    { -o-transform:rotate(-360deg); }
+  30%,60% { -o-transform:rotate(75deg); }
+  80%     { -o-transform:rotate(0); }
+}
+@-moz-keyframes visualDeveloperLoaderRotation3 {
+  from    { -moz-transform:rotate(-360deg); }
+  30%,60% { -moz-transform:rotate(75deg); }
+  80%     { -moz-transform:rotate(0); }
+}
+@-webkit-keyframes visualDeveloperLoaderRotation3 {
+  from    { -webkit-transform:rotate(-360deg); }
+  30%,60% { -webkit-transform:rotate(75deg); }
+  80%     { -webkit-transform:rotate(0); }
+}

@@ -1,0 +1,131 @@
+.about-1.content-section-spacing {
+	padding-bottom: 0;
+}
+
+.about-10,.about-9 {
+	overflow-x: hidden;
+}
+
+.about-10 .content-column,.about-9 .content-column {
+	position: relative;
+	z-index: 10;
+}
+
+.about-10 .image-group-2-img.first-xs.last-sm,.about-4 .image-group-2-img.first-xs.last-sm {
+	margin-bottom: 12%;
+}
+
+.blog-section .card {
+	height: 100%;
+	padding: 0;
+}
+
+.contact-1 {
+	background-image: url("./images/mockup-863469.jpg");
+	background-position: center top;
+	background-size: cover;
+	position: relative;
+}
+
+.contact-1>div {
+	position: relative;
+	z-index: 1;
+}
+
+.contact-1:before {
+	background-color: rgba(26, 26, 26, .48);
+	content: ' ';
+	display: inline-block;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 0;
+}
+
+.content-2 .bg-image,.content-3 .bg-image {
+	background: url("./images/apple-1838564.jpg") center center / cover scroll transparent;
+	min-height: 514px;
+}
+
+.counters-1 .circle-counter {
+	border: 1px solid #CCCCCC;
+	border-radius: 100%;
+	margin: auto;
+	max-width: 50%;
+	padding: 4.5%;
+}
+
+.counters-1 .circle-counter * {
+	margin-bottom: 0;
+}
+
+.features-16 .read-more {
+	margin-top: 0;
+	padding-bottom: 0;
+}
+
+.features-16-card-bordered .read-more-container {
+	border-top: 1px solid #eaeaea;
+	padding-bottom: 0;
+	padding-top: 1rem;
+}
+
+.portfolio-4 .portfolio-icon,.portfolio-5 .portfolio-icon {
+	color: #ffffff;
+	opacity: .9;
+	transition: all .2s linear;
+}
+
+.portfolio-4 a:hover .portfolio-icon,.portfolio-5 a:hover .portfolio-icon {
+	opacity: 1;
+}
+
+.portfolio-4 .contentswap-effect .swap-inner *,.portfolio-5 .contentswap-effect .swap-inner * {
+	text-align: center !important;
+}
+
+.portfolio-5 .card>.space-top {
+	padding-bottom: 1rem;
+}
+
+.portfolio-5 .card>.space-top>*:last-child {
+	margin-bottom: 0;
+}
+
+.team-2 .face {
+	display: block;
+	width: 100%;
+}
+
+.team-2 .social-icons-group i.fa,.team-5 .social-icons-group i.fa {
+	font-size: 1.4rem;
+	margin: 0 .3rem;
+}
+
+.team-5 .face {
+	margin: .5rem 0;
+	min-width: 80px;
+	width: 25%;
+}
+
+@media only screen and (min-width: 768px){ 
+
+	.about-10,.about-9 {
+		overflow-x: visible;
+	}
+	
+	.counters-1 .circle-counter {
+		max-width: 70%;
+	}
+	
+	.features-12 .icon-column,.features-12-card-bordered .icon-column {
+		padding-right: 0;
+	}
+	
+	.team-5 .face {
+		width: 37.5%;
+	}
+	
+ }

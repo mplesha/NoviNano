@@ -1,0 +1,335 @@
+@import url(//fonts.googleapis.com/css?family=Raleway:400,500,300);
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+// Control Z-index, Visual Developer is always and should be visible
+@minZIndex             : 100000;
+@mainContainerMaxWidth : 1024px;
+
+body {
+  overflow-x : hidden;
+  > *:not([id^="visual-developer"]):not([id^="wpadminbar"]) {
+    margin-left  : 370px !important;
+    margin-top   : 30px !important;
+  }
+}
+
+.colpick {
+  z-index : @minZIndex * 2;
+}
+
+#wpadminbar {
+  z-index : @minZIndex + 1000;
+}
+
+#visual-developer-panel,
+#visual-developer-element-panel,
+#visual-developer-settings-panel,
+#visual-developer-utility-modal,
+#visual-developer-progress-modal {
+  box-sizing: border-box;
+  font-family : 'Raleway', sans-serif;
+
+  * {
+    box-sizing: border-box;
+  }
+
+  html, body, div, span, applet, object, iframe,
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+  a, abbr, acronym, address, big, cite, code,
+  del, dfn, em, img, ins, kbd, q, s, samp,
+  small, strike, strong, sub, sup, tt, var,
+  b, u, i, center,
+  dl, dt, dd, ol, ul, li,
+  fieldset, form, label, legend,
+  table, caption, tbody, tfoot, thead, tr, th, td,
+  article, aside, canvas, details, embed,
+  figure, figcaption, footer, header, hgroup,
+  menu, nav, output, ruby, section, summary,
+  time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font-family    : 'Raleway', sans-serif;
+    vertical-align : baseline;
+  }
+  /* HTML5 display-role reset for older browsers */
+  article, aside, details, figcaption, figure,
+  footer, header, hgroup, menu, nav, section {
+    display: block;
+  }
+  ol, ul {
+    list-style: none;
+  }
+  blockquote, q {
+    quotes: none;
+  }
+  blockquote:before, blockquote:after,
+  q:before, q:after {
+    content: '';
+    content: none;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+}
+
+#visual-developer-user-top-notification {
+  background    : #15171a;
+  color         : #F1F2F4;
+  padding       : 10px 0;
+  text-align    : center;
+  width         : 100%;
+  overflow      : hidden;
+  margin        : 0;
+  position      : fixed;
+  font-family   : 'Open Sans', sans-serif;
+  font-weight   : 400;
+  z-index       : @minZIndex + 100;
+}
+
+#visual-developer-panel {
+  z-index       : @minZIndex + 100;
+  position      : fixed;
+  left          : 0;
+  text-align    : left;
+  width         : 360px;
+  background    : #191A1E;
+
+  > #visual-developer-panel-container {
+    width      : 100%;
+    margin     : 0;
+
+    > h2,
+    > #visual-developer-operations-navigation-panel,
+    > #visual-developer-top-operations-navigation-panel {
+      float         : right;
+      display       : block;
+      margin        : 0;
+      padding       : 0;
+      font-family   : 'Raleway', sans-serif;
+    }
+
+    > h2 {
+      width        : 50%;
+      color        : #FFFFFF;
+      float        : left;
+      font-size    : 13px;
+      line-height  : 2.7;
+      font-weight  : 300;
+      font-family  : 'Raleway', sans-serif;
+      background   : url("img/logo.png") no-repeat;
+      background-position : 10px 0;
+      padding-left : 50px;
+    }
+
+    #visual-developer-page-specific-navigation-panel,
+    #visual-developer-progress-navigation-panel,
+    #visual-developer-settings-navigation-panel,
+    #visual-developer-disable-navigation-panel,
+    #visual-developer-enable-navigation-panel,
+    #visual-developer-save-navigation-panel,
+    #visual-developer-page-versions-navigation-panel,
+    #visual-developer-page-version-name-navigation-panel {
+      display       : block;
+      width         : 50%;
+      padding       : 5px 0;
+      text-align    : center;
+      background    : #25262A;
+      color         : #FFFFFF;
+      cursor        : pointer;
+      float         : right;
+      font-size     : 12px;
+      font-family   : 'Raleway', sans-serif;
+
+      &#visual-developer-page-specific-navigation-panel {
+        &.visual-developer-inactive {
+          color : #ff644b;
+        }
+
+        &.visual-developer-active {
+          color : #84C028;
+        }
+
+        &.visual-developer-blocked {
+          display : none;
+        }
+      }
+
+      &#visual-developer-page-versions-navigation-panel {
+        &.visual-developer-blocked {
+          display : none;
+        }
+      }
+
+      &#visual-developer-page-version-name-navigation-panel  {
+        background : #191A1E;
+        display    : none;
+        cursor     : default;
+      }
+
+      &#visual-developer-enable-navigation-panel {
+        background: #212326;
+      }
+      &#visual-developer-disable-navigation-panel {
+        background : #ff644b;
+        display    : none;
+      }
+      &#visual-developer-save-navigation-panel {
+        background : #84C028;
+      }
+
+      @media (max-width: 640px) {
+        font-size: 12px;
+      }
+    }
+
+    > #visual-developer-top-operations-navigation-panel {
+      width        : 50%;
+      line-height  : 2.2;
+    }
+
+    > #visual-developer-top-operations-secondary-navigation-panel {
+      width         : 100%;
+      line-height   : 2.2;
+      display       : none;
+
+      > #visual-developer-page-versions-navigation-panel {
+        background: #2ecc71;
+      }
+    }
+
+    > #visual-developer-operations-navigation-panel {
+      width : 100%;
+
+      #visual-developer-disable-navigation-panel,
+      #visual-developer-enable-navigation-panel,
+      #visual-developer-save-navigation-panel {
+        width       : 50%;
+        margin      : 0;
+        padding     : 10px 0;
+      }
+    }
+
+
+    @media (max-width: 640px) {
+      > h2,
+      > #visual-developer-operations-navigation-panel {
+        width       : 100%;
+      }
+
+      > #visual-developer-operations-navigation-panel {
+        padding-top : 10px;
+      }
+    }
+  }
+}
+
+#visual-developer-navigation-panel {
+  z-index       : @minZIndex;
+  position      : absolute;
+
+  #visual-developer-navigation-panel-option-current,
+  #visual-developer-navigation-panel-option-global,
+  #visual-developer-navigation-panel-option-global-class,
+  #visual-developer-navigation-panel-option-parent-element,
+  #visual-developer-navigation-panel-option-reset,
+  #visual-developer-navigation-panel-option-advanced-creation {
+    margin     : 0 5px 0 0;
+    display    : inline-block;
+    cursor     : pointer;
+    width      : 32px;
+    height     : 32px;
+  }
+
+  .icon {
+    &.panel-option-reset {
+      background: url("img/panel-option-reset.png");
+    }
+    &.panel-option-parent {
+      background: url("img/panel-option-parent.png");
+
+      &.panel-option-active {
+        background: url("img/panel-option-parent-active.png");
+      }
+    }
+    &.panel-option-current {
+      background: url("img/panel-option-current.png");
+
+      &.panel-option-active {
+        background: url("img/panel-option-current-active.png");
+      }
+    }
+    &.panel-option-structure {
+      background: url("img/panel-option-structure.png");
+
+      &.panel-option-active {
+        background: url("img/panel-option-structure-active.png");
+      }
+    }
+    &.panel-option-structure-class {
+      background: url("img/panel-option-structure-class.png");
+
+      &.panel-option-active {
+        background: url("img/panel-option-structure-class-active.png");
+      }
+    }
+
+    &.panel-option-advanced-creation {
+      background: url("img/panel-option-advanced-creation.png");
+    }
+  }
+}
+
+.visual-developer-navigation-item {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgb(102, 175, 233) !important;
+  cursor: pointer;
+}
+
+.visual-developer-navigation-item-selected {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgb(152, 225, 105) !important;
+}
+
+.visual-developer-navigation-item-selected-mirror {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgb(152, 225, 105) !important;
+}
+
+body.visual-developer-spectral-mode .visual-developer-element-panel-active-pattern {
+  box-shadow : none !important;
+  z-index    : @minZIndex + 10;
+  position   : relative;
+}
+
+#visual-developer-spectral-mode-overlay {
+  top        : 0;
+  left       : 0;
+  position   : fixed;
+  display    : block;
+  padding    : 0;
+  background : rgba(255, 255, 255, 0.9);
+  z-index    : @minZIndex - 10;
+}
+
+.visual-developer-clear {
+  clear   : both;
+  display : block;
+}
+
+@import "less/utility-split-select.less";
+@import "less/utility-split-inline-select.less";
+@import "less/utility-input-map.less";
+@import "less/utility-nice-select.less";
+@import "less/utility-svg-checkbox.less";
+@import "less/utility-modal.less";
+@import "less/utility-image-select.less";
+@import "less/utility-dom-rule-builder.less";
+@import "less/utility-color-select.less";
+@import "less/element-panel.less" ;
+@import "less/settings-panel.less" ;
+@import "less/progress-panel.less" ;
+@import "less/application-synchronize.less" ;
+@import "less/macro-interface.less";
+@import "less/page-versions-panel.less";
+@import "less/quick-access.less";
+@import "less/syntax-selection-panel.less";

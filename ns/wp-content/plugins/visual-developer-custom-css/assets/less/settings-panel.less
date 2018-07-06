@@ -1,0 +1,159 @@
+body.visual-developer-settings-panel-active {
+  overflow:hidden !important;
+}
+
+#visual-developer-settings-panel {
+  background : #191A1E;
+  background : rgba(26, 28, 31, 0.99);
+  margin     : 0;
+  border     : 0;
+  z-index    : @minZIndex + 999;
+
+  > #visual-developer-settings-panel-top-section {
+    background : #1a1c1f;
+    max-width  : @mainContainerMaxWidth;
+    margin     : 0 auto;
+    padding    : 20px 10px;
+
+    > h2 {
+      color        : #FFFFFF;
+      float        : left;
+      font-size    : 17px;
+      font-weight  : 300;
+      font-family  : 'Raleway', sans-serif;
+      line-height  : 1.9;
+      background   : url("img/logo.png") no-repeat;
+      padding-left : 40px;
+
+      > span {
+        padding-left : 20px;
+        margin-left  : 20px;
+        border-left  : 1px solid #2e3032;
+        color        : #2e3032;
+        font-size    : 14px;
+        line-height  : 1.9;
+        font-family  : 'Open Sans', sans-serif;
+        font-weight  : 700;
+      }
+    }
+
+    > #visual-developer-settings-panel-top-close {
+      display       : block;
+      width         : 33.33%;
+      max-width     : 125px;
+      margin-left   : 2px;
+      padding       : 10px 0;
+      text-align    : center;
+      background    : #FF644B;
+      color         : #FFFFFF;
+      cursor        : pointer;
+      float         : right;
+      font-size     : 13px;
+      font-family   : 'Raleway', sans-serif;
+    }
+  }
+
+  > #visual-developer-settings-panel-container {
+    padding-top : 20px;
+    max-width   : @mainContainerMaxWidth;
+    margin      : 0 auto;
+
+    > h2 {
+      color       : #F0F1F3;
+      font-size   : 14px;
+      margin      : 0 0 5px 0;
+      padding     : 20px 10px;
+      font-family : 'Raleway', sans-serif;
+      font-weight : 300;
+    }
+
+    > .warning {
+      color       : #f1c40f;
+      padding     : 5px;
+      font-size   : 15px;
+      font-family : 'Raleway', sans-serif;
+    }
+
+    > .visual-developer-utility-svg-checkbox {
+      padding : 0 10px;
+
+      > li {
+        width   : 50%;
+        display : inline-block;
+      }
+    }
+
+    > #visual-developer-settings-panel-operation-import {
+      display: none;
+    }
+
+    > .visual-developer-settings-panel-operation-export-info {
+      padding     : 10px 10px 0 10px;
+      color       : #F1F2F4;
+      font-size   : 15px;
+      font-family : 'Raleway', sans-serif;
+    }
+
+    > #visual-developer-settings-panel-operation-import-mask,
+    > #visual-developer-settings-panel-operation-export,
+    > #visual-developer-settings-panel-operation-full-export {
+      background    : #4E4F51;
+      color         : #F1F2F4;
+      padding       : 5px 20px;
+      margin-left   : 10px;
+      margin-right  : 5px;
+      cursor        : pointer;
+      display       : inline-block;
+      font-family   : 'Raleway', sans-serif;
+      font-size     : 12px;
+    }
+
+    > #visual-developer-settings-panel-operation-import-mask {
+      background: #85C50C;
+    }
+
+    > #visual-developer-settings-panel-element-option-container,
+    > #visual-developer-settings-panel-selector-option-container {
+      width : 100%;
+
+      > .visual-developer-settings-panel-element-option,
+      > .visual-developer-settings-panel-selector-option {
+        width         : 25%;
+        padding       : 10px;
+        display       : inline-block;
+
+        span {
+          padding       : 10px 0;
+          display       : block;
+          width         : 100%;
+          background    : #818284;
+          color         : #F1F2F4;
+          text-align    : center;
+          cursor        : pointer;
+          font-family   : 'Raleway', sans-serif;
+          font-weight   : 400;
+          font-size     : 12px;
+        }
+
+        &.visual-developer-settings-panel-active-element-option,
+        &.visual-developer-settings-panel-active-selector-option {
+          > span {
+            background : #4E4F51;
+          }
+        }
+
+        @media (min-width: 1400px) {
+          width:20%;
+        }
+
+        @media (max-width: 640px) {
+          width:33.33%;
+        }
+
+        @media (max-width: 400px) {
+          width:50%;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<markers>
+  <marker>
+    <marker_id>2</marker_id>
+    <map_id>1</map_id>
+    <title></title>
+    <address>Yaroslava Pasternaka St, 5, Lviv, Lviv Oblast, Ukraine, 79000</address>
+    <desc></desc>
+    <pic></pic>
+    <icon></icon>
+    <linkd></linkd>
+    <lat>49.8326207</lat>
+    <lng>23.99907680000001</lng>
+    <anim>0</anim>
+    <retina>0</retina>
+    <category></category>
+    <infoopen>0</infoopen>
+  </marker>
+</markers>

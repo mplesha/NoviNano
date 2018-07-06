@@ -1,0 +1,137 @@
+/* -----------------------------------------
+	03. Header
+----------------------------------------- */
+.header {
+	position: relative;
+	z-index: 20;
+}
+
+.header-overlaid {
+	position: absolute;
+	width: 100%;
+}
+
+.header-fullwidth {
+	@include media-breakpoint-up(xl) {
+		.container {
+			width: 1600px;
+		}
+	}
+}
+
+.site-logo {
+	font-size: 36px;
+	margin: 0;
+	font-weight: 700;
+	color: inherit;
+
+	a {
+		color: inherit;
+	}
+
+	@include media-breakpoint-down(sm) {
+		font-size: 28px;
+	}
+}
+
+.site-tagline {
+	font-size: 14px;
+	margin: 0;
+}
+
+.head-intro {
+	font-size: 13px;
+	margin: 0;
+	color: $white;
+	background-color: $accent-secondary;
+	padding: 10px 0;
+
+	a {
+		color: inherit;
+	}
+
+	@include media-breakpoint-down(sm) {
+		text-align: center;
+	}
+}
+
+.head-intro-info {
+	span {
+		margin-right: 20px;
+
+		@include media-breakpoint-down(sm) {
+			margin: 0 3px;
+		}
+	}
+
+	i {
+		color: $accent-color;
+		margin-right: 5px;
+		font-size: 1.25em;
+		position: relative;
+		top: 1px;
+	}
+}
+
+.head-intro-addons {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+
+	@include media-breakpoint-down(sm) {
+		justify-content: center;
+	}
+}
+
+.head-search {
+	display: flex;
+	align-items: center;
+
+	&:not(:only-child) {
+		&::before {
+			content: "\007c";
+			margin: 0 15px;
+			opacity: .5;
+		}
+	}
+}
+
+.head-search-form {
+	position: fixed;
+	top: 0;
+	left: 0;
+	max-width: 100%;
+	width: 100%;
+	transform: translateY(-100%);
+	transition: transform .25s ease;
+	padding: 20px;
+	background-color: rgba($white, .5);
+	box-shadow: 0 2px 6px rgba($black, .02);
+	z-index: 25;
+
+	&.head-search-expanded {
+		max-width: 100%;
+		transform: translateY(0);
+	}
+}
+
+.head-search-input {
+	height: 56px;
+}
+
+.head-mast {
+	padding: 25px 0;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	border-bottom: 1px solid $border-color;
+
+	&.over-background {
+		color: $white;
+		border: 0;
+	}
+
+	@include media-breakpoint-down(sm) {
+		padding: 15px 0;
+	}
+}

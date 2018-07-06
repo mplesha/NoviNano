@@ -1,0 +1,132 @@
+#visual-developer-macro-interface-panel {
+  z-index        : @minZIndex + 105;
+  position       : fixed;
+  background     : #191A1E;
+  width          : 360px;
+  left           : 0;
+  padding-bottom : 50px;
+
+  > #visual-developer-macro-interface-panel-header {
+    color       : #FFFFFF;
+    text-align  : center;
+    font-family : 'Raleway', sans-serif;
+    padding     : 10px 0;
+  }
+
+  > #visual-developer-macro-interface-panel-content {
+    overflow-x     : hidden;
+    overflow-y     : scroll;
+
+    .visual-developer-macro-operations-field-container {
+      clear:both;
+
+      .visual-developer-macro-operations-field-label {
+        display      : block;
+        width        : 100%;
+        text-align   : center;
+        color        : #FFFFFF;
+        padding      : 15px 5px;
+        cursor       : pointer;
+        font-size    : 14px;
+        font-family  : 'Open Sans', sans-serif;
+        font-weight  : 400;
+      }
+
+      > ul {
+        display: block;
+        width  : 100%;
+
+        > li {
+          font-size       : 1.2em;
+          color           : #FFFFFF;
+          width           : 50%;
+          display         : inline-block;
+          margin          : 0;
+          padding         : 0;
+
+          input, select {
+            margin         : 0;
+            border         : 0;
+            width          : 100%;
+            height         : 45px;
+            border-radius  : 0;
+            font-size      : 10px;
+            font-family    : 'Open Sans', sans-serif;
+            font-weight    : 400;
+            color          : #777777;
+          }
+
+          input {
+            text-align    : right;
+            background    : transparent;
+            padding-right : 10px;
+
+            &.visual-developer-color-picker-field {
+              background     : #3c3e45;
+              color          : #FFFFFF;
+              text-transform : uppercase;
+            }
+          }
+
+          select {
+            padding-left   : 10px;
+            background     : #26272B;
+          }
+        }
+
+        &.visual-developer-macro-operations-model-border {
+          > li {
+            &:last-child {
+              margin-top : 5px;
+              width      : 100%;
+            }
+            &:first-child input {
+              text-align: right;
+            }
+
+            width : 33.33%;
+
+            input {
+              text-align: center;
+            }
+          }
+        }
+
+        &.visual-developer-macro-operations-model-single-select {
+          > li {
+            width : 100%;
+
+            select {
+              text-align : left;
+              width      : 100%;
+            }
+          }
+        }
+
+        &.visual-developer-macro-operations-model-image-select {
+          > li {
+            width : 100%;
+          }
+        }
+
+        &.visual-developer-macro-operations-model-single-inline,
+        &.visual-developer-macro-operations-model-single-color-select,
+        &.visual-developer-macro-operations-model-color-select {
+          > li {
+            width : 100%;
+          }
+        }
+
+        &.visual-developer-macro-operations-model-single {
+          > li {
+            width : 100%;
+
+            input {
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+  }
+}

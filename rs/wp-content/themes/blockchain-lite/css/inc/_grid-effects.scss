@@ -1,0 +1,175 @@
+// sass-lint:disable no-empty-rulesets
+
+/* -----------------------------------------
+	12. Grid Effects
+----------------------------------------- */
+.row-effect {
+	position: relative;
+
+	&::before {
+		@include spinner($color: $text-color);
+		content: "";
+		position: absolute;
+		left: 50%;
+		top: 30px;
+		margin-left: -20px;
+	}
+
+	&.row-images-loaded {
+		&::before {
+			display: none;
+		}
+	}
+
+	> [class^="col"] {
+		opacity: 0;
+
+		&.ci-grid-shown {
+			opacity: 1;
+		}
+	}
+}
+
+/* Fade In
+========================================= */
+@keyframes ci-fade-in {
+	0% { }
+
+	100% {
+		opacity: 1;
+	}
+}
+
+.row-effect-fade-in {
+	.ci-grid-animate {
+		animation: ci-fade-in .65s ease forwards;
+	}
+}
+
+/* Move Up
+========================================= */
+@keyframes ci-move-up {
+	0% { }
+
+	100% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+.row-effect-move-up {
+	.ci-grid-animate {
+		transform: translateY(200px);
+		animation: ci-move-up .65s ease forwards;
+	}
+}
+
+/* Scale Up
+========================================= */
+@keyframes ci-scale-up {
+	0% { }
+
+	100% {
+		transform: scale(1);
+		opacity: 1;
+	}
+}
+
+.row-effect-scale-up {
+	.ci-grid-animate {
+		transform: scale(.6);
+		animation: ci-scale-up .65s ease-in-out forwards;
+	}
+}
+
+/* Fall Perspective
+========================================= */
+@keyframes ci-fall-perspective {
+	0% { }
+
+	100% {
+		transform: translateZ(0) translateY(0) rotateX(0);
+		opacity: 1;
+	}
+}
+
+.row-effect-fall-perspective {
+	perspective: 1300px;
+
+	.ci-grid-animate {
+		transform-style: preserve-3d;
+		transform: translateZ(400px) translateY(300px) rotateX(-90deg);
+		animation: ci-fall-perspective .8s ease-in-out forwards;
+	}
+}
+
+/* Fly Up
+========================================= */
+@keyframes ci-fly-up {
+	0% { }
+
+	100% {
+		transform: rotateX(0);
+		opacity: 1;
+	}
+}
+
+.row-effect-fly-up {
+	perspective: 1300px;
+
+	.ci-grid-animate {
+		transform-style: preserve-3d;
+		transform-origin: 50% 50% -300px;
+		transform: rotateX(-180deg);
+		animation: ci-fly-up .8s ease-in-out forwards;
+	}
+}
+
+/* Flip
+========================================= */
+@keyframes ci-flip {
+	0% { }
+
+	100% {
+		transform: rotateX(0);
+		opacity: 1;
+	}
+}
+
+.row-effect-flip {
+	perspective: 1300px;
+
+	.ci-grid-animate {
+		transform-style: preserve-3d;
+		transform-origin: 0 0;
+		transform: rotateX(-80deg);
+		animation: ci-flip .8s ease-in-out forwards;
+	}
+}
+
+/* Pop Up
+========================================= */
+@keyframes ci-pop-up {
+	0% { }
+
+	70% {
+		transform: scale(1.1);
+		opacity: .8;
+		animation-timing-function: ease-out;
+	}
+
+	100% {
+		transform: scale(1);
+		opacity: 1;
+	}
+}
+
+.row-effect-pop-up {
+	perspective: 1300px;
+
+	.ci-grid-animate {
+		transform-style: preserve-3d;
+		transform: scale(.4);
+		animation: ci-pop-up .8s ease-in forwards;
+	}
+}

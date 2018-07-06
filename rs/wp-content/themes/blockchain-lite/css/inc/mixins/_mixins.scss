@@ -1,0 +1,171 @@
+// Only display content to screen readers
+//
+// See: http://a11yproject.com/posts/how-to-hide-content
+@mixin sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
+
+// Use in conjunction with .sr-only to only display content when it's focused.
+//
+// Useful for "Skip to main content" links; see https://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G1
+//
+// Credit: HTML5 Boilerplate
+@mixin sr-only-focusable {
+  &:active,
+  &:focus {
+    position: static;
+    width: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    clip: auto;
+  }
+}
+
+// CSS image replacement (text hide)
+@mixin text-hide {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+
+// Text truncate
+// Requires inline-block or block for proper styling
+@mixin text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+// Button Mixins
+@mixin button-reset {
+	display: inline-block;
+	font-weight: normal;
+	margin: 0;
+	line-height: normal;
+	border: 0;
+	box-shadow: none;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer;
+	white-space: nowrap;
+	transition: .18s background-color ease,
+	            .18s color ease,
+	            .18s border-color ease;
+	user-select: none;
+	border-radius: 0;
+	width: auto;
+	height: auto;
+	background-image: none;
+}
+
+@mixin button {
+	@include button-reset;
+	color: $button-text-color;
+	background-color: $button-bg-color;
+	border: 2px solid $button-bg-color;
+	border-radius: 3px;
+
+	&.disabled,
+	&:disabled {
+		cursor: not-allowed;
+		opacity: .65;
+	}
+
+	&:hover {
+		text-decoration: none;
+		color: $text-on-accent;
+		background-color: lighten($accent-color, 5%);
+	}
+
+	&:focus {
+		outline: 0;
+		box-shadow: 0 0 10px rgba($accent-color, .7);
+	}
+
+	.fa {
+		margin-right: 5px;
+	}
+}
+
+@mixin button-transparent {
+	@include button-reset;
+	color: $text-color;
+	background-color: transparent;
+	border: 2px solid $accent-color;
+	border-radius: 30px;
+	text-transform: uppercase;
+	font-weight: 700;
+
+	&:hover {
+		text-decoration: none;
+		color: $text-on-accent;
+		background-color: $accent-color;
+	}
+
+	&.disabled,
+	&:disabled {
+		cursor: not-allowed;
+		opacity: .65;
+	}
+}
+
+@mixin button-sm {
+	padding: 10px 28px 9px;
+	font-size: 12px;
+}
+
+@mixin button-md {
+	padding: 12px 40px;
+	font-size: 14px;
+}
+
+@mixin button-lg {
+	padding: 17px 58px;
+	font-size: 14px;
+	border-width: 3px;
+}
+
+// Placeholders
+@mixin placeholder {
+	::-webkit-input-placeholder { @content }
+	:-moz-placeholder { @content }
+	::-moz-placeholder { @content }
+	:-ms-input-placeholder { @content }
+}
+
+@mixin placeholder-at {
+	&::-webkit-input-placeholder { @content }
+	&:-moz-placeholder { @content }
+	&::-moz-placeholder { @content }
+	&:-ms-input-placeholder { @content }
+}
+
+// Loading spinner
+@keyframes rot {
+	from {
+		transform: rotate(0deg);
+	}
+
+	to {
+		transform: rotate(359deg);
+	}
+}
+
+@mixin spinner($color: $white, $opacity: .35, $size: 40px) {
+	border: 6px solid rgba($color, $opacity);
+	border-top-color: rgba($color, $opacity * 2.5);
+	border-radius: 100%;
+	height: $size;
+	width: $size;
+	animation: rot .8s infinite linear;
+}

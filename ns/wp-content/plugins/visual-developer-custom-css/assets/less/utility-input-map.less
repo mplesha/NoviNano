@@ -1,0 +1,27 @@
+#visual-developer-element-panel,
+#visual-developer-macro-interface-panel {
+  .visual-developer-toggle-input-map {
+    background     : #82b541;
+    text-align     : center;
+    cursor         : pointer;
+    font-family    : 'Open Sans', sans-serif !important;
+    font-weight    : 400 !important;
+    color          : #FFFFFF !important;
+    width          : 25px !important;
+    position       : absolute;
+    left           : 310px;
+    border-radius  : 2px;
+
+    &:hover {
+      background : #d62f28;
+    }
+
+    &.visual-developer-active-input-map {
+      background : #d62f28;
+
+      &:hover {
+        background : #82b541;
+      }
+    }
+  }
+}

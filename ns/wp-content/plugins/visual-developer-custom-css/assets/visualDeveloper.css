@@ -1,0 +1,2455 @@
+@import url(//fonts.googleapis.com/css?family=Raleway:400,500,300);
+@import url(//fonts.googleapis.com/css?family=Open+Sans:400,700);
+body {
+  overflow-x: hidden;
+}
+body > *:not([id^="visual-developer"]):not([id^="wpadminbar"]) {
+  margin-left: 370px !important;
+  margin-top: 30px !important;
+}
+.colpick {
+  z-index: 200000;
+}
+#wpadminbar {
+  z-index: 101000;
+}
+#visual-developer-panel,
+#visual-developer-element-panel,
+#visual-developer-settings-panel,
+#visual-developer-utility-modal,
+#visual-developer-progress-modal {
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  /* HTML5 display-role reset for older browsers */
+}
+#visual-developer-panel *,
+#visual-developer-element-panel *,
+#visual-developer-settings-panel *,
+#visual-developer-utility-modal *,
+#visual-developer-progress-modal * {
+  box-sizing: border-box;
+}
+#visual-developer-panel html,
+#visual-developer-element-panel html,
+#visual-developer-settings-panel html,
+#visual-developer-utility-modal html,
+#visual-developer-progress-modal html,
+#visual-developer-panel body,
+#visual-developer-element-panel body,
+#visual-developer-settings-panel body,
+#visual-developer-utility-modal body,
+#visual-developer-progress-modal body,
+#visual-developer-panel div,
+#visual-developer-element-panel div,
+#visual-developer-settings-panel div,
+#visual-developer-utility-modal div,
+#visual-developer-progress-modal div,
+#visual-developer-panel span,
+#visual-developer-element-panel span,
+#visual-developer-settings-panel span,
+#visual-developer-utility-modal span,
+#visual-developer-progress-modal span,
+#visual-developer-panel applet,
+#visual-developer-element-panel applet,
+#visual-developer-settings-panel applet,
+#visual-developer-utility-modal applet,
+#visual-developer-progress-modal applet,
+#visual-developer-panel object,
+#visual-developer-element-panel object,
+#visual-developer-settings-panel object,
+#visual-developer-utility-modal object,
+#visual-developer-progress-modal object,
+#visual-developer-panel iframe,
+#visual-developer-element-panel iframe,
+#visual-developer-settings-panel iframe,
+#visual-developer-utility-modal iframe,
+#visual-developer-progress-modal iframe,
+#visual-developer-panel h1,
+#visual-developer-element-panel h1,
+#visual-developer-settings-panel h1,
+#visual-developer-utility-modal h1,
+#visual-developer-progress-modal h1,
+#visual-developer-panel h2,
+#visual-developer-element-panel h2,
+#visual-developer-settings-panel h2,
+#visual-developer-utility-modal h2,
+#visual-developer-progress-modal h2,
+#visual-developer-panel h3,
+#visual-developer-element-panel h3,
+#visual-developer-settings-panel h3,
+#visual-developer-utility-modal h3,
+#visual-developer-progress-modal h3,
+#visual-developer-panel h4,
+#visual-developer-element-panel h4,
+#visual-developer-settings-panel h4,
+#visual-developer-utility-modal h4,
+#visual-developer-progress-modal h4,
+#visual-developer-panel h5,
+#visual-developer-element-panel h5,
+#visual-developer-settings-panel h5,
+#visual-developer-utility-modal h5,
+#visual-developer-progress-modal h5,
+#visual-developer-panel h6,
+#visual-developer-element-panel h6,
+#visual-developer-settings-panel h6,
+#visual-developer-utility-modal h6,
+#visual-developer-progress-modal h6,
+#visual-developer-panel p,
+#visual-developer-element-panel p,
+#visual-developer-settings-panel p,
+#visual-developer-utility-modal p,
+#visual-developer-progress-modal p,
+#visual-developer-panel blockquote,
+#visual-developer-element-panel blockquote,
+#visual-developer-settings-panel blockquote,
+#visual-developer-utility-modal blockquote,
+#visual-developer-progress-modal blockquote,
+#visual-developer-panel pre,
+#visual-developer-element-panel pre,
+#visual-developer-settings-panel pre,
+#visual-developer-utility-modal pre,
+#visual-developer-progress-modal pre,
+#visual-developer-panel a,
+#visual-developer-element-panel a,
+#visual-developer-settings-panel a,
+#visual-developer-utility-modal a,
+#visual-developer-progress-modal a,
+#visual-developer-panel abbr,
+#visual-developer-element-panel abbr,
+#visual-developer-settings-panel abbr,
+#visual-developer-utility-modal abbr,
+#visual-developer-progress-modal abbr,
+#visual-developer-panel acronym,
+#visual-developer-element-panel acronym,
+#visual-developer-settings-panel acronym,
+#visual-developer-utility-modal acronym,
+#visual-developer-progress-modal acronym,
+#visual-developer-panel address,
+#visual-developer-element-panel address,
+#visual-developer-settings-panel address,
+#visual-developer-utility-modal address,
+#visual-developer-progress-modal address,
+#visual-developer-panel big,
+#visual-developer-element-panel big,
+#visual-developer-settings-panel big,
+#visual-developer-utility-modal big,
+#visual-developer-progress-modal big,
+#visual-developer-panel cite,
+#visual-developer-element-panel cite,
+#visual-developer-settings-panel cite,
+#visual-developer-utility-modal cite,
+#visual-developer-progress-modal cite,
+#visual-developer-panel code,
+#visual-developer-element-panel code,
+#visual-developer-settings-panel code,
+#visual-developer-utility-modal code,
+#visual-developer-progress-modal code,
+#visual-developer-panel del,
+#visual-developer-element-panel del,
+#visual-developer-settings-panel del,
+#visual-developer-utility-modal del,
+#visual-developer-progress-modal del,
+#visual-developer-panel dfn,
+#visual-developer-element-panel dfn,
+#visual-developer-settings-panel dfn,
+#visual-developer-utility-modal dfn,
+#visual-developer-progress-modal dfn,
+#visual-developer-panel em,
+#visual-developer-element-panel em,
+#visual-developer-settings-panel em,
+#visual-developer-utility-modal em,
+#visual-developer-progress-modal em,
+#visual-developer-panel img,
+#visual-developer-element-panel img,
+#visual-developer-settings-panel img,
+#visual-developer-utility-modal img,
+#visual-developer-progress-modal img,
+#visual-developer-panel ins,
+#visual-developer-element-panel ins,
+#visual-developer-settings-panel ins,
+#visual-developer-utility-modal ins,
+#visual-developer-progress-modal ins,
+#visual-developer-panel kbd,
+#visual-developer-element-panel kbd,
+#visual-developer-settings-panel kbd,
+#visual-developer-utility-modal kbd,
+#visual-developer-progress-modal kbd,
+#visual-developer-panel q,
+#visual-developer-element-panel q,
+#visual-developer-settings-panel q,
+#visual-developer-utility-modal q,
+#visual-developer-progress-modal q,
+#visual-developer-panel s,
+#visual-developer-element-panel s,
+#visual-developer-settings-panel s,
+#visual-developer-utility-modal s,
+#visual-developer-progress-modal s,
+#visual-developer-panel samp,
+#visual-developer-element-panel samp,
+#visual-developer-settings-panel samp,
+#visual-developer-utility-modal samp,
+#visual-developer-progress-modal samp,
+#visual-developer-panel small,
+#visual-developer-element-panel small,
+#visual-developer-settings-panel small,
+#visual-developer-utility-modal small,
+#visual-developer-progress-modal small,
+#visual-developer-panel strike,
+#visual-developer-element-panel strike,
+#visual-developer-settings-panel strike,
+#visual-developer-utility-modal strike,
+#visual-developer-progress-modal strike,
+#visual-developer-panel strong,
+#visual-developer-element-panel strong,
+#visual-developer-settings-panel strong,
+#visual-developer-utility-modal strong,
+#visual-developer-progress-modal strong,
+#visual-developer-panel sub,
+#visual-developer-element-panel sub,
+#visual-developer-settings-panel sub,
+#visual-developer-utility-modal sub,
+#visual-developer-progress-modal sub,
+#visual-developer-panel sup,
+#visual-developer-element-panel sup,
+#visual-developer-settings-panel sup,
+#visual-developer-utility-modal sup,
+#visual-developer-progress-modal sup,
+#visual-developer-panel tt,
+#visual-developer-element-panel tt,
+#visual-developer-settings-panel tt,
+#visual-developer-utility-modal tt,
+#visual-developer-progress-modal tt,
+#visual-developer-panel var,
+#visual-developer-element-panel var,
+#visual-developer-settings-panel var,
+#visual-developer-utility-modal var,
+#visual-developer-progress-modal var,
+#visual-developer-panel b,
+#visual-developer-element-panel b,
+#visual-developer-settings-panel b,
+#visual-developer-utility-modal b,
+#visual-developer-progress-modal b,
+#visual-developer-panel u,
+#visual-developer-element-panel u,
+#visual-developer-settings-panel u,
+#visual-developer-utility-modal u,
+#visual-developer-progress-modal u,
+#visual-developer-panel i,
+#visual-developer-element-panel i,
+#visual-developer-settings-panel i,
+#visual-developer-utility-modal i,
+#visual-developer-progress-modal i,
+#visual-developer-panel center,
+#visual-developer-element-panel center,
+#visual-developer-settings-panel center,
+#visual-developer-utility-modal center,
+#visual-developer-progress-modal center,
+#visual-developer-panel dl,
+#visual-developer-element-panel dl,
+#visual-developer-settings-panel dl,
+#visual-developer-utility-modal dl,
+#visual-developer-progress-modal dl,
+#visual-developer-panel dt,
+#visual-developer-element-panel dt,
+#visual-developer-settings-panel dt,
+#visual-developer-utility-modal dt,
+#visual-developer-progress-modal dt,
+#visual-developer-panel dd,
+#visual-developer-element-panel dd,
+#visual-developer-settings-panel dd,
+#visual-developer-utility-modal dd,
+#visual-developer-progress-modal dd,
+#visual-developer-panel ol,
+#visual-developer-element-panel ol,
+#visual-developer-settings-panel ol,
+#visual-developer-utility-modal ol,
+#visual-developer-progress-modal ol,
+#visual-developer-panel ul,
+#visual-developer-element-panel ul,
+#visual-developer-settings-panel ul,
+#visual-developer-utility-modal ul,
+#visual-developer-progress-modal ul,
+#visual-developer-panel li,
+#visual-developer-element-panel li,
+#visual-developer-settings-panel li,
+#visual-developer-utility-modal li,
+#visual-developer-progress-modal li,
+#visual-developer-panel fieldset,
+#visual-developer-element-panel fieldset,
+#visual-developer-settings-panel fieldset,
+#visual-developer-utility-modal fieldset,
+#visual-developer-progress-modal fieldset,
+#visual-developer-panel form,
+#visual-developer-element-panel form,
+#visual-developer-settings-panel form,
+#visual-developer-utility-modal form,
+#visual-developer-progress-modal form,
+#visual-developer-panel label,
+#visual-developer-element-panel label,
+#visual-developer-settings-panel label,
+#visual-developer-utility-modal label,
+#visual-developer-progress-modal label,
+#visual-developer-panel legend,
+#visual-developer-element-panel legend,
+#visual-developer-settings-panel legend,
+#visual-developer-utility-modal legend,
+#visual-developer-progress-modal legend,
+#visual-developer-panel table,
+#visual-developer-element-panel table,
+#visual-developer-settings-panel table,
+#visual-developer-utility-modal table,
+#visual-developer-progress-modal table,
+#visual-developer-panel caption,
+#visual-developer-element-panel caption,
+#visual-developer-settings-panel caption,
+#visual-developer-utility-modal caption,
+#visual-developer-progress-modal caption,
+#visual-developer-panel tbody,
+#visual-developer-element-panel tbody,
+#visual-developer-settings-panel tbody,
+#visual-developer-utility-modal tbody,
+#visual-developer-progress-modal tbody,
+#visual-developer-panel tfoot,
+#visual-developer-element-panel tfoot,
+#visual-developer-settings-panel tfoot,
+#visual-developer-utility-modal tfoot,
+#visual-developer-progress-modal tfoot,
+#visual-developer-panel thead,
+#visual-developer-element-panel thead,
+#visual-developer-settings-panel thead,
+#visual-developer-utility-modal thead,
+#visual-developer-progress-modal thead,
+#visual-developer-panel tr,
+#visual-developer-element-panel tr,
+#visual-developer-settings-panel tr,
+#visual-developer-utility-modal tr,
+#visual-developer-progress-modal tr,
+#visual-developer-panel th,
+#visual-developer-element-panel th,
+#visual-developer-settings-panel th,
+#visual-developer-utility-modal th,
+#visual-developer-progress-modal th,
+#visual-developer-panel td,
+#visual-developer-element-panel td,
+#visual-developer-settings-panel td,
+#visual-developer-utility-modal td,
+#visual-developer-progress-modal td,
+#visual-developer-panel article,
+#visual-developer-element-panel article,
+#visual-developer-settings-panel article,
+#visual-developer-utility-modal article,
+#visual-developer-progress-modal article,
+#visual-developer-panel aside,
+#visual-developer-element-panel aside,
+#visual-developer-settings-panel aside,
+#visual-developer-utility-modal aside,
+#visual-developer-progress-modal aside,
+#visual-developer-panel canvas,
+#visual-developer-element-panel canvas,
+#visual-developer-settings-panel canvas,
+#visual-developer-utility-modal canvas,
+#visual-developer-progress-modal canvas,
+#visual-developer-panel details,
+#visual-developer-element-panel details,
+#visual-developer-settings-panel details,
+#visual-developer-utility-modal details,
+#visual-developer-progress-modal details,
+#visual-developer-panel embed,
+#visual-developer-element-panel embed,
+#visual-developer-settings-panel embed,
+#visual-developer-utility-modal embed,
+#visual-developer-progress-modal embed,
+#visual-developer-panel figure,
+#visual-developer-element-panel figure,
+#visual-developer-settings-panel figure,
+#visual-developer-utility-modal figure,
+#visual-developer-progress-modal figure,
+#visual-developer-panel figcaption,
+#visual-developer-element-panel figcaption,
+#visual-developer-settings-panel figcaption,
+#visual-developer-utility-modal figcaption,
+#visual-developer-progress-modal figcaption,
+#visual-developer-panel footer,
+#visual-developer-element-panel footer,
+#visual-developer-settings-panel footer,
+#visual-developer-utility-modal footer,
+#visual-developer-progress-modal footer,
+#visual-developer-panel header,
+#visual-developer-element-panel header,
+#visual-developer-settings-panel header,
+#visual-developer-utility-modal header,
+#visual-developer-progress-modal header,
+#visual-developer-panel hgroup,
+#visual-developer-element-panel hgroup,
+#visual-developer-settings-panel hgroup,
+#visual-developer-utility-modal hgroup,
+#visual-developer-progress-modal hgroup,
+#visual-developer-panel menu,
+#visual-developer-element-panel menu,
+#visual-developer-settings-panel menu,
+#visual-developer-utility-modal menu,
+#visual-developer-progress-modal menu,
+#visual-developer-panel nav,
+#visual-developer-element-panel nav,
+#visual-developer-settings-panel nav,
+#visual-developer-utility-modal nav,
+#visual-developer-progress-modal nav,
+#visual-developer-panel output,
+#visual-developer-element-panel output,
+#visual-developer-settings-panel output,
+#visual-developer-utility-modal output,
+#visual-developer-progress-modal output,
+#visual-developer-panel ruby,
+#visual-developer-element-panel ruby,
+#visual-developer-settings-panel ruby,
+#visual-developer-utility-modal ruby,
+#visual-developer-progress-modal ruby,
+#visual-developer-panel section,
+#visual-developer-element-panel section,
+#visual-developer-settings-panel section,
+#visual-developer-utility-modal section,
+#visual-developer-progress-modal section,
+#visual-developer-panel summary,
+#visual-developer-element-panel summary,
+#visual-developer-settings-panel summary,
+#visual-developer-utility-modal summary,
+#visual-developer-progress-modal summary,
+#visual-developer-panel time,
+#visual-developer-element-panel time,
+#visual-developer-settings-panel time,
+#visual-developer-utility-modal time,
+#visual-developer-progress-modal time,
+#visual-developer-panel mark,
+#visual-developer-element-panel mark,
+#visual-developer-settings-panel mark,
+#visual-developer-utility-modal mark,
+#visual-developer-progress-modal mark,
+#visual-developer-panel audio,
+#visual-developer-element-panel audio,
+#visual-developer-settings-panel audio,
+#visual-developer-utility-modal audio,
+#visual-developer-progress-modal audio,
+#visual-developer-panel video,
+#visual-developer-element-panel video,
+#visual-developer-settings-panel video,
+#visual-developer-utility-modal video,
+#visual-developer-progress-modal video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: 'Raleway', sans-serif;
+  vertical-align: baseline;
+}
+#visual-developer-panel article,
+#visual-developer-element-panel article,
+#visual-developer-settings-panel article,
+#visual-developer-utility-modal article,
+#visual-developer-progress-modal article,
+#visual-developer-panel aside,
+#visual-developer-element-panel aside,
+#visual-developer-settings-panel aside,
+#visual-developer-utility-modal aside,
+#visual-developer-progress-modal aside,
+#visual-developer-panel details,
+#visual-developer-element-panel details,
+#visual-developer-settings-panel details,
+#visual-developer-utility-modal details,
+#visual-developer-progress-modal details,
+#visual-developer-panel figcaption,
+#visual-developer-element-panel figcaption,
+#visual-developer-settings-panel figcaption,
+#visual-developer-utility-modal figcaption,
+#visual-developer-progress-modal figcaption,
+#visual-developer-panel figure,
+#visual-developer-element-panel figure,
+#visual-developer-settings-panel figure,
+#visual-developer-utility-modal figure,
+#visual-developer-progress-modal figure,
+#visual-developer-panel footer,
+#visual-developer-element-panel footer,
+#visual-developer-settings-panel footer,
+#visual-developer-utility-modal footer,
+#visual-developer-progress-modal footer,
+#visual-developer-panel header,
+#visual-developer-element-panel header,
+#visual-developer-settings-panel header,
+#visual-developer-utility-modal header,
+#visual-developer-progress-modal header,
+#visual-developer-panel hgroup,
+#visual-developer-element-panel hgroup,
+#visual-developer-settings-panel hgroup,
+#visual-developer-utility-modal hgroup,
+#visual-developer-progress-modal hgroup,
+#visual-developer-panel menu,
+#visual-developer-element-panel menu,
+#visual-developer-settings-panel menu,
+#visual-developer-utility-modal menu,
+#visual-developer-progress-modal menu,
+#visual-developer-panel nav,
+#visual-developer-element-panel nav,
+#visual-developer-settings-panel nav,
+#visual-developer-utility-modal nav,
+#visual-developer-progress-modal nav,
+#visual-developer-panel section,
+#visual-developer-element-panel section,
+#visual-developer-settings-panel section,
+#visual-developer-utility-modal section,
+#visual-developer-progress-modal section {
+  display: block;
+}
+#visual-developer-panel ol,
+#visual-developer-element-panel ol,
+#visual-developer-settings-panel ol,
+#visual-developer-utility-modal ol,
+#visual-developer-progress-modal ol,
+#visual-developer-panel ul,
+#visual-developer-element-panel ul,
+#visual-developer-settings-panel ul,
+#visual-developer-utility-modal ul,
+#visual-developer-progress-modal ul {
+  list-style: none;
+}
+#visual-developer-panel blockquote,
+#visual-developer-element-panel blockquote,
+#visual-developer-settings-panel blockquote,
+#visual-developer-utility-modal blockquote,
+#visual-developer-progress-modal blockquote,
+#visual-developer-panel q,
+#visual-developer-element-panel q,
+#visual-developer-settings-panel q,
+#visual-developer-utility-modal q,
+#visual-developer-progress-modal q {
+  quotes: none;
+}
+#visual-developer-panel blockquote:before,
+#visual-developer-element-panel blockquote:before,
+#visual-developer-settings-panel blockquote:before,
+#visual-developer-utility-modal blockquote:before,
+#visual-developer-progress-modal blockquote:before,
+#visual-developer-panel blockquote:after,
+#visual-developer-element-panel blockquote:after,
+#visual-developer-settings-panel blockquote:after,
+#visual-developer-utility-modal blockquote:after,
+#visual-developer-progress-modal blockquote:after,
+#visual-developer-panel q:before,
+#visual-developer-element-panel q:before,
+#visual-developer-settings-panel q:before,
+#visual-developer-utility-modal q:before,
+#visual-developer-progress-modal q:before,
+#visual-developer-panel q:after,
+#visual-developer-element-panel q:after,
+#visual-developer-settings-panel q:after,
+#visual-developer-utility-modal q:after,
+#visual-developer-progress-modal q:after {
+  content: '';
+  content: none;
+}
+#visual-developer-panel table,
+#visual-developer-element-panel table,
+#visual-developer-settings-panel table,
+#visual-developer-utility-modal table,
+#visual-developer-progress-modal table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+#visual-developer-user-top-notification {
+  background: #15171a;
+  color: #F1F2F4;
+  padding: 10px 0;
+  text-align: center;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+  position: fixed;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  z-index: 100100;
+}
+#visual-developer-panel {
+  z-index: 100100;
+  position: fixed;
+  left: 0;
+  text-align: left;
+  width: 360px;
+  background: #191A1E;
+}
+#visual-developer-panel > #visual-developer-panel-container {
+  width: 100%;
+  margin: 0;
+}
+#visual-developer-panel > #visual-developer-panel-container > h2,
+#visual-developer-panel > #visual-developer-panel-container > #visual-developer-operations-navigation-panel,
+#visual-developer-panel > #visual-developer-panel-container > #visual-developer-top-operations-navigation-panel {
+  float: right;
+  display: block;
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+#visual-developer-panel > #visual-developer-panel-container > h2 {
+  width: 50%;
+  color: #FFFFFF;
+  float: left;
+  font-size: 13px;
+  line-height: 2.7;
+  font-weight: 300;
+  font-family: 'Raleway', sans-serif;
+  background: url("img/logo.png") no-repeat;
+  background-position: 10px 0;
+  padding-left: 50px;
+}
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-page-specific-navigation-panel,
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-progress-navigation-panel,
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-settings-navigation-panel,
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-disable-navigation-panel,
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-enable-navigation-panel,
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-save-navigation-panel,
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-page-versions-navigation-panel,
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-page-version-name-navigation-panel {
+  display: block;
+  width: 50%;
+  padding: 5px 0;
+  text-align: center;
+  background: #25262A;
+  color: #FFFFFF;
+  cursor: pointer;
+  float: right;
+  font-size: 12px;
+  font-family: 'Raleway', sans-serif;
+}
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-page-specific-navigation-panel#visual-developer-page-specific-navigation-panel.visual-developer-inactive,
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-progress-navigation-panel#visual-developer-page-specific-navigation-panel.visual-developer-inactive,
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-settings-navigation-panel#visual-developer-page-specific-navigation-panel.visual-developer-inactive,
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-disable-navigation-panel#visual-developer-page-specific-navigation-panel.visual-developer-inactive,
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-enable-navigation-panel#visual-developer-page-specific-navigation-panel.visual-developer-inactive,
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-save-navigation-panel#visual-developer-page-specific-navigation-panel.visual-developer-inactive,
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-page-versions-navigation-panel#visual-developer-page-specific-navigation-panel.visual-developer-inactive,
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-page-version-name-navigation-panel#visual-developer-page-specific-navigation-panel.visual-developer-inactive {
+  color: #ff644b;
+}
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-page-specific-navigation-panel#visual-developer-page-specific-navigation-panel.visual-developer-active,
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-progress-navigation-panel#visual-developer-page-specific-navigation-panel.visual-developer-active,
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-settings-navigation-panel#visual-developer-page-specific-navigation-panel.visual-developer-active,
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-disable-navigation-panel#visual-developer-page-specific-navigation-panel.visual-developer-active,
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-enable-navigation-panel#visual-developer-page-specific-navigation-panel.visual-developer-active,
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-save-navigation-panel#visual-developer-page-specific-navigation-panel.visual-developer-active,
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-page-versions-navigation-panel#visual-developer-page-specific-navigation-panel.visual-developer-active,
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-page-version-name-navigation-panel#visual-developer-page-specific-navigation-panel.visual-developer-active {
+  color: #84C028;
+}
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-page-specific-navigation-panel#visual-developer-page-specific-navigation-panel.visual-developer-blocked,
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-progress-navigation-panel#visual-developer-page-specific-navigation-panel.visual-developer-blocked,
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-settings-navigation-panel#visual-developer-page-specific-navigation-panel.visual-developer-blocked,
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-disable-navigation-panel#visual-developer-page-specific-navigation-panel.visual-developer-blocked,
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-enable-navigation-panel#visual-developer-page-specific-navigation-panel.visual-developer-blocked,
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-save-navigation-panel#visual-developer-page-specific-navigation-panel.visual-developer-blocked,
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-page-versions-navigation-panel#visual-developer-page-specific-navigation-panel.visual-developer-blocked,
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-page-version-name-navigation-panel#visual-developer-page-specific-navigation-panel.visual-developer-blocked {
+  display: none;
+}
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-page-specific-navigation-panel#visual-developer-page-versions-navigation-panel.visual-developer-blocked,
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-progress-navigation-panel#visual-developer-page-versions-navigation-panel.visual-developer-blocked,
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-settings-navigation-panel#visual-developer-page-versions-navigation-panel.visual-developer-blocked,
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-disable-navigation-panel#visual-developer-page-versions-navigation-panel.visual-developer-blocked,
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-enable-navigation-panel#visual-developer-page-versions-navigation-panel.visual-developer-blocked,
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-save-navigation-panel#visual-developer-page-versions-navigation-panel.visual-developer-blocked,
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-page-versions-navigation-panel#visual-developer-page-versions-navigation-panel.visual-developer-blocked,
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-page-version-name-navigation-panel#visual-developer-page-versions-navigation-panel.visual-developer-blocked {
+  display: none;
+}
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-page-specific-navigation-panel#visual-developer-page-version-name-navigation-panel,
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-progress-navigation-panel#visual-developer-page-version-name-navigation-panel,
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-settings-navigation-panel#visual-developer-page-version-name-navigation-panel,
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-disable-navigation-panel#visual-developer-page-version-name-navigation-panel,
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-enable-navigation-panel#visual-developer-page-version-name-navigation-panel,
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-save-navigation-panel#visual-developer-page-version-name-navigation-panel,
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-page-versions-navigation-panel#visual-developer-page-version-name-navigation-panel,
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-page-version-name-navigation-panel#visual-developer-page-version-name-navigation-panel {
+  background: #191A1E;
+  display: none;
+  cursor: default;
+}
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-page-specific-navigation-panel#visual-developer-enable-navigation-panel,
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-progress-navigation-panel#visual-developer-enable-navigation-panel,
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-settings-navigation-panel#visual-developer-enable-navigation-panel,
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-disable-navigation-panel#visual-developer-enable-navigation-panel,
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-enable-navigation-panel#visual-developer-enable-navigation-panel,
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-save-navigation-panel#visual-developer-enable-navigation-panel,
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-page-versions-navigation-panel#visual-developer-enable-navigation-panel,
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-page-version-name-navigation-panel#visual-developer-enable-navigation-panel {
+  background: #212326;
+}
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-page-specific-navigation-panel#visual-developer-disable-navigation-panel,
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-progress-navigation-panel#visual-developer-disable-navigation-panel,
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-settings-navigation-panel#visual-developer-disable-navigation-panel,
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-disable-navigation-panel#visual-developer-disable-navigation-panel,
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-enable-navigation-panel#visual-developer-disable-navigation-panel,
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-save-navigation-panel#visual-developer-disable-navigation-panel,
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-page-versions-navigation-panel#visual-developer-disable-navigation-panel,
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-page-version-name-navigation-panel#visual-developer-disable-navigation-panel {
+  background: #ff644b;
+  display: none;
+}
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-page-specific-navigation-panel#visual-developer-save-navigation-panel,
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-progress-navigation-panel#visual-developer-save-navigation-panel,
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-settings-navigation-panel#visual-developer-save-navigation-panel,
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-disable-navigation-panel#visual-developer-save-navigation-panel,
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-enable-navigation-panel#visual-developer-save-navigation-panel,
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-save-navigation-panel#visual-developer-save-navigation-panel,
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-page-versions-navigation-panel#visual-developer-save-navigation-panel,
+#visual-developer-panel > #visual-developer-panel-container #visual-developer-page-version-name-navigation-panel#visual-developer-save-navigation-panel {
+  background: #84C028;
+}
+@media (max-width: 640px) {
+  #visual-developer-panel > #visual-developer-panel-container #visual-developer-page-specific-navigation-panel,
+  #visual-developer-panel > #visual-developer-panel-container #visual-developer-progress-navigation-panel,
+  #visual-developer-panel > #visual-developer-panel-container #visual-developer-settings-navigation-panel,
+  #visual-developer-panel > #visual-developer-panel-container #visual-developer-disable-navigation-panel,
+  #visual-developer-panel > #visual-developer-panel-container #visual-developer-enable-navigation-panel,
+  #visual-developer-panel > #visual-developer-panel-container #visual-developer-save-navigation-panel,
+  #visual-developer-panel > #visual-developer-panel-container #visual-developer-page-versions-navigation-panel,
+  #visual-developer-panel > #visual-developer-panel-container #visual-developer-page-version-name-navigation-panel {
+    font-size: 12px;
+  }
+}
+#visual-developer-panel > #visual-developer-panel-container > #visual-developer-top-operations-navigation-panel {
+  width: 50%;
+  line-height: 2.2;
+}
+#visual-developer-panel > #visual-developer-panel-container > #visual-developer-top-operations-secondary-navigation-panel {
+  width: 100%;
+  line-height: 2.2;
+  display: none;
+}
+#visual-developer-panel > #visual-developer-panel-container > #visual-developer-top-operations-secondary-navigation-panel > #visual-developer-page-versions-navigation-panel {
+  background: #2ecc71;
+}
+#visual-developer-panel > #visual-developer-panel-container > #visual-developer-operations-navigation-panel {
+  width: 100%;
+}
+#visual-developer-panel > #visual-developer-panel-container > #visual-developer-operations-navigation-panel #visual-developer-disable-navigation-panel,
+#visual-developer-panel > #visual-developer-panel-container > #visual-developer-operations-navigation-panel #visual-developer-enable-navigation-panel,
+#visual-developer-panel > #visual-developer-panel-container > #visual-developer-operations-navigation-panel #visual-developer-save-navigation-panel {
+  width: 50%;
+  margin: 0;
+  padding: 10px 0;
+}
+@media (max-width: 640px) {
+  #visual-developer-panel > #visual-developer-panel-container > h2,
+  #visual-developer-panel > #visual-developer-panel-container > #visual-developer-operations-navigation-panel {
+    width: 100%;
+  }
+  #visual-developer-panel > #visual-developer-panel-container > #visual-developer-operations-navigation-panel {
+    padding-top: 10px;
+  }
+}
+#visual-developer-navigation-panel {
+  z-index: 100000;
+  position: absolute;
+}
+#visual-developer-navigation-panel #visual-developer-navigation-panel-option-current,
+#visual-developer-navigation-panel #visual-developer-navigation-panel-option-global,
+#visual-developer-navigation-panel #visual-developer-navigation-panel-option-global-class,
+#visual-developer-navigation-panel #visual-developer-navigation-panel-option-parent-element,
+#visual-developer-navigation-panel #visual-developer-navigation-panel-option-reset,
+#visual-developer-navigation-panel #visual-developer-navigation-panel-option-advanced-creation {
+  margin: 0 5px 0 0;
+  display: inline-block;
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+}
+#visual-developer-navigation-panel .icon.panel-option-reset {
+  background: url("img/panel-option-reset.png");
+}
+#visual-developer-navigation-panel .icon.panel-option-parent {
+  background: url("img/panel-option-parent.png");
+}
+#visual-developer-navigation-panel .icon.panel-option-parent.panel-option-active {
+  background: url("img/panel-option-parent-active.png");
+}
+#visual-developer-navigation-panel .icon.panel-option-current {
+  background: url("img/panel-option-current.png");
+}
+#visual-developer-navigation-panel .icon.panel-option-current.panel-option-active {
+  background: url("img/panel-option-current-active.png");
+}
+#visual-developer-navigation-panel .icon.panel-option-structure {
+  background: url("img/panel-option-structure.png");
+}
+#visual-developer-navigation-panel .icon.panel-option-structure.panel-option-active {
+  background: url("img/panel-option-structure-active.png");
+}
+#visual-developer-navigation-panel .icon.panel-option-structure-class {
+  background: url("img/panel-option-structure-class.png");
+}
+#visual-developer-navigation-panel .icon.panel-option-structure-class.panel-option-active {
+  background: url("img/panel-option-structure-class-active.png");
+}
+#visual-developer-navigation-panel .icon.panel-option-advanced-creation {
+  background: url("img/panel-option-advanced-creation.png");
+}
+.visual-developer-navigation-item {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #66afe9 !important;
+  cursor: pointer;
+}
+.visual-developer-navigation-item-selected {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #98e169 !important;
+}
+.visual-developer-navigation-item-selected-mirror {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #98e169 !important;
+}
+body.visual-developer-spectral-mode .visual-developer-element-panel-active-pattern {
+  box-shadow: none !important;
+  z-index: 100010;
+  position: relative;
+}
+#visual-developer-spectral-mode-overlay {
+  top: 0;
+  left: 0;
+  position: fixed;
+  display: block;
+  padding: 0;
+  background: rgba(255, 255, 255, 0.9);
+  z-index: 99990;
+}
+.visual-developer-clear {
+  clear: both;
+  display: block;
+}
+#visual-developer-element-panel .visual-developer-utility-split-select-container > .visual-developer-utility-split-select-item,
+#visual-developer-macro-interface-panel .visual-developer-utility-split-select-container > .visual-developer-utility-split-select-item {
+  float: left;
+  border: 1px solid #191A1E;
+  width: 50%;
+  padding: 10px 0;
+  display: inline-block;
+  background: #26272B;
+  text-align: center;
+  cursor: pointer;
+  font-size: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #777777;
+  text-transform: uppercase;
+}
+#visual-developer-element-panel .visual-developer-utility-split-select-container > .visual-developer-utility-split-select-item.visual-developer-utility-split-select-item-active,
+#visual-developer-macro-interface-panel .visual-developer-utility-split-select-container > .visual-developer-utility-split-select-item.visual-developer-utility-split-select-item-active {
+  background: #1BBBED;
+  color: #FFFFFF;
+}
+#visual-developer-macro-interface-panel .visual-developer-utility-split-select-container > .visual-developer-utility-split-select-item {
+  width: 49%;
+}
+#visual-developer-element-panel .visual-developer-utility-split-inline-select-container > .visual-developer-utility-split-inline-select-item,
+#visual-developer-macro-interface-panel .visual-developer-utility-split-inline-select-container > .visual-developer-utility-split-inline-select-item {
+  float: left;
+  border-top: 1px solid #191A1E;
+  border-bottom: 1px solid #191A1E;
+  width: 100%;
+  padding: 10px 0;
+  display: inline-block;
+  background: #26272B;
+  text-align: center;
+  cursor: pointer;
+  font-size: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+#visual-developer-element-panel .visual-developer-utility-split-inline-select-container > .visual-developer-utility-split-inline-select-item.visual-developer-utility-split-inline-select-item-active,
+#visual-developer-macro-interface-panel .visual-developer-utility-split-inline-select-container > .visual-developer-utility-split-inline-select-item.visual-developer-utility-split-inline-select-item-active {
+  border-top-color: #1BBBED;
+  border-bottom-color: #1BBBED;
+}
+#visual-developer-element-panel .visual-developer-toggle-input-map,
+#visual-developer-macro-interface-panel .visual-developer-toggle-input-map {
+  background: #82b541;
+  text-align: center;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: 400 !important;
+  color: #FFFFFF !important;
+  width: 25px !important;
+  position: absolute;
+  left: 310px;
+  border-radius: 2px;
+}
+#visual-developer-element-panel .visual-developer-toggle-input-map:hover,
+#visual-developer-macro-interface-panel .visual-developer-toggle-input-map:hover {
+  background: #d62f28;
+}
+#visual-developer-element-panel .visual-developer-toggle-input-map.visual-developer-active-input-map,
+#visual-developer-macro-interface-panel .visual-developer-toggle-input-map.visual-developer-active-input-map {
+  background: #d62f28;
+}
+#visual-developer-element-panel .visual-developer-toggle-input-map.visual-developer-active-input-map:hover,
+#visual-developer-macro-interface-panel .visual-developer-toggle-input-map.visual-developer-active-input-map:hover {
+  background: #82b541;
+}
+#visual-developer-element-panel .visual-developer-utility-nice-select-container,
+#visual-developer-macro-interface-panel .visual-developer-utility-nice-select-container {
+  padding: 5px;
+  height: 45px;
+  line-height: 31px;
+  background: url('img/arrow.png') no-repeat right #212226;
+  position: relative;
+  z-index: 100;
+}
+#visual-developer-element-panel .visual-developer-utility-nice-select-container > span.visual-developer-utility-nice-select-container-label,
+#visual-developer-macro-interface-panel .visual-developer-utility-nice-select-container > span.visual-developer-utility-nice-select-container-label {
+  padding-left: 8px;
+  font-size: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #5B5B5B;
+}
+#visual-developer-element-panel .visual-developer-utility-nice-select-container > select,
+#visual-developer-macro-interface-panel .visual-developer-utility-nice-select-container > select {
+  margin: 0px;
+  padding: 0px;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important;
+  display: block;
+  z-index: 101;
+}
+#visual-developer-element-panel .visual-developer-utility-nice-select-container > select:focus,
+#visual-developer-macro-interface-panel .visual-developer-utility-nice-select-container > select:focus {
+  outline: none;
+}
+#visual-developer-panel ul.visual-developer-utility-svg-checkbox,
+#visual-developer-element-panel ul.visual-developer-utility-svg-checkbox,
+#visual-developer-macro-interface-panel ul.visual-developer-utility-svg-checkbox,
+#visual-developer-settings-panel ul.visual-developer-utility-svg-checkbox,
+#visual-developer-panel ol.visual-developer-utility-svg-checkbox,
+#visual-developer-element-panel ol.visual-developer-utility-svg-checkbox,
+#visual-developer-macro-interface-panel ol.visual-developer-utility-svg-checkbox,
+#visual-developer-settings-panel ol.visual-developer-utility-svg-checkbox {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+}
+#visual-developer-panel ul.visual-developer-utility-svg-checkbox > li,
+#visual-developer-element-panel ul.visual-developer-utility-svg-checkbox > li,
+#visual-developer-macro-interface-panel ul.visual-developer-utility-svg-checkbox > li,
+#visual-developer-settings-panel ul.visual-developer-utility-svg-checkbox > li,
+#visual-developer-panel ol.visual-developer-utility-svg-checkbox > li,
+#visual-developer-element-panel ol.visual-developer-utility-svg-checkbox > li,
+#visual-developer-macro-interface-panel ol.visual-developer-utility-svg-checkbox > li,
+#visual-developer-settings-panel ol.visual-developer-utility-svg-checkbox > li {
+  margin: 0 auto;
+  padding: 10px 0;
+  position: relative;
+}
+#visual-developer-panel ul.visual-developer-utility-svg-checkbox > li > label,
+#visual-developer-element-panel ul.visual-developer-utility-svg-checkbox > li > label,
+#visual-developer-macro-interface-panel ul.visual-developer-utility-svg-checkbox > li > label,
+#visual-developer-settings-panel ul.visual-developer-utility-svg-checkbox > li > label,
+#visual-developer-panel ol.visual-developer-utility-svg-checkbox > li > label,
+#visual-developer-element-panel ol.visual-developer-utility-svg-checkbox > li > label,
+#visual-developer-macro-interface-panel ol.visual-developer-utility-svg-checkbox > li > label,
+#visual-developer-settings-panel ol.visual-developer-utility-svg-checkbox > li > label {
+  display: inline-block;
+  position: relative;
+  font-size: 12px;
+  padding: 0 0 0 25px;
+  vertical-align: top;
+  cursor: pointer;
+  -webkit-transition: color 0.3s;
+  transition: color 0.3s;
+}
+#visual-developer-panel ul.visual-developer-utility-svg-checkbox > li > label:before,
+#visual-developer-element-panel ul.visual-developer-utility-svg-checkbox > li > label:before,
+#visual-developer-macro-interface-panel ul.visual-developer-utility-svg-checkbox > li > label:before,
+#visual-developer-settings-panel ul.visual-developer-utility-svg-checkbox > li > label:before,
+#visual-developer-panel ol.visual-developer-utility-svg-checkbox > li > label:before,
+#visual-developer-element-panel ol.visual-developer-utility-svg-checkbox > li > label:before,
+#visual-developer-macro-interface-panel ol.visual-developer-utility-svg-checkbox > li > label:before,
+#visual-developer-settings-panel ol.visual-developer-utility-svg-checkbox > li > label:before {
+  content: '';
+  border: 1px solid #fff;
+  -webkit-transition: opacity 0.3s;
+  transition: opacity 0.3s;
+}
+#visual-developer-panel ul.visual-developer-utility-svg-checkbox > li > input[type="checkbox"],
+#visual-developer-element-panel ul.visual-developer-utility-svg-checkbox > li > input[type="checkbox"],
+#visual-developer-macro-interface-panel ul.visual-developer-utility-svg-checkbox > li > input[type="checkbox"],
+#visual-developer-settings-panel ul.visual-developer-utility-svg-checkbox > li > input[type="checkbox"],
+#visual-developer-panel ol.visual-developer-utility-svg-checkbox > li > input[type="checkbox"],
+#visual-developer-element-panel ol.visual-developer-utility-svg-checkbox > li > input[type="checkbox"],
+#visual-developer-macro-interface-panel ol.visual-developer-utility-svg-checkbox > li > input[type="checkbox"],
+#visual-developer-settings-panel ol.visual-developer-utility-svg-checkbox > li > input[type="checkbox"],
+#visual-developer-panel ul.visual-developer-utility-svg-checkbox > li > input[type="radio"],
+#visual-developer-element-panel ul.visual-developer-utility-svg-checkbox > li > input[type="radio"],
+#visual-developer-macro-interface-panel ul.visual-developer-utility-svg-checkbox > li > input[type="radio"],
+#visual-developer-settings-panel ul.visual-developer-utility-svg-checkbox > li > input[type="radio"],
+#visual-developer-panel ol.visual-developer-utility-svg-checkbox > li > input[type="radio"],
+#visual-developer-element-panel ol.visual-developer-utility-svg-checkbox > li > input[type="radio"],
+#visual-developer-macro-interface-panel ol.visual-developer-utility-svg-checkbox > li > input[type="radio"],
+#visual-developer-settings-panel ol.visual-developer-utility-svg-checkbox > li > input[type="radio"],
+#visual-developer-panel ul.visual-developer-utility-svg-checkbox > li > label:before,
+#visual-developer-element-panel ul.visual-developer-utility-svg-checkbox > li > label:before,
+#visual-developer-macro-interface-panel ul.visual-developer-utility-svg-checkbox > li > label:before,
+#visual-developer-settings-panel ul.visual-developer-utility-svg-checkbox > li > label:before,
+#visual-developer-panel ol.visual-developer-utility-svg-checkbox > li > label:before,
+#visual-developer-element-panel ol.visual-developer-utility-svg-checkbox > li > label:before,
+#visual-developer-macro-interface-panel ol.visual-developer-utility-svg-checkbox > li > label:before,
+#visual-developer-settings-panel ol.visual-developer-utility-svg-checkbox > li > label:before {
+  width: 16px;
+  height: 16px;
+  top: 50%;
+  left: 0;
+  margin-top: -8px;
+  position: absolute;
+  cursor: pointer;
+}
+#visual-developer-panel ul.visual-developer-utility-svg-checkbox > li > input[type="checkbox"],
+#visual-developer-element-panel ul.visual-developer-utility-svg-checkbox > li > input[type="checkbox"],
+#visual-developer-macro-interface-panel ul.visual-developer-utility-svg-checkbox > li > input[type="checkbox"],
+#visual-developer-settings-panel ul.visual-developer-utility-svg-checkbox > li > input[type="checkbox"],
+#visual-developer-panel ol.visual-developer-utility-svg-checkbox > li > input[type="checkbox"],
+#visual-developer-element-panel ol.visual-developer-utility-svg-checkbox > li > input[type="checkbox"],
+#visual-developer-macro-interface-panel ol.visual-developer-utility-svg-checkbox > li > input[type="checkbox"],
+#visual-developer-settings-panel ol.visual-developer-utility-svg-checkbox > li > input[type="checkbox"],
+#visual-developer-panel ul.visual-developer-utility-svg-checkbox > li > input[type="radio"],
+#visual-developer-element-panel ul.visual-developer-utility-svg-checkbox > li > input[type="radio"],
+#visual-developer-macro-interface-panel ul.visual-developer-utility-svg-checkbox > li > input[type="radio"],
+#visual-developer-settings-panel ul.visual-developer-utility-svg-checkbox > li > input[type="radio"],
+#visual-developer-panel ol.visual-developer-utility-svg-checkbox > li > input[type="radio"],
+#visual-developer-element-panel ol.visual-developer-utility-svg-checkbox > li > input[type="radio"],
+#visual-developer-macro-interface-panel ol.visual-developer-utility-svg-checkbox > li > input[type="radio"],
+#visual-developer-settings-panel ol.visual-developer-utility-svg-checkbox > li > input[type="radio"] {
+  opacity: 0;
+  -webkit-appearance: none;
+  display: inline-block;
+  vertical-align: middle;
+  z-index: 100;
+}
+#visual-developer-panel ul.visual-developer-utility-svg-checkbox > li > input[type="checkbox"]:checked + label,
+#visual-developer-element-panel ul.visual-developer-utility-svg-checkbox > li > input[type="checkbox"]:checked + label,
+#visual-developer-macro-interface-panel ul.visual-developer-utility-svg-checkbox > li > input[type="checkbox"]:checked + label,
+#visual-developer-settings-panel ul.visual-developer-utility-svg-checkbox > li > input[type="checkbox"]:checked + label,
+#visual-developer-panel ol.visual-developer-utility-svg-checkbox > li > input[type="checkbox"]:checked + label,
+#visual-developer-element-panel ol.visual-developer-utility-svg-checkbox > li > input[type="checkbox"]:checked + label,
+#visual-developer-macro-interface-panel ol.visual-developer-utility-svg-checkbox > li > input[type="checkbox"]:checked + label,
+#visual-developer-settings-panel ol.visual-developer-utility-svg-checkbox > li > input[type="checkbox"]:checked + label,
+#visual-developer-panel ul.visual-developer-utility-svg-checkbox > li > input[type="radio"]:checked + label,
+#visual-developer-element-panel ul.visual-developer-utility-svg-checkbox > li > input[type="radio"]:checked + label,
+#visual-developer-macro-interface-panel ul.visual-developer-utility-svg-checkbox > li > input[type="radio"]:checked + label,
+#visual-developer-settings-panel ul.visual-developer-utility-svg-checkbox > li > input[type="radio"]:checked + label,
+#visual-developer-panel ol.visual-developer-utility-svg-checkbox > li > input[type="radio"]:checked + label,
+#visual-developer-element-panel ol.visual-developer-utility-svg-checkbox > li > input[type="radio"]:checked + label,
+#visual-developer-macro-interface-panel ol.visual-developer-utility-svg-checkbox > li > input[type="radio"]:checked + label,
+#visual-developer-settings-panel ol.visual-developer-utility-svg-checkbox > li > input[type="radio"]:checked + label {
+  color: #fff;
+}
+#visual-developer-panel ul.visual-developer-utility-svg-checkbox > li > input[type="checkbox"]:checked + label:before,
+#visual-developer-element-panel ul.visual-developer-utility-svg-checkbox > li > input[type="checkbox"]:checked + label:before,
+#visual-developer-macro-interface-panel ul.visual-developer-utility-svg-checkbox > li > input[type="checkbox"]:checked + label:before,
+#visual-developer-settings-panel ul.visual-developer-utility-svg-checkbox > li > input[type="checkbox"]:checked + label:before,
+#visual-developer-panel ol.visual-developer-utility-svg-checkbox > li > input[type="checkbox"]:checked + label:before,
+#visual-developer-element-panel ol.visual-developer-utility-svg-checkbox > li > input[type="checkbox"]:checked + label:before,
+#visual-developer-macro-interface-panel ol.visual-developer-utility-svg-checkbox > li > input[type="checkbox"]:checked + label:before,
+#visual-developer-settings-panel ol.visual-developer-utility-svg-checkbox > li > input[type="checkbox"]:checked + label:before,
+#visual-developer-panel ul.visual-developer-utility-svg-checkbox > li > input[type="radio"]:checked + label:before,
+#visual-developer-element-panel ul.visual-developer-utility-svg-checkbox > li > input[type="radio"]:checked + label:before,
+#visual-developer-macro-interface-panel ul.visual-developer-utility-svg-checkbox > li > input[type="radio"]:checked + label:before,
+#visual-developer-settings-panel ul.visual-developer-utility-svg-checkbox > li > input[type="radio"]:checked + label:before,
+#visual-developer-panel ol.visual-developer-utility-svg-checkbox > li > input[type="radio"]:checked + label:before,
+#visual-developer-element-panel ol.visual-developer-utility-svg-checkbox > li > input[type="radio"]:checked + label:before,
+#visual-developer-macro-interface-panel ol.visual-developer-utility-svg-checkbox > li > input[type="radio"]:checked + label:before,
+#visual-developer-settings-panel ol.visual-developer-utility-svg-checkbox > li > input[type="radio"]:checked + label:before {
+  opacity: 0.8;
+}
+#visual-developer-panel ul.visual-developer-utility-svg-checkbox svg,
+#visual-developer-element-panel ul.visual-developer-utility-svg-checkbox svg,
+#visual-developer-macro-interface-panel ul.visual-developer-utility-svg-checkbox svg,
+#visual-developer-settings-panel ul.visual-developer-utility-svg-checkbox svg,
+#visual-developer-panel ol.visual-developer-utility-svg-checkbox svg,
+#visual-developer-element-panel ol.visual-developer-utility-svg-checkbox svg,
+#visual-developer-macro-interface-panel ol.visual-developer-utility-svg-checkbox svg,
+#visual-developer-settings-panel ol.visual-developer-utility-svg-checkbox svg {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 50%;
+  margin-top: -6px;
+  left: 3px;
+  pointer-events: none;
+}
+#visual-developer-panel ul.visual-developer-utility-svg-checkbox svg path,
+#visual-developer-element-panel ul.visual-developer-utility-svg-checkbox svg path,
+#visual-developer-macro-interface-panel ul.visual-developer-utility-svg-checkbox svg path,
+#visual-developer-settings-panel ul.visual-developer-utility-svg-checkbox svg path,
+#visual-developer-panel ol.visual-developer-utility-svg-checkbox svg path,
+#visual-developer-element-panel ol.visual-developer-utility-svg-checkbox svg path,
+#visual-developer-macro-interface-panel ol.visual-developer-utility-svg-checkbox svg path,
+#visual-developer-settings-panel ol.visual-developer-utility-svg-checkbox svg path {
+  stroke: #44b0db;
+  stroke-width: 13px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+}
+#visual-developer-panel ul.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-radio label:before,
+#visual-developer-element-panel ul.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-radio label:before,
+#visual-developer-macro-interface-panel ul.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-radio label:before,
+#visual-developer-settings-panel ul.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-radio label:before,
+#visual-developer-panel ol.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-radio label:before,
+#visual-developer-element-panel ol.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-radio label:before,
+#visual-developer-macro-interface-panel ol.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-radio label:before,
+#visual-developer-settings-panel ol.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-radio label:before {
+  border-radius: 50%;
+}
+#visual-developer-panel ul.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-circle input[type="checkbox"],
+#visual-developer-element-panel ul.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-circle input[type="checkbox"],
+#visual-developer-macro-interface-panel ul.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-circle input[type="checkbox"],
+#visual-developer-settings-panel ul.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-circle input[type="checkbox"],
+#visual-developer-panel ol.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-circle input[type="checkbox"],
+#visual-developer-element-panel ol.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-circle input[type="checkbox"],
+#visual-developer-macro-interface-panel ol.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-circle input[type="checkbox"],
+#visual-developer-settings-panel ol.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-circle input[type="checkbox"],
+#visual-developer-panel ul.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-circle input[type="radio"],
+#visual-developer-element-panel ul.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-circle input[type="radio"],
+#visual-developer-macro-interface-panel ul.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-circle input[type="radio"],
+#visual-developer-settings-panel ul.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-circle input[type="radio"],
+#visual-developer-panel ol.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-circle input[type="radio"],
+#visual-developer-element-panel ol.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-circle input[type="radio"],
+#visual-developer-macro-interface-panel ol.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-circle input[type="radio"],
+#visual-developer-settings-panel ol.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-circle input[type="radio"],
+#visual-developer-panel ul.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-circle label:before,
+#visual-developer-element-panel ul.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-circle label:before,
+#visual-developer-macro-interface-panel ul.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-circle label:before,
+#visual-developer-settings-panel ul.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-circle label:before,
+#visual-developer-panel ol.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-circle label:before,
+#visual-developer-element-panel ol.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-circle label:before,
+#visual-developer-macro-interface-panel ol.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-circle label:before,
+#visual-developer-settings-panel ol.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-circle label:before {
+  width: 30px;
+  height: 30px;
+  margin-top: -15px;
+  left: 10px;
+  position: absolute;
+}
+#visual-developer-panel ul.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-circle label:before,
+#visual-developer-element-panel ul.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-circle label:before,
+#visual-developer-macro-interface-panel ul.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-circle label:before,
+#visual-developer-settings-panel ul.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-circle label:before,
+#visual-developer-panel ol.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-circle label:before,
+#visual-developer-element-panel ol.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-circle label:before,
+#visual-developer-macro-interface-panel ol.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-circle label:before,
+#visual-developer-settings-panel ol.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-circle label:before {
+  background-color: #fff;
+  border: none;
+}
+#visual-developer-panel ul.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-circle svg,
+#visual-developer-element-panel ul.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-circle svg,
+#visual-developer-macro-interface-panel ul.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-circle svg,
+#visual-developer-settings-panel ul.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-circle svg,
+#visual-developer-panel ol.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-circle svg,
+#visual-developer-element-panel ol.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-circle svg,
+#visual-developer-macro-interface-panel ol.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-circle svg,
+#visual-developer-settings-panel ol.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-circle svg {
+  width: 70px;
+  height: 70px;
+  margin-top: -35px;
+  left: -10px;
+}
+#visual-developer-panel ul.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-circle svg path,
+#visual-developer-element-panel ul.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-circle svg path,
+#visual-developer-macro-interface-panel ul.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-circle svg path,
+#visual-developer-settings-panel ul.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-circle svg path,
+#visual-developer-panel ol.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-circle svg path,
+#visual-developer-element-panel ol.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-circle svg path,
+#visual-developer-macro-interface-panel ol.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-circle svg path,
+#visual-developer-settings-panel ol.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-circle svg path {
+  stroke-width: 5px;
+}
+#visual-developer-panel ul.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-boxfill svg path,
+#visual-developer-element-panel ul.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-boxfill svg path,
+#visual-developer-macro-interface-panel ul.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-boxfill svg path,
+#visual-developer-settings-panel ul.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-boxfill svg path,
+#visual-developer-panel ol.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-boxfill svg path,
+#visual-developer-element-panel ol.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-boxfill svg path,
+#visual-developer-macro-interface-panel ol.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-boxfill svg path,
+#visual-developer-settings-panel ol.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-boxfill svg path {
+  stroke-width: 8px;
+}
+#visual-developer-panel ul.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-swirl svg path,
+#visual-developer-element-panel ul.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-swirl svg path,
+#visual-developer-macro-interface-panel ul.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-swirl svg path,
+#visual-developer-settings-panel ul.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-swirl svg path,
+#visual-developer-panel ol.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-swirl svg path,
+#visual-developer-element-panel ol.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-swirl svg path,
+#visual-developer-macro-interface-panel ol.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-swirl svg path,
+#visual-developer-settings-panel ol.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-swirl svg path {
+  stroke-width: 8px;
+}
+#visual-developer-panel ul.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-list,
+#visual-developer-element-panel ul.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-list,
+#visual-developer-macro-interface-panel ul.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-list,
+#visual-developer-settings-panel ul.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-list,
+#visual-developer-panel ol.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-list,
+#visual-developer-element-panel ol.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-list,
+#visual-developer-macro-interface-panel ol.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-list,
+#visual-developer-settings-panel ol.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-list {
+  list-style: decimal;
+  list-style-position: inside;
+}
+#visual-developer-panel ul.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-list > li,
+#visual-developer-element-panel ul.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-list > li,
+#visual-developer-macro-interface-panel ul.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-list > li,
+#visual-developer-settings-panel ul.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-list > li,
+#visual-developer-panel ol.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-list > li,
+#visual-developer-element-panel ol.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-list > li,
+#visual-developer-macro-interface-panel ol.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-list > li,
+#visual-developer-settings-panel ol.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-list > li {
+  font-size: 2em;
+  padding: 1em 1em 0 2em;
+  text-indent: -40px;
+}
+#visual-developer-panel ul.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-list > li > label,
+#visual-developer-element-panel ul.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-list > li > label,
+#visual-developer-macro-interface-panel ul.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-list > li > label,
+#visual-developer-settings-panel ul.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-list > li > label,
+#visual-developer-panel ol.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-list > li > label,
+#visual-developer-element-panel ol.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-list > li > label,
+#visual-developer-macro-interface-panel ol.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-list > li > label,
+#visual-developer-settings-panel ol.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-list > li > label {
+  font-size: 1em;
+  text-indent: 0;
+  padding-left: 30px;
+}
+#visual-developer-panel ul.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-list > li > label:before,
+#visual-developer-element-panel ul.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-list > li > label:before,
+#visual-developer-macro-interface-panel ul.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-list > li > label:before,
+#visual-developer-settings-panel ul.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-list > li > label:before,
+#visual-developer-panel ol.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-list > li > label:before,
+#visual-developer-element-panel ol.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-list > li > label:before,
+#visual-developer-macro-interface-panel ol.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-list > li > label:before,
+#visual-developer-settings-panel ol.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-list > li > label:before {
+  display: none;
+}
+#visual-developer-panel ul.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-list svg,
+#visual-developer-element-panel ul.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-list svg,
+#visual-developer-macro-interface-panel ul.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-list svg,
+#visual-developer-settings-panel ul.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-list svg,
+#visual-developer-panel ol.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-list svg,
+#visual-developer-element-panel ol.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-list svg,
+#visual-developer-macro-interface-panel ol.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-list svg,
+#visual-developer-settings-panel ol.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-list svg {
+  width: 100%;
+  height: 80px;
+  left: 0;
+  top: 1.2em;
+  margin-top: 0px;
+}
+#visual-developer-panel ul.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-list svg path,
+#visual-developer-element-panel ul.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-list svg path,
+#visual-developer-macro-interface-panel ul.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-list svg path,
+#visual-developer-settings-panel ul.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-list svg path,
+#visual-developer-panel ol.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-list svg path,
+#visual-developer-element-panel ol.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-list svg path,
+#visual-developer-macro-interface-panel ol.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-list svg path,
+#visual-developer-settings-panel ol.visual-developer-utility-svg-checkbox.visual-developer-utility-svg-checkbox-option-list svg path {
+  stroke-width: 4px;
+}
+#visual-developer-utility-modal-overlay {
+  top: 0;
+  left: 0;
+  position: fixed;
+  display: block;
+  padding: 0;
+  background: #191A1E;
+  background: rgba(26, 28, 31, 0.7);
+  z-index: 101000;
+}
+#visual-developer-utility-modal-overlay #visual-developer-utility-modal {
+  width: 360px;
+  padding: 10px;
+  background: rgba(26, 28, 31, 0.9);
+  position: fixed;
+  z-index: 101001;
+}
+#visual-developer-utility-modal-overlay #visual-developer-utility-modal > h2 {
+  color: #FFFFFF;
+  text-align: center;
+  padding-bottom: 5px;
+}
+#visual-developer-utility-modal-overlay #visual-developer-utility-modal > ul.visual-developer-utility-modal-list-container > li.visual-developer-utility-modal-list-option {
+  width: 50%;
+  padding: 5px;
+  display: inline-block;
+}
+#visual-developer-utility-modal-overlay #visual-developer-utility-modal > ul.visual-developer-utility-modal-list-container > li.visual-developer-utility-modal-list-option > span {
+  display: block;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  padding: 5px;
+  background: #818284;
+  color: #F1F2F4;
+  text-align: center;
+  cursor: pointer;
+}
+#visual-developer-utility-modal-overlay #visual-developer-utility-modal > ul.visual-developer-utility-modal-list-container > li.visual-developer-utility-modal-list-option.visual-developer-utility-modal-list-active-option > span {
+  background: #84C028 !important;
+}
+#visual-developer-utility-modal-overlay #visual-developer-utility-modal > ul.visual-developer-utility-modal-list-container > li.visual-developer-utility-modal-list-option.visual-developer-utility-modal-list-highlight-option > span {
+  background: #1BBBED;
+}
+#visual-developer-utility-modal-overlay #visual-developer-utility-modal > ul.visual-developer-utility-modal-list-container > li.visual-developer-utility-modal-list-option.visual-developer-utility-modal-list-danger-option > span {
+  background: #FF644B;
+}
+#visual-developer-element-panel .visual-developer-utility-image-select-container > .visual-developer-utility-image-select-item,
+#visual-developer-macro-interface-panel .visual-developer-utility-image-select-container > .visual-developer-utility-image-select-item {
+  width: 23%;
+  margin: 0.5%;
+  padding: 0.5%;
+  display: inline-block;
+  background: #26272B;
+  text-align: center;
+  cursor: pointer;
+  font-size: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #777777;
+  text-transform: uppercase;
+  float: left;
+}
+#visual-developer-element-panel .visual-developer-utility-image-select-container > .visual-developer-utility-image-select-item.visual-developer-utility-image-select-item-active,
+#visual-developer-macro-interface-panel .visual-developer-utility-image-select-container > .visual-developer-utility-image-select-item.visual-developer-utility-image-select-item-active {
+  background: #1BBBED;
+  color: #FFFFFF;
+}
+#visual-developer-element-panel .visual-developer-utility-image-select-container > .visual-developer-utility-image-select-item > img,
+#visual-developer-macro-interface-panel .visual-developer-utility-image-select-container > .visual-developer-utility-image-select-item > img {
+  display: block;
+  width: 100%;
+}
+.visual-developer-utility-dom-rule-builder-body {
+  overflow: hidden !important;
+}
+#visual-developer-utility-dom-rule-builder-overlay {
+  top: 0;
+  left: 0;
+  position: fixed;
+  display: block;
+  padding: 0;
+  background: #191A1E;
+  background: rgba(26, 28, 31, 0.7);
+  z-index: 101000;
+}
+#visual-developer-utility-dom-rule-builder-overlay #visual-developer-utility-dom-rule-builder-container {
+  width: 360px;
+  padding: 10px;
+  background: rgba(26, 28, 31, 0.9);
+  position: fixed;
+  z-index: 101001;
+}
+#visual-developer-utility-dom-rule-builder-overlay #visual-developer-utility-dom-rule-builder-container > h2 {
+  color: #FFFFFF;
+  text-align: left;
+  padding-bottom: 5px;
+  display: inline-block;
+  margin-left: 10px;
+}
+#visual-developer-utility-dom-rule-builder-overlay #visual-developer-utility-dom-rule-builder-container > .visual-developer-utility-dom-rule-builder-cancel-creation {
+  margin: 0;
+  display: inline-block;
+  background: #FF644B;
+  color: #FFFFFF;
+  font-size: 12px;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 2px;
+}
+#visual-developer-utility-dom-rule-builder-overlay #visual-developer-utility-dom-rule-builder-container > #visual-developer-utility-dom-rule-builder-rule-preview {
+  width: 97%;
+  margin: 10px 0 0 0;
+}
+#visual-developer-utility-dom-rule-builder-overlay #visual-developer-utility-dom-rule-builder-container > .visual-developer-utility-dom-rule-builder-node-item-container {
+  width: 97%;
+  margin: 10px 0 0 0;
+}
+#visual-developer-utility-dom-rule-builder-overlay #visual-developer-utility-dom-rule-builder-container > .visual-developer-utility-dom-rule-builder-node-item-container > .visual-developer-utility-dom-rule-builder-node-item {
+  float: left;
+  background: #191A1E;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  font-size: 12px;
+  display: block;
+  margin: 0 10px;
+  cursor: pointer;
+}
+#visual-developer-utility-dom-rule-builder-overlay #visual-developer-utility-dom-rule-builder-container > .visual-developer-utility-dom-rule-builder-node-item-container > .visual-developer-utility-dom-rule-builder-node-item.visual-developer-utility-dom-rule-builder-node-item-target-children:before {
+  width: 0;
+  height: 0;
+  content: "";
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-right: 15px solid #191A1E;
+  position: absolute;
+  margin-left: -34px;
+  margin-top: -8px;
+}
+#visual-developer-utility-dom-rule-builder-overlay #visual-developer-utility-dom-rule-builder-container > .visual-developer-utility-dom-rule-builder-node-item-container > .visual-developer-utility-dom-rule-builder-node-item.visual-developer-utility-dom-rule-builder-node-item-first {
+  margin-left: 0;
+}
+#visual-developer-utility-dom-rule-builder-overlay #visual-developer-utility-dom-rule-builder-container > .visual-developer-utility-dom-rule-builder-finish-creation {
+  margin: 10px 0 0 0;
+  display: inline-block;
+  background: #85C50C;
+  color: #FFFFFF;
+  font-size: 12px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+#visual-developer-element-panel .visual-developer-utility-color-select-container > .visual-developer-utility-color-select-item,
+#visual-developer-macro-interface-panel .visual-developer-utility-color-select-container > .visual-developer-utility-color-select-item {
+  float: left;
+  border: 1px solid #191A1E;
+  width: 25%;
+  padding: 10px 0;
+  display: inline-block;
+  background: #26272B;
+  text-align: center;
+  cursor: pointer;
+  font-size: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #777777;
+  text-transform: uppercase;
+}
+#visual-developer-element-panel .visual-developer-utility-color-select-container > .visual-developer-utility-color-select-item.visual-developer-utility-color-select-item-active,
+#visual-developer-macro-interface-panel .visual-developer-utility-color-select-container > .visual-developer-utility-color-select-item.visual-developer-utility-color-select-item-active {
+  border: 1px solid #1BBBED;
+  color: #FFFFFF;
+}
+#visual-developer-macro-interface-panel .visual-developer-utility-color-select-container > .visual-developer-utility-color-select-item {
+  width: 24.4%;
+}
+#visual-developer-element-panel {
+  z-index: 100100;
+  background: #191A1E;
+  width: 360px;
+  left: 0;
+}
+#visual-developer-element-panel > #visual-developer-element-panel-operations-options-container {
+  background: #212226;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+#visual-developer-element-panel > #visual-developer-element-panel-operations-options-container > #visual-developer-element-panel-option-toggle-spectral-mode,
+#visual-developer-element-panel > #visual-developer-element-panel-operations-options-container > #visual-developer-element-panel-option-reset,
+#visual-developer-element-panel > #visual-developer-element-panel-operations-options-container > #visual-developer-element-panel-option-selector,
+#visual-developer-element-panel > #visual-developer-element-panel-operations-options-container > #visual-developer-element-panel-option-macro {
+  display: inline-block;
+  height: 40px;
+  padding: 10px 13px;
+  color: #787878;
+  cursor: pointer;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+  line-height: 1.5em;
+}
+#visual-developer-element-panel > #visual-developer-element-panel-operations-options-container > #visual-developer-element-panel-option-toggle-spectral-mode:hover,
+#visual-developer-element-panel > #visual-developer-element-panel-operations-options-container > #visual-developer-element-panel-option-reset:hover,
+#visual-developer-element-panel > #visual-developer-element-panel-operations-options-container > #visual-developer-element-panel-option-selector:hover,
+#visual-developer-element-panel > #visual-developer-element-panel-operations-options-container > #visual-developer-element-panel-option-macro:hover {
+  color: #FFFFFF;
+}
+#visual-developer-element-panel > #visual-developer-element-panel-operations-options-container > #visual-developer-element-panel-option-toggle-spectral-mode.visual-developer-element-panel-option-active,
+#visual-developer-element-panel > #visual-developer-element-panel-operations-options-container > #visual-developer-element-panel-option-reset.visual-developer-element-panel-option-active,
+#visual-developer-element-panel > #visual-developer-element-panel-operations-options-container > #visual-developer-element-panel-option-selector.visual-developer-element-panel-option-active,
+#visual-developer-element-panel > #visual-developer-element-panel-operations-options-container > #visual-developer-element-panel-option-macro.visual-developer-element-panel-option-active,
+#visual-developer-element-panel > #visual-developer-element-panel-operations-options-container > #visual-developer-element-panel-option-toggle-spectral-mode.visual-developer-element-panel-option-selector-active,
+#visual-developer-element-panel > #visual-developer-element-panel-operations-options-container > #visual-developer-element-panel-option-reset.visual-developer-element-panel-option-selector-active,
+#visual-developer-element-panel > #visual-developer-element-panel-operations-options-container > #visual-developer-element-panel-option-selector.visual-developer-element-panel-option-selector-active,
+#visual-developer-element-panel > #visual-developer-element-panel-operations-options-container > #visual-developer-element-panel-option-macro.visual-developer-element-panel-option-selector-active {
+  color: #1BBBED;
+}
+#visual-developer-element-panel > #visual-developer-element-panel-operations-options-container > #visual-developer-element-panel-option-filter {
+  margin: 0;
+  border: 0;
+  width: 100%;
+  height: 35px;
+  border-radius: 0;
+  font-size: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #777777;
+  background: #26272B;
+  text-align: center;
+  display: none;
+}
+#visual-developer-element-panel > #visual-developer-element-panel-operations-options-container > #visual-developer-element-panel-option-selector {
+  width: 100%;
+  text-align: right;
+  display: none;
+}
+#visual-developer-element-panel > #visual-developer-element-panel-operations-options-container.visual-developer-element-panel-operations-container-has-selector > #visual-developer-element-panel-option-selector {
+  display: inline-block;
+}
+#visual-developer-element-panel > #visual-developer-element-panel-operations-options-container.visual-developer-element-panel-operations-container-has-selector > #visual-developer-element-panel-option-filter {
+  width: 60%;
+}
+#visual-developer-element-panel > #visual-developer-element-panel-operations-options-container.visual-developer-element-panel-operations-container-has-search > #visual-developer-element-panel-option-filter {
+  display: inline-block;
+}
+#visual-developer-element-panel > #visual-developer-element-panel-operations-options-container.visual-developer-element-panel-operations-container-has-search > #visual-developer-element-panel-option-selector {
+  width: 40%;
+  text-align: center;
+}
+#visual-developer-element-panel > #visual-developer-element-panel-operations-container {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+#visual-developer-element-panel > #visual-developer-element-panel-operations-container::-webkit-scrollbar {
+  width: 2px;
+}
+#visual-developer-element-panel > #visual-developer-element-panel-operations-container::-webkit-scrollbar-thumb {
+  background-color: #191A1E;
+  outline: 1px solid #191A1E;
+}
+#visual-developer-element-panel > #visual-developer-element-panel-operations-container > .visual-developer-operation-group-label-container,
+#visual-developer-element-panel > #visual-developer-element-panel-operations-container > .visual-developer-operation-group {
+  float: left;
+  display: block;
+  padding: 10px;
+}
+#visual-developer-element-panel > #visual-developer-element-panel-operations-container > .visual-developer-operation-group {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: block;
+}
+#visual-developer-element-panel > #visual-developer-element-panel-operations-container > .visual-developer-operation-group .visual-developer-element-operations-field-container.visual-developer-element-operations-active-rule .visual-developer-element-operations-field-label {
+  opacity: 1;
+}
+#visual-developer-element-panel > #visual-developer-element-panel-operations-container > .visual-developer-operation-group .visual-developer-element-operations-field-container .visual-developer-element-operations-field-label {
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 15px;
+  cursor: pointer;
+  opacity: 0.8;
+  font-size: 15px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  position: relative;
+}
+#visual-developer-element-panel > #visual-developer-element-panel-operations-container > .visual-developer-operation-group .visual-developer-element-operations-field-container .visual-developer-element-operations-field-label .visual-developer-element-operations-field-important-toggle {
+  background: #d62f28;
+  text-align: center;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  color: #FFFFFF !important;
+  width: 80px !important;
+  position: absolute;
+  left: 0;
+  top: 10px;
+  border-radius: 0 2px 2px 0;
+  padding: 5px 0;
+  opacity: 0.9;
+}
+#visual-developer-element-panel > #visual-developer-element-panel-operations-container > .visual-developer-operation-group .visual-developer-element-operations-field-container .visual-developer-element-operations-field-label .visual-developer-element-operations-field-important-toggle:hover {
+  background: #82b541;
+}
+#visual-developer-element-panel > #visual-developer-element-panel-operations-container > .visual-developer-operation-group .visual-developer-element-operations-field-container .visual-developer-element-operations-field-label .visual-developer-element-operations-field-important-toggle.visual-developer-element-operations-field-important-active {
+  background: #82b541;
+}
+#visual-developer-element-panel > #visual-developer-element-panel-operations-container > .visual-developer-operation-group .visual-developer-element-operations-field-container .visual-developer-element-operations-field-label .visual-developer-element-operations-field-important-toggle.visual-developer-element-operations-field-important-active:hover {
+  background: #d62f28;
+}
+#visual-developer-element-panel > #visual-developer-element-panel-operations-container > .visual-developer-operation-group .visual-developer-element-operations-field-container > ul {
+  display: block;
+  width: 100%;
+}
+#visual-developer-element-panel > #visual-developer-element-panel-operations-container > .visual-developer-operation-group .visual-developer-element-operations-field-container > ul > li {
+  font-size: 1.2em;
+  color: #FFFFFF;
+  width: 50%;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+#visual-developer-element-panel > #visual-developer-element-panel-operations-container > .visual-developer-operation-group .visual-developer-element-operations-field-container > ul > li input,
+#visual-developer-element-panel > #visual-developer-element-panel-operations-container > .visual-developer-operation-group .visual-developer-element-operations-field-container > ul > li select {
+  margin: 0;
+  border: 0;
+  width: 100%;
+  height: 45px;
+  border-radius: 0;
+  font-size: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #777777;
+}
+#visual-developer-element-panel > #visual-developer-element-panel-operations-container > .visual-developer-operation-group .visual-developer-element-operations-field-container > ul > li input {
+  text-align: right;
+  background: transparent;
+  padding-right: 10px;
+}
+#visual-developer-element-panel > #visual-developer-element-panel-operations-container > .visual-developer-operation-group .visual-developer-element-operations-field-container > ul > li input.visual-developer-color-picker-field {
+  background: #3c3e45;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+#visual-developer-element-panel > #visual-developer-element-panel-operations-container > .visual-developer-operation-group .visual-developer-element-operations-field-container > ul > li select {
+  padding-left: 10px;
+  background: #26272B;
+}
+#visual-developer-element-panel > #visual-developer-element-panel-operations-container > .visual-developer-operation-group .visual-developer-element-operations-field-container > ul.visual-developer-element-operations-model-border > li {
+  width: 33.33%;
+}
+#visual-developer-element-panel > #visual-developer-element-panel-operations-container > .visual-developer-operation-group .visual-developer-element-operations-field-container > ul.visual-developer-element-operations-model-border > li:last-child {
+  margin-top: 5px;
+  width: 100%;
+}
+#visual-developer-element-panel > #visual-developer-element-panel-operations-container > .visual-developer-operation-group .visual-developer-element-operations-field-container > ul.visual-developer-element-operations-model-border > li:first-child input {
+  text-align: right;
+}
+#visual-developer-element-panel > #visual-developer-element-panel-operations-container > .visual-developer-operation-group .visual-developer-element-operations-field-container > ul.visual-developer-element-operations-model-border > li input {
+  text-align: center;
+}
+#visual-developer-element-panel > #visual-developer-element-panel-operations-container > .visual-developer-operation-group .visual-developer-element-operations-field-container > ul.visual-developer-element-operations-model-single-select > li {
+  width: 100%;
+}
+#visual-developer-element-panel > #visual-developer-element-panel-operations-container > .visual-developer-operation-group .visual-developer-element-operations-field-container > ul.visual-developer-element-operations-model-single-select > li select {
+  text-align: left;
+  width: 100%;
+}
+#visual-developer-element-panel > #visual-developer-element-panel-operations-container > .visual-developer-operation-group .visual-developer-element-operations-field-container > ul.visual-developer-element-operations-model-single > li {
+  width: 100%;
+}
+#visual-developer-element-panel > #visual-developer-element-panel-operations-container > .visual-developer-operation-group .visual-developer-element-operations-field-container > ul.visual-developer-element-operations-model-single > li input {
+  text-align: center;
+}
+body .visual-developer-element-panel-active-pattern {
+  box-shadow: 0 1px 1px #ffffff inset, 0 0 8px #000000 !important;
+}
+body.visual-developer-settings-panel-active {
+  overflow: hidden !important;
+}
+#visual-developer-settings-panel {
+  background: #191A1E;
+  background: rgba(26, 28, 31, 0.99);
+  margin: 0;
+  border: 0;
+  z-index: 100999;
+}
+#visual-developer-settings-panel > #visual-developer-settings-panel-top-section {
+  background: #1a1c1f;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+#visual-developer-settings-panel > #visual-developer-settings-panel-top-section > h2 {
+  color: #FFFFFF;
+  float: left;
+  font-size: 17px;
+  font-weight: 300;
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.9;
+  background: url("img/logo.png") no-repeat;
+  padding-left: 40px;
+}
+#visual-developer-settings-panel > #visual-developer-settings-panel-top-section > h2 > span {
+  padding-left: 20px;
+  margin-left: 20px;
+  border-left: 1px solid #2e3032;
+  color: #2e3032;
+  font-size: 14px;
+  line-height: 1.9;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+#visual-developer-settings-panel > #visual-developer-settings-panel-top-section > #visual-developer-settings-panel-top-close {
+  display: block;
+  width: 33.33%;
+  max-width: 125px;
+  margin-left: 2px;
+  padding: 10px 0;
+  text-align: center;
+  background: #FF644B;
+  color: #FFFFFF;
+  cursor: pointer;
+  float: right;
+  font-size: 13px;
+  font-family: 'Raleway', sans-serif;
+}
+#visual-developer-settings-panel > #visual-developer-settings-panel-container {
+  padding-top: 20px;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+#visual-developer-settings-panel > #visual-developer-settings-panel-container > h2 {
+  color: #F0F1F3;
+  font-size: 14px;
+  margin: 0 0 5px 0;
+  padding: 20px 10px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+#visual-developer-settings-panel > #visual-developer-settings-panel-container > .warning {
+  color: #f1c40f;
+  padding: 5px;
+  font-size: 15px;
+  font-family: 'Raleway', sans-serif;
+}
+#visual-developer-settings-panel > #visual-developer-settings-panel-container > .visual-developer-utility-svg-checkbox {
+  padding: 0 10px;
+}
+#visual-developer-settings-panel > #visual-developer-settings-panel-container > .visual-developer-utility-svg-checkbox > li {
+  width: 50%;
+  display: inline-block;
+}
+#visual-developer-settings-panel > #visual-developer-settings-panel-container > #visual-developer-settings-panel-operation-import {
+  display: none;
+}
+#visual-developer-settings-panel > #visual-developer-settings-panel-container > .visual-developer-settings-panel-operation-export-info {
+  padding: 10px 10px 0 10px;
+  color: #F1F2F4;
+  font-size: 15px;
+  font-family: 'Raleway', sans-serif;
+}
+#visual-developer-settings-panel > #visual-developer-settings-panel-container > #visual-developer-settings-panel-operation-import-mask,
+#visual-developer-settings-panel > #visual-developer-settings-panel-container > #visual-developer-settings-panel-operation-export,
+#visual-developer-settings-panel > #visual-developer-settings-panel-container > #visual-developer-settings-panel-operation-full-export {
+  background: #4E4F51;
+  color: #F1F2F4;
+  padding: 5px 20px;
+  margin-left: 10px;
+  margin-right: 5px;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Raleway', sans-serif;
+  font-size: 12px;
+}
+#visual-developer-settings-panel > #visual-developer-settings-panel-container > #visual-developer-settings-panel-operation-import-mask {
+  background: #85C50C;
+}
+#visual-developer-settings-panel > #visual-developer-settings-panel-container > #visual-developer-settings-panel-element-option-container,
+#visual-developer-settings-panel > #visual-developer-settings-panel-container > #visual-developer-settings-panel-selector-option-container {
+  width: 100%;
+}
+#visual-developer-settings-panel > #visual-developer-settings-panel-container > #visual-developer-settings-panel-element-option-container > .visual-developer-settings-panel-element-option,
+#visual-developer-settings-panel > #visual-developer-settings-panel-container > #visual-developer-settings-panel-selector-option-container > .visual-developer-settings-panel-element-option,
+#visual-developer-settings-panel > #visual-developer-settings-panel-container > #visual-developer-settings-panel-element-option-container > .visual-developer-settings-panel-selector-option,
+#visual-developer-settings-panel > #visual-developer-settings-panel-container > #visual-developer-settings-panel-selector-option-container > .visual-developer-settings-panel-selector-option {
+  width: 25%;
+  padding: 10px;
+  display: inline-block;
+}
+#visual-developer-settings-panel > #visual-developer-settings-panel-container > #visual-developer-settings-panel-element-option-container > .visual-developer-settings-panel-element-option span,
+#visual-developer-settings-panel > #visual-developer-settings-panel-container > #visual-developer-settings-panel-selector-option-container > .visual-developer-settings-panel-element-option span,
+#visual-developer-settings-panel > #visual-developer-settings-panel-container > #visual-developer-settings-panel-element-option-container > .visual-developer-settings-panel-selector-option span,
+#visual-developer-settings-panel > #visual-developer-settings-panel-container > #visual-developer-settings-panel-selector-option-container > .visual-developer-settings-panel-selector-option span {
+  padding: 10px 0;
+  display: block;
+  width: 100%;
+  background: #818284;
+  color: #F1F2F4;
+  text-align: center;
+  cursor: pointer;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+}
+#visual-developer-settings-panel > #visual-developer-settings-panel-container > #visual-developer-settings-panel-element-option-container > .visual-developer-settings-panel-element-option.visual-developer-settings-panel-active-element-option > span,
+#visual-developer-settings-panel > #visual-developer-settings-panel-container > #visual-developer-settings-panel-selector-option-container > .visual-developer-settings-panel-element-option.visual-developer-settings-panel-active-element-option > span,
+#visual-developer-settings-panel > #visual-developer-settings-panel-container > #visual-developer-settings-panel-element-option-container > .visual-developer-settings-panel-selector-option.visual-developer-settings-panel-active-element-option > span,
+#visual-developer-settings-panel > #visual-developer-settings-panel-container > #visual-developer-settings-panel-selector-option-container > .visual-developer-settings-panel-selector-option.visual-developer-settings-panel-active-element-option > span,
+#visual-developer-settings-panel > #visual-developer-settings-panel-container > #visual-developer-settings-panel-element-option-container > .visual-developer-settings-panel-element-option.visual-developer-settings-panel-active-selector-option > span,
+#visual-developer-settings-panel > #visual-developer-settings-panel-container > #visual-developer-settings-panel-selector-option-container > .visual-developer-settings-panel-element-option.visual-developer-settings-panel-active-selector-option > span,
+#visual-developer-settings-panel > #visual-developer-settings-panel-container > #visual-developer-settings-panel-element-option-container > .visual-developer-settings-panel-selector-option.visual-developer-settings-panel-active-selector-option > span,
+#visual-developer-settings-panel > #visual-developer-settings-panel-container > #visual-developer-settings-panel-selector-option-container > .visual-developer-settings-panel-selector-option.visual-developer-settings-panel-active-selector-option > span {
+  background: #4E4F51;
+}
+@media (min-width: 1400px) {
+  #visual-developer-settings-panel > #visual-developer-settings-panel-container > #visual-developer-settings-panel-element-option-container > .visual-developer-settings-panel-element-option,
+  #visual-developer-settings-panel > #visual-developer-settings-panel-container > #visual-developer-settings-panel-selector-option-container > .visual-developer-settings-panel-element-option,
+  #visual-developer-settings-panel > #visual-developer-settings-panel-container > #visual-developer-settings-panel-element-option-container > .visual-developer-settings-panel-selector-option,
+  #visual-developer-settings-panel > #visual-developer-settings-panel-container > #visual-developer-settings-panel-selector-option-container > .visual-developer-settings-panel-selector-option {
+    width: 20%;
+  }
+}
+@media (max-width: 640px) {
+  #visual-developer-settings-panel > #visual-developer-settings-panel-container > #visual-developer-settings-panel-element-option-container > .visual-developer-settings-panel-element-option,
+  #visual-developer-settings-panel > #visual-developer-settings-panel-container > #visual-developer-settings-panel-selector-option-container > .visual-developer-settings-panel-element-option,
+  #visual-developer-settings-panel > #visual-developer-settings-panel-container > #visual-developer-settings-panel-element-option-container > .visual-developer-settings-panel-selector-option,
+  #visual-developer-settings-panel > #visual-developer-settings-panel-container > #visual-developer-settings-panel-selector-option-container > .visual-developer-settings-panel-selector-option {
+    width: 33.33%;
+  }
+}
+@media (max-width: 400px) {
+  #visual-developer-settings-panel > #visual-developer-settings-panel-container > #visual-developer-settings-panel-element-option-container > .visual-developer-settings-panel-element-option,
+  #visual-developer-settings-panel > #visual-developer-settings-panel-container > #visual-developer-settings-panel-selector-option-container > .visual-developer-settings-panel-element-option,
+  #visual-developer-settings-panel > #visual-developer-settings-panel-container > #visual-developer-settings-panel-element-option-container > .visual-developer-settings-panel-selector-option,
+  #visual-developer-settings-panel > #visual-developer-settings-panel-container > #visual-developer-settings-panel-selector-option-container > .visual-developer-settings-panel-selector-option {
+    width: 50%;
+  }
+}
+body.visual-developer-progress-panel-active {
+  overflow: hidden !important;
+}
+#visual-developer-progress-panel {
+  background: #191A1E;
+  background: rgba(26, 28, 31, 0.99);
+  margin: 0;
+  border: 0;
+  z-index: 100999;
+}
+#visual-developer-progress-panel > #visual-developer-progress-panel-top-section {
+  background: #1a1c1f;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+#visual-developer-progress-panel > #visual-developer-progress-panel-top-section > h2 {
+  color: #FFFFFF;
+  float: left;
+  font-size: 17px;
+  font-weight: 300;
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.9;
+  background: url("img/logo.png") no-repeat;
+  padding-left: 40px;
+}
+#visual-developer-progress-panel > #visual-developer-progress-panel-top-section > h2 > span {
+  padding-left: 20px;
+  margin-left: 20px;
+  border-left: 1px solid #2e3032;
+  color: #2e3032;
+  font-size: 14px;
+  line-height: 1.9;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+#visual-developer-progress-panel > #visual-developer-progress-panel-top-section > #visual-developer-progress-panel-top-close {
+  display: block;
+  width: 33.33%;
+  max-width: 125px;
+  margin-left: 2px;
+  padding: 10px 0;
+  text-align: center;
+  background: #FF644B;
+  color: #FFFFFF;
+  cursor: pointer;
+  float: right;
+  font-size: 13px;
+  font-family: 'Raleway', sans-serif;
+}
+#visual-developer-progress-panel > #visual-developer-progress-panel-container {
+  padding-top: 20px;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+#visual-developer-progress-panel > #visual-developer-progress-panel-container > h2 {
+  color: #F0F1F3;
+  font-size: 14px;
+  margin: 0 0 5px 0;
+  padding: 20px 10px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+#visual-developer-progress-panel > #visual-developer-progress-panel-container > .visual-developer-progress-panel-pattern-row {
+  padding: 10px 0 0 0;
+  background: #50C1ED;
+  position: relative;
+}
+#visual-developer-progress-panel > #visual-developer-progress-panel-container > .visual-developer-progress-panel-pattern-row > .visual-developer-progress-panel-pattern-container {
+  color: #F0F1F3;
+  padding: 10px;
+  font-family: 'Raleway', sans-serif;
+  position: relative;
+}
+#visual-developer-progress-panel > #visual-developer-progress-panel-container > .visual-developer-progress-panel-pattern-row > .visual-developer-progress-panel-pattern-container > p.visual-developer-progress-panel-pattern-container-rule {
+  color: #F0F1F3;
+  font-family: 'Raleway', sans-serif;
+}
+#visual-developer-progress-panel > #visual-developer-progress-panel-container > .visual-developer-progress-panel-pattern-row > .visual-developer-progress-panel-pattern-container > div.visual-developer-progress-panel-pattern-container-code > p {
+  color: #F0F1F3;
+  font-family: 'Raleway', sans-serif;
+}
+#visual-developer-progress-panel > #visual-developer-progress-panel-container > .visual-developer-progress-panel-pattern-row > .visual-developer-progress-panel-pattern-row-overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(132, 192, 40, 0.7);
+  text-align: center;
+  display: none;
+  position: absolute;
+  top: 0;
+  cursor: pointer;
+  transform-style: preserve-3d;
+}
+#visual-developer-progress-panel > #visual-developer-progress-panel-container > .visual-developer-progress-panel-pattern-row > .visual-developer-progress-panel-pattern-row-overlay.visual-developer-progress-panel-pattern-row-overlay-persistent {
+  display: block;
+  background: rgba(255, 100, 75, 0.7);
+  cursor: not-allowed;
+}
+#visual-developer-progress-panel > #visual-developer-progress-panel-container > .visual-developer-progress-panel-pattern-row > .visual-developer-progress-panel-pattern-row-overlay > p {
+  color: #F0F1F3;
+  font-family: 'Raleway', sans-serif;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#visual-developer-progress-panel > #visual-developer-progress-panel-container > .visual-developer-progress-panel-pattern-row:hover > .visual-developer-progress-panel-pattern-row-overlay {
+  display: block;
+}
+#visual-developer-application-synchronize-overlay {
+  top: 0;
+  left: 0;
+  position: fixed;
+  display: block;
+  padding: 0;
+  background: #191A1E;
+  background: rgba(26, 28, 31, 0.99);
+  z-index: 101000;
+}
+#visual-developer-application-synchronize-overlay > ul {
+  margin: 20% auto 0 auto;
+  width: 150px;
+  height: 150px;
+  padding: 0;
+  list-style: none;
+}
+#visual-developer-application-synchronize-overlay > ul > li {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+  background: #1892c5;
+}
+#visual-developer-application-synchronize-overlay > ul > li:nth-child(2) {
+  background: #25a3d7;
+  animation: visualDeveloperLoaderRotation1 3s infinite;
+  -o-animation: visualDeveloperLoaderRotation1 3s infinite;
+  -moz-animation: visualDeveloperLoaderRotation1 3s infinite;
+  -webkit-animation: visualDeveloperLoaderRotation1 3s infinite;
+}
+#visual-developer-application-synchronize-overlay > ul > li:nth-child(3) {
+  background: #30b0e4;
+  animation: visualDeveloperLoaderRotation2 3s infinite;
+  -o-animation: visualDeveloperLoaderRotation2 3s infinite;
+  -moz-animation: visualDeveloperLoaderRotation2 3s infinite;
+  -webkit-animation: visualDeveloperLoaderRotation2 3s infinite;
+  animation-delay: 0.2s;
+  -o-animation-delay: 0.2s;
+  -moz-animation-delay: 0.2s;
+  -webkit-animation-delay: 0.2s;
+}
+#visual-developer-application-synchronize-overlay > ul > li:nth-child(4) {
+  background: #40baed;
+  animation: visualDeveloperLoaderRotation3 3s infinite;
+  -o-animation: visualDeveloperLoaderRotation3 3s infinite;
+  -moz-animation: visualDeveloperLoaderRotation3 3s infinite;
+  -webkit-animation: visualDeveloperLoaderRotation3 3s infinite;
+  animation-delay: 0.4s;
+  -o-animation-delay: 0.4s;
+  -ms-animation-delay: 0.4s;
+  -moz-animation-delay: 0.4s;
+  -webkit-animation-delay: 0.4s;
+}
+#visual-developer-application-synchronize-overlay > p {
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  color: #FFFFFF;
+}
+@keyframes visualDeveloperLoaderRotation1 {
+  from {
+    transform: rotate(-360deg);
+  }
+  30%,
+  60% {
+    transform: rotate(20deg);
+  }
+  80% {
+    transform: rotate(0);
+  }
+}
+@-o-keyframes visualDeveloperLoaderRotation1 {
+  from {
+    -o-transform: rotate(-360deg);
+  }
+  30%,
+  60% {
+    -o-transform: rotate(20deg);
+  }
+  80% {
+    -o-transform: rotate(0);
+  }
+}
+@-moz-keyframes visualDeveloperLoaderRotation1 {
+  from {
+    -moz-transform: rotate(-360deg);
+  }
+  30%,
+  60% {
+    -moz-transform: rotate(20deg);
+  }
+  80% {
+    -moz-transform: rotate(0);
+  }
+}
+@-webkit-keyframes visualDeveloperLoaderRotation1 {
+  from {
+    -webkit-transform: rotate(-360deg);
+  }
+  30%,
+  60% {
+    -webkit-transform: rotate(20deg);
+  }
+  80% {
+    -webkit-transform: rotate(0);
+  }
+}
+@keyframes visualDeveloperLoaderRotation2 {
+  from {
+    transform: rotate(-360deg);
+  }
+  30%,
+  60% {
+    transform: rotate(45deg);
+  }
+  80% {
+    transform: rotate(0);
+  }
+}
+@-o-keyframes visualDeveloperLoaderRotation2 {
+  from {
+    -o-transform: rotate(-360deg);
+  }
+  30%,
+  60% {
+    -o-transform: rotate(45deg);
+  }
+  80% {
+    -o-transform: rotate(0);
+  }
+}
+@-moz-keyframes visualDeveloperLoaderRotation2 {
+  from {
+    -moz-transform: rotate(-360deg);
+  }
+  30%,
+  60% {
+    -moz-transform: rotate(45deg);
+  }
+  80% {
+    -moz-transform: rotate(0);
+  }
+}
+@-webkit-keyframes visualDeveloperLoaderRotation2 {
+  from {
+    -webkit-transform: rotate(-360deg);
+  }
+  30%,
+  60% {
+    -webkit-transform: rotate(45deg);
+  }
+  80% {
+    -webkit-transform: rotate(0);
+  }
+}
+@keyframes visualDeveloperLoaderRotation3 {
+  from {
+    transform: rotate(-360deg);
+  }
+  30%,
+  60% {
+    transform: rotate(75deg);
+  }
+  80% {
+    transform: rotate(0);
+  }
+}
+@-o-keyframes visualDeveloperLoaderRotation3 {
+  from {
+    -o-transform: rotate(-360deg);
+  }
+  30%,
+  60% {
+    -o-transform: rotate(75deg);
+  }
+  80% {
+    -o-transform: rotate(0);
+  }
+}
+@-moz-keyframes visualDeveloperLoaderRotation3 {
+  from {
+    -moz-transform: rotate(-360deg);
+  }
+  30%,
+  60% {
+    -moz-transform: rotate(75deg);
+  }
+  80% {
+    -moz-transform: rotate(0);
+  }
+}
+@-webkit-keyframes visualDeveloperLoaderRotation3 {
+  from {
+    -webkit-transform: rotate(-360deg);
+  }
+  30%,
+  60% {
+    -webkit-transform: rotate(75deg);
+  }
+  80% {
+    -webkit-transform: rotate(0);
+  }
+}
+#visual-developer-macro-interface-panel {
+  z-index: 100105;
+  position: fixed;
+  background: #191A1E;
+  width: 360px;
+  left: 0;
+  padding-bottom: 50px;
+}
+#visual-developer-macro-interface-panel > #visual-developer-macro-interface-panel-header {
+  color: #FFFFFF;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  padding: 10px 0;
+}
+#visual-developer-macro-interface-panel > #visual-developer-macro-interface-panel-content {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+#visual-developer-macro-interface-panel > #visual-developer-macro-interface-panel-content .visual-developer-macro-operations-field-container {
+  clear: both;
+}
+#visual-developer-macro-interface-panel > #visual-developer-macro-interface-panel-content .visual-developer-macro-operations-field-container .visual-developer-macro-operations-field-label {
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: #FFFFFF;
+  padding: 15px 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+#visual-developer-macro-interface-panel > #visual-developer-macro-interface-panel-content .visual-developer-macro-operations-field-container > ul {
+  display: block;
+  width: 100%;
+}
+#visual-developer-macro-interface-panel > #visual-developer-macro-interface-panel-content .visual-developer-macro-operations-field-container > ul > li {
+  font-size: 1.2em;
+  color: #FFFFFF;
+  width: 50%;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+#visual-developer-macro-interface-panel > #visual-developer-macro-interface-panel-content .visual-developer-macro-operations-field-container > ul > li input,
+#visual-developer-macro-interface-panel > #visual-developer-macro-interface-panel-content .visual-developer-macro-operations-field-container > ul > li select {
+  margin: 0;
+  border: 0;
+  width: 100%;
+  height: 45px;
+  border-radius: 0;
+  font-size: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #777777;
+}
+#visual-developer-macro-interface-panel > #visual-developer-macro-interface-panel-content .visual-developer-macro-operations-field-container > ul > li input {
+  text-align: right;
+  background: transparent;
+  padding-right: 10px;
+}
+#visual-developer-macro-interface-panel > #visual-developer-macro-interface-panel-content .visual-developer-macro-operations-field-container > ul > li input.visual-developer-color-picker-field {
+  background: #3c3e45;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+#visual-developer-macro-interface-panel > #visual-developer-macro-interface-panel-content .visual-developer-macro-operations-field-container > ul > li select {
+  padding-left: 10px;
+  background: #26272B;
+}
+#visual-developer-macro-interface-panel > #visual-developer-macro-interface-panel-content .visual-developer-macro-operations-field-container > ul.visual-developer-macro-operations-model-border > li {
+  width: 33.33%;
+}
+#visual-developer-macro-interface-panel > #visual-developer-macro-interface-panel-content .visual-developer-macro-operations-field-container > ul.visual-developer-macro-operations-model-border > li:last-child {
+  margin-top: 5px;
+  width: 100%;
+}
+#visual-developer-macro-interface-panel > #visual-developer-macro-interface-panel-content .visual-developer-macro-operations-field-container > ul.visual-developer-macro-operations-model-border > li:first-child input {
+  text-align: right;
+}
+#visual-developer-macro-interface-panel > #visual-developer-macro-interface-panel-content .visual-developer-macro-operations-field-container > ul.visual-developer-macro-operations-model-border > li input {
+  text-align: center;
+}
+#visual-developer-macro-interface-panel > #visual-developer-macro-interface-panel-content .visual-developer-macro-operations-field-container > ul.visual-developer-macro-operations-model-single-select > li {
+  width: 100%;
+}
+#visual-developer-macro-interface-panel > #visual-developer-macro-interface-panel-content .visual-developer-macro-operations-field-container > ul.visual-developer-macro-operations-model-single-select > li select {
+  text-align: left;
+  width: 100%;
+}
+#visual-developer-macro-interface-panel > #visual-developer-macro-interface-panel-content .visual-developer-macro-operations-field-container > ul.visual-developer-macro-operations-model-image-select > li {
+  width: 100%;
+}
+#visual-developer-macro-interface-panel > #visual-developer-macro-interface-panel-content .visual-developer-macro-operations-field-container > ul.visual-developer-macro-operations-model-single-inline > li,
+#visual-developer-macro-interface-panel > #visual-developer-macro-interface-panel-content .visual-developer-macro-operations-field-container > ul.visual-developer-macro-operations-model-single-color-select > li,
+#visual-developer-macro-interface-panel > #visual-developer-macro-interface-panel-content .visual-developer-macro-operations-field-container > ul.visual-developer-macro-operations-model-color-select > li {
+  width: 100%;
+}
+#visual-developer-macro-interface-panel > #visual-developer-macro-interface-panel-content .visual-developer-macro-operations-field-container > ul.visual-developer-macro-operations-model-single > li {
+  width: 100%;
+}
+#visual-developer-macro-interface-panel > #visual-developer-macro-interface-panel-content .visual-developer-macro-operations-field-container > ul.visual-developer-macro-operations-model-single > li input {
+  text-align: center;
+}
+body.visual-developer-page-versions-panel-active {
+  overflow: hidden !important;
+}
+#visual-developer-page-versions-panel {
+  background: #191A1E;
+  background: rgba(26, 28, 31, 0.99);
+  margin: 0;
+  border: 0;
+  z-index: 100999;
+}
+#visual-developer-page-versions-panel > #visual-developer-page-versions-panel-top-section {
+  background: #1a1c1f;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 20px 10px;
+}
+#visual-developer-page-versions-panel > #visual-developer-page-versions-panel-top-section > h2 {
+  color: #FFFFFF;
+  float: left;
+  font-size: 17px;
+  font-weight: 300;
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.9;
+  background: url("img/logo.png") no-repeat;
+  padding-left: 40px;
+}
+#visual-developer-page-versions-panel > #visual-developer-page-versions-panel-top-section > h2 > span {
+  padding-left: 20px;
+  margin-left: 20px;
+  border-left: 1px solid #2e3032;
+  color: #2e3032;
+  font-size: 14px;
+  line-height: 1.9;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+}
+#visual-developer-page-versions-panel > #visual-developer-page-versions-panel-top-section > #visual-developer-page-versions-panel-top-close {
+  display: block;
+  width: 33.33%;
+  max-width: 125px;
+  margin-left: 2px;
+  padding: 10px 0;
+  text-align: center;
+  background: #FF644B;
+  color: #FFFFFF;
+  cursor: pointer;
+  float: right;
+  font-size: 13px;
+  font-family: 'Raleway', sans-serif;
+}
+#visual-developer-page-versions-panel > #visual-developer-page-versions-panel-container {
+  padding: 20px 10px;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+#visual-developer-page-versions-panel > #visual-developer-page-versions-panel-container > h2 {
+  color: #F0F1F3;
+  font-size: 14px;
+  margin: 0 0 5px 0;
+  padding: 20px 10px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+#visual-developer-page-versions-panel > #visual-developer-page-versions-panel-container > .warning {
+  color: #f1c40f;
+  padding: 5px;
+  font-size: 1.2em;
+  font-family: 'Raleway', sans-serif;
+}
+#visual-developer-page-versions-panel > #visual-developer-page-versions-panel-container > #visual-developer-page-versions-panel-add-new-toggle-form {
+  display: block;
+  width: 25%;
+  max-width: 125px;
+  padding: 10px 0;
+  text-align: center;
+  background: #84C028;
+  color: #f0f1f3;
+  cursor: pointer;
+  float: left;
+  font-size: 13px;
+  font-family: 'Raleway', sans-serif;
+}
+#visual-developer-page-versions-panel > #visual-developer-page-versions-panel-container > #visual-developer-page-versions-panel-add-new-toggle-form.visual-developer-page-versions-panel-add-new-toggle-active {
+  background: #FF644B;
+}
+#visual-developer-page-versions-panel > #visual-developer-page-versions-panel-container > #visual-developer-page-versions-panel-add-new-form {
+  display: none;
+  float: left;
+  width: 75%;
+}
+#visual-developer-page-versions-panel > #visual-developer-page-versions-panel-container > #visual-developer-page-versions-panel-add-new-form > label {
+  float: left;
+  display: block;
+  font-size: 13px;
+  font-family: 'Raleway', sans-serif;
+  color: #f0f1f3;
+  margin-top: 8px;
+  padding: 0 10px;
+}
+#visual-developer-page-versions-panel > #visual-developer-page-versions-panel-container > #visual-developer-page-versions-panel-add-new-form > input[type="text"] {
+  float: left;
+  display: block;
+  border-radius: 0;
+  border: 1px solid #2e3032;
+  color: #f0f1f3;
+  background: transparent;
+}
+#visual-developer-page-versions-panel > #visual-developer-page-versions-panel-container > #visual-developer-page-versions-panel-add-new-form > input[type="text"].visual-developer-error {
+  border: 1px solid #FF644B;
+}
+#visual-developer-page-versions-panel > #visual-developer-page-versions-panel-container > #visual-developer-page-versions-panel-add-new-form > input[type="submit"] {
+  float: left;
+  display: block;
+  border: 0;
+  border-radius: 0;
+  text-align: center;
+  background: #84C028;
+  color: #f0f1f3;
+  cursor: pointer;
+}
+#visual-developer-page-versions-panel > #visual-developer-page-versions-panel-container > #visual-developer-page-versions-panel-add-new-form.visual-developer-page-versions-panel-processing-event > input[type="submit"] {
+  background: #4FC0EC;
+}
+#visual-developer-page-versions-panel > #visual-developer-page-versions-panel-container > #visual-developer-page-versions-panel-container-list {
+  margin-top: 20px;
+  width: 100%;
+  display: none;
+}
+#visual-developer-page-versions-panel > #visual-developer-page-versions-panel-container > #visual-developer-page-versions-panel-container-list > thead > tr > th,
+#visual-developer-page-versions-panel > #visual-developer-page-versions-panel-container > #visual-developer-page-versions-panel-container-list > tbody > tr > td {
+  text-align: left;
+  color: #f0f1f3;
+  padding: 10px 5px;
+  border: 1px solid #2e3032;
+}
+#visual-developer-page-versions-panel > #visual-developer-page-versions-panel-container > #visual-developer-page-versions-panel-container-list > thead > tr > th > .visual-developer-page-version-customize,
+#visual-developer-page-versions-panel > #visual-developer-page-versions-panel-container > #visual-developer-page-versions-panel-container-list > tbody > tr > td > .visual-developer-page-version-customize,
+#visual-developer-page-versions-panel > #visual-developer-page-versions-panel-container > #visual-developer-page-versions-panel-container-list > thead > tr > th > .visual-developer-page-version-delete,
+#visual-developer-page-versions-panel > #visual-developer-page-versions-panel-container > #visual-developer-page-versions-panel-container-list > tbody > tr > td > .visual-developer-page-version-delete {
+  display: inline-block;
+  font-size: 13px;
+  font-family: 'Raleway', sans-serif;
+  color: #f0f1f3;
+  padding: 5px 15px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+#visual-developer-page-versions-panel > #visual-developer-page-versions-panel-container > #visual-developer-page-versions-panel-container-list > thead > tr > th > .visual-developer-page-version-customize,
+#visual-developer-page-versions-panel > #visual-developer-page-versions-panel-container > #visual-developer-page-versions-panel-container-list > tbody > tr > td > .visual-developer-page-version-customize {
+  background: #84C028;
+}
+#visual-developer-page-versions-panel > #visual-developer-page-versions-panel-container > #visual-developer-page-versions-panel-container-list > thead > tr > th > .visual-developer-page-version-delete,
+#visual-developer-page-versions-panel > #visual-developer-page-versions-panel-container > #visual-developer-page-versions-panel-container-list > tbody > tr > td > .visual-developer-page-version-delete {
+  background: #FF644B;
+}
+#visual-developer-page-versions-panel > #visual-developer-page-versions-panel-container > #visual-developer-page-versions-panel-container-list > tbody > tr > td:last-child {
+  width: 142px;
+}
+#visual-developer-quick-access-container > h2 {
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.2em;
+  text-align: center;
+  font-weight: normal;
+  padding: 10px 0;
+}
+#visual-developer-quick-access-container #visual-developer-quick-access-selections-container::-webkit-scrollbar {
+  width: 2px;
+}
+#visual-developer-quick-access-container #visual-developer-quick-access-selections-container::-webkit-scrollbar-thumb {
+  background-color: #191A1E;
+  outline: 1px solid #191A1E;
+}
+#visual-developer-quick-access-container #visual-developer-quick-access-selections-container > .visual-developer-quick-access-group-container > h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  padding: 5px 10px;
+  background: #25262A;
+  color: #FFFFFF;
+}
+#visual-developer-quick-access-container #visual-developer-quick-access-selections-container > .visual-developer-quick-access-group-container > ul.visual-developer-quick-access-group-elements-container > li {
+  font-family: "Raleway", sans-serif;
+  padding: 3px 10px;
+  font-size: 12px;
+  width: 100%;
+  cursor: pointer;
+  color: #FFFFFF;
+}
+#visual-developer-quick-access-container #visual-developer-quick-access-selections-container > .visual-developer-quick-access-group-container > ul.visual-developer-quick-access-group-elements-container > li:hover {
+  background: #4299BB;
+}
+body .visual-developer-quick-access-highlight-selection {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #66afe9 !important;
+}
+body .visual-developer-quick-access-highlight-selection:hover {
+  cursor: pointer;
+}
+#wpadminbar .visual-developer-quick-access-highlight-selection,
+#visual-developer-panel .visual-developer-quick-access-highlight-selection {
+  box-shadow: none !important;
+}
+#visual-developer-syntax-selection-panel {
+  z-index: 100100;
+  background: #191A1E;
+  width: 360px;
+  left: 0;
+}
+#visual-developer-syntax-selection-panel > h2 {
+  color: #ffffff;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.2em;
+  text-align: center;
+  font-weight: normal;
+  padding: 10px 0;
+}
+#visual-developer-syntax-selection-panel > ul > li {
+  font-family: "Raleway", sans-serif;
+  padding: 3px 10px;
+  font-size: 12px;
+  width: 100%;
+  cursor: pointer;
+  color: #FFFFFF;
+}
+#visual-developer-syntax-selection-panel > ul > li:hover {
+  background: #4299BB;
+}
+body .visual-developer-syntax-selection-highlight-selection {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px #66afe9 !important;
+}
+body .visual-developer-syntax-selection-highlight-selection:hover {
+  cursor: pointer;
+}

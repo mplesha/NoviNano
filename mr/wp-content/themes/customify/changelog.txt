@@ -1,0 +1,12 @@
+= 0.0.9 =
+ * IMPROVED: Improve dashboard CSS style.
+ * IMPROVED: Update new primary color.
+ * IMPROVED: Update theme screenshot to matching the default setting.
+ * FIXED: Mobile menu icon color issue.
+ * ADD: Recommend plugins.
+
+= 0.0.8 =
+* UPDATED: Improve theme setting copy, ready for translation.
+
+= 0.0.7 =
+* Release!

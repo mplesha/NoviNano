@@ -1,0 +1,163 @@
+#visual-developer-panel,
+#visual-developer-element-panel,
+#visual-developer-macro-interface-panel,
+#visual-developer-settings-panel {
+  ul.visual-developer-utility-svg-checkbox,
+  ol.visual-developer-utility-svg-checkbox {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+
+    > li {
+      margin: 0 auto;
+      padding: 10px 0;
+      position: relative;
+
+      > label {
+        display: inline-block;
+        position: relative;
+        font-size: 12px;
+        padding: 0 0 0 25px;
+        vertical-align: top;
+        cursor: pointer;
+        -webkit-transition: color 0.3s;
+        transition: color 0.3s;
+
+        &:before {
+          content: '';
+          border: 1px solid #fff;
+          -webkit-transition: opacity 0.3s;
+          transition: opacity 0.3s;
+        }
+      }
+
+      > input[type="checkbox"],
+      > input[type="radio"],
+      > label:before {
+        width: 16px;
+        height: 16px;
+        top: 50%;
+        left: 0;
+        margin-top: -8px;
+        position: absolute;
+        cursor: pointer;
+      }
+
+      > input[type="checkbox"],
+      > input[type="radio"] {
+        opacity: 0;
+        -webkit-appearance: none;
+        display: inline-block;
+        vertical-align: middle;
+        z-index: 100;
+      }
+
+      > input[type="checkbox"]:checked + label,
+      > input[type="radio"]:checked + label {
+        color: #fff;
+      }
+
+      > input[type="checkbox"]:checked + label:before,
+      > input[type="radio"]:checked + label:before {
+        opacity: 0.8;
+      }
+    }
+
+    svg {
+      position: absolute;
+      width: 12px;
+      height: 12px;
+      top: 50%;
+      margin-top: -6px;
+      left: 3px;
+      pointer-events: none;
+
+      path {
+        stroke: #44b0db;
+        stroke-width: 13px;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        fill: none;
+      }
+    }
+
+    &.visual-developer-utility-svg-checkbox-option-radio {
+      label:before {
+        border-radius: 50%;
+      }
+    }
+
+    &.visual-developer-utility-svg-checkbox-option-circle {
+      input[type="checkbox"],
+      input[type="radio"],
+      label:before {
+        width: 30px;
+        height: 30px;
+        margin-top: -15px;
+        left: 10px;
+        position: absolute;
+      }
+
+      label:before {
+        background-color: #fff;
+        border: none;
+      }
+
+      svg {
+        width: 70px;
+        height: 70px;
+        margin-top: -35px;
+        left: -10px;
+
+        path {
+          stroke-width: 5px;
+        }
+      }
+    }
+
+    &.visual-developer-utility-svg-checkbox-option-boxfill {
+      svg path {
+        stroke-width: 8px;
+      }
+    }
+
+    &.visual-developer-utility-svg-checkbox-option-swirl {
+      svg path {
+        stroke-width: 8px;
+      }
+    }
+
+    &.visual-developer-utility-svg-checkbox-option-list {
+      list-style: decimal;
+      list-style-position: inside;
+
+      > li {
+        font-size: 2em;
+        padding: 1em 1em 0 2em;
+        text-indent: -40px;
+
+        > label {
+          font-size: 1em;
+          text-indent: 0;
+          padding-left: 30px;
+
+          &:before {
+            display: none;
+          }
+        }
+      }
+
+      svg {
+        width: 100%;
+        height: 80px;
+        left: 0;
+        top: 1.2em;
+        margin-top: 0px;
+
+        path {
+          stroke-width: 4px;
+        }
+      }
+    }
+  }
+}

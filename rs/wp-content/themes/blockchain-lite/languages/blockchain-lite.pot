@@ -1,0 +1,1397 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Blockchain Lite\n"
+"POT-Creation-Date: 2018-04-12 14:21+0300\n"
+"PO-Revision-Date: 2015-10-10 19:53+0300\n"
+"Last-Translator: Anastis Sourgoutsidis <anastis@cssigniter.com>\n"
+"Language-Team: Anastis Sourgoutsidis <anastis@cssigniter.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: plugins\n"
+
+#: 404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:22
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the "
+"links below or a search?"
+msgstr ""
+
+#: comments.php:51
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php:40
+msgid "Main Menu"
+msgstr ""
+
+#: functions.php:41
+msgid "Main Menu - Right"
+msgstr ""
+
+#: functions.php:289
+msgid "Intro text (big text)"
+msgstr ""
+
+#: functions.php:295
+msgid "2 Column Text"
+msgstr ""
+
+#: functions.php:382 inc/customizer/theme-titles-general.php:4
+msgid "From the blog"
+msgstr ""
+
+#: functions.php:384 inc/customizer/theme-titles-general.php:15
+msgid "Search results"
+msgstr ""
+
+#. translators: %d is the number of search results.
+#: functions.php:389
+#, php-format
+msgid "%d result found."
+msgid_plural "%d results found."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:392 inc/customizer/theme-titles-general.php:25
+msgid "Page not found"
+msgstr ""
+
+#: functions.php:481
+msgid "Hide when viewing this post's page"
+msgstr ""
+
+#: functions.php:519 functions.php:520 functions.php:521
+#, php-format
+msgid "%d column"
+msgid_plural "%d columns"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:540
+msgid "Left logo - Right menu"
+msgstr ""
+
+#: functions.php:541
+msgid "Centered logo - Split menu"
+msgstr ""
+
+#: functions.php:542
+msgid "Top logo - Bottom menu"
+msgstr ""
+
+#: functions.php:567 inc/sanitization.php:77 inc/sanitization.php:112
+msgid "Left"
+msgstr ""
+
+#: functions.php:568 inc/sanitization.php:78 inc/sanitization.php:113
+#: inc/sanitization.php:130
+msgid "Center"
+msgstr ""
+
+#: functions.php:588
+msgid "4 Columns"
+msgstr ""
+
+#: functions.php:589
+msgid "3 Columns"
+msgstr ""
+
+#: functions.php:590
+msgid "2 Columns"
+msgstr ""
+
+#: functions.php:591
+msgid "1 Column"
+msgstr ""
+
+#: functions.php:592
+msgid "1/4 - 3/4 Columns"
+msgstr ""
+
+#: functions.php:593
+msgid "3/4 - 1/4 Columns"
+msgstr ""
+
+#: functions.php:594
+msgid "1/4 - 1/4 - 1/2 Columns"
+msgstr ""
+
+#: functions.php:595
+msgid "1/2 - 1/4 - 1/4 Columns"
+msgstr ""
+
+#: inc/class-onboarding-page-lite.php:10
+msgid "Did you know there is a <strong>pro</strong> version?"
+msgstr ""
+
+#: inc/class-onboarding-page-lite.php:15
+msgid "Lite"
+msgstr ""
+
+#: inc/class-onboarding-page-lite.php:16
+msgid "Pro"
+msgstr ""
+
+#: inc/class-onboarding-page-lite.php:19
+msgid "24/7 Support"
+msgstr ""
+
+#: inc/class-onboarding-page-lite.php:20
+#: inc/class-onboarding-page-lite.php:21
+#: inc/class-onboarding-page-lite.php:25
+#: inc/class-onboarding-page-lite.php:26
+#: inc/class-onboarding-page-lite.php:30
+#: inc/class-onboarding-page-lite.php:31
+#: inc/class-onboarding-page-lite.php:35
+#: inc/class-onboarding-page-lite.php:36
+#: inc/class-onboarding-page-lite.php:40
+#: inc/class-onboarding-page-lite.php:41
+#: inc/class-onboarding-page-lite.php:45
+#: inc/class-onboarding-page-lite.php:46
+#: inc/class-onboarding-page-lite.php:55
+#: inc/class-onboarding-page-lite.php:56
+#: inc/class-onboarding-page-lite.php:61
+#: inc/class-onboarding-page-lite.php:66
+#: inc/class-onboarding-page-lite.php:71
+#: inc/class-onboarding-page-lite.php:76
+#: inc/class-onboarding-page-lite.php:81
+#: inc/class-onboarding-page-lite.php:86
+#: inc/class-onboarding-page-lite.php:91
+#: inc/class-onboarding-page-lite.php:96
+#: inc/class-onboarding-page-lite.php:106
+#: inc/class-onboarding-page-lite.php:111
+#: inc/class-onboarding-page-lite.php:116
+#: inc/class-onboarding-page-lite.php:121
+#: inc/class-onboarding-page-lite.php:126
+msgid "Yes"
+msgstr ""
+
+#: inc/class-onboarding-page-lite.php:24
+msgid "Responsive Layout"
+msgstr ""
+
+#: inc/class-onboarding-page-lite.php:29
+msgid "Documentation"
+msgstr ""
+
+#: inc/class-onboarding-page-lite.php:34
+msgid "Upload Your Own Logo"
+msgstr ""
+
+#: inc/class-onboarding-page-lite.php:39
+msgid "Social Networking Options"
+msgstr ""
+
+#: inc/class-onboarding-page-lite.php:44
+msgid "WooCommerce Support"
+msgstr ""
+
+#: inc/class-onboarding-page-lite.php:49
+msgid "Color Customization Options"
+msgstr ""
+
+#: inc/class-onboarding-page-lite.php:50
+msgid "Limited"
+msgstr ""
+
+#: inc/class-onboarding-page-lite.php:51
+msgid "Extended"
+msgstr ""
+
+#: inc/class-onboarding-page-lite.php:54
+msgid "Translation Ready"
+msgstr ""
+
+#: inc/class-onboarding-page-lite.php:59
+msgid "Portfolio Post Type"
+msgstr ""
+
+#: inc/class-onboarding-page-lite.php:60
+#: inc/class-onboarding-page-lite.php:65
+#: inc/class-onboarding-page-lite.php:70
+#: inc/class-onboarding-page-lite.php:75
+#: inc/class-onboarding-page-lite.php:80
+#: inc/class-onboarding-page-lite.php:85
+#: inc/class-onboarding-page-lite.php:90
+#: inc/class-onboarding-page-lite.php:95
+#: inc/class-onboarding-page-lite.php:105
+#: inc/class-onboarding-page-lite.php:110
+#: inc/class-onboarding-page-lite.php:115
+#: inc/class-onboarding-page-lite.php:120
+#: inc/class-onboarding-page-lite.php:125
+msgid "No"
+msgstr ""
+
+#: inc/class-onboarding-page-lite.php:64
+msgid "Services Post Type"
+msgstr ""
+
+#: inc/class-onboarding-page-lite.php:69
+msgid "Case Studies Post Type"
+msgstr ""
+
+#: inc/class-onboarding-page-lite.php:74
+msgid "Team Post Type"
+msgstr ""
+
+#: inc/class-onboarding-page-lite.php:79
+msgid "Jobs Post Type"
+msgstr ""
+
+#: inc/class-onboarding-page-lite.php:84
+msgid "Events Post Type"
+msgstr ""
+
+#: inc/class-onboarding-page-lite.php:89
+msgid "Testimonials Post Type"
+msgstr ""
+
+#: inc/class-onboarding-page-lite.php:94
+msgid ""
+"1, 2, 3 & 4 Column Layout Options With Masonry Support For All Post Types"
+msgstr ""
+
+#: inc/class-onboarding-page-lite.php:99
+msgid "Custom Widgets"
+msgstr ""
+
+#: inc/class-onboarding-page-lite.php:104
+msgid "Cryptocurrency Widgets"
+msgstr ""
+
+#: inc/class-onboarding-page-lite.php:109
+msgid "Cryptocurrency Shortcodes"
+msgstr ""
+
+#: inc/class-onboarding-page-lite.php:114
+msgid "Cryptocurrency Custom Elementor Modules"
+msgstr ""
+
+#: inc/class-onboarding-page-lite.php:119
+msgid "Widgetized Homepage template"
+msgstr ""
+
+#: inc/class-onboarding-page-lite.php:124
+msgid "Page Builder Support"
+msgstr ""
+
+#: inc/class-onboarding-page-lite.php:132
+msgid "Upgrade Today!"
+msgstr ""
+
+#: inc/customizer.php:17
+msgid "Blockchain Pro"
+msgstr ""
+
+#: inc/customizer.php:18
+msgid "Go Pro"
+msgstr ""
+
+#: inc/customizer.php:38
+msgctxt "customizer section title"
+msgid "Header"
+msgstr ""
+
+#: inc/customizer.php:43
+msgctxt "customizer section title"
+msgid "Header style"
+msgstr ""
+
+#: inc/customizer.php:50
+msgctxt "customizer section title"
+msgid "Top menu bar"
+msgstr ""
+
+#: inc/customizer.php:57
+msgctxt "customizer section title"
+msgid "Primary menu bar"
+msgstr ""
+
+#: inc/customizer.php:69
+msgctxt "customizer section title"
+msgid "Blog settings"
+msgstr ""
+
+#: inc/customizer.php:74
+msgctxt "customizer section title"
+msgid "Archive options"
+msgstr ""
+
+#: inc/customizer.php:76
+msgid ""
+"Customize the default archive pages, such as the blog, category, tag, date "
+"archives, etc."
+msgstr ""
+
+#: inc/customizer.php:82
+msgctxt "customizer section title"
+msgid "Post options"
+msgstr ""
+
+#: inc/customizer.php:93
+msgctxt "customizer section title"
+msgid "Colors"
+msgstr ""
+
+#: inc/customizer.php:99
+msgctxt "customizer section title"
+msgid "Header top bar"
+msgstr ""
+
+#: inc/customizer.php:108
+msgctxt "customizer section title"
+msgid "Hero"
+msgstr ""
+
+#: inc/customizer.php:116
+msgctxt "customizer section title"
+msgid "Global"
+msgstr ""
+
+#: inc/customizer.php:123
+msgctxt "customizer section title"
+msgid "Sidebar"
+msgstr ""
+
+#: inc/customizer.php:131 inc/customizer.php:178
+msgctxt "customizer section title"
+msgid "Footer"
+msgstr ""
+
+#: inc/customizer.php:143
+msgctxt "customizer section title"
+msgid "Typography"
+msgstr ""
+
+#: inc/customizer.php:148
+msgctxt "customizer section title"
+msgid "Content"
+msgstr ""
+
+#: inc/customizer.php:155
+msgctxt "customizer section title"
+msgid "Widgets"
+msgstr ""
+
+#: inc/customizer.php:166
+msgctxt "customizer section title"
+msgid "Social Networks"
+msgstr ""
+
+#: inc/customizer.php:167
+msgid ""
+"Enter your social network URLs. Leaving a URL empty will hide its "
+"respective icon."
+msgstr ""
+
+#: inc/customizer.php:183
+msgctxt "customizer section title"
+msgid "Footer style"
+msgstr ""
+
+#: inc/customizer.php:190
+msgctxt "customizer section title"
+msgid "Bottom bar"
+msgstr ""
+
+#: inc/customizer.php:202
+msgctxt "customizer section title"
+msgid "Titles"
+msgstr ""
+
+#: inc/customizer.php:207
+msgctxt "customizer section title"
+msgid "General"
+msgstr ""
+
+#: inc/customizer.php:214
+msgctxt "customizer section title"
+msgid "Posts"
+msgstr ""
+
+#: inc/customizer.php:225
+msgctxt "customizer section title"
+msgid "Other"
+msgstr ""
+
+#: inc/customizer.php:226
+msgid "Other options affecting the whole site."
+msgstr ""
+
+#: inc/customizer.php:232
+msgctxt "customizer section title"
+msgid "Sample Content"
+msgstr ""
+
+#: inc/customizer/site-identity.php:23
+msgid "Limit logo size (for Retina display)"
+msgstr ""
+
+#: inc/customizer/site-identity.php:24
+msgid ""
+"This option will limit the image size to half its width. You will need to "
+"upload your image in 2x the dimension you want to display it in."
+msgstr ""
+
+#: inc/customizer/site-identity.php:38
+msgid "Show site title"
+msgstr ""
+
+#: inc/customizer/site-identity.php:49
+msgid "Show site tagline"
+msgstr ""
+
+#: inc/customizer/theme-archive-options.php:11
+#: inc/customizer/theme-footer-style.php:10
+#: inc/customizer/theme-header-style.php:10
+msgid "Layout"
+msgstr ""
+
+#: inc/customizer/theme-archive-options.php:23
+msgid "Show sidebar"
+msgstr ""
+
+#: inc/customizer/theme-archive-options.php:34
+msgid "Masonry effect"
+msgstr ""
+
+#: inc/customizer/theme-archive-options.php:51
+msgid "Automatically generated excerpt length (in words)"
+msgstr ""
+
+#: inc/customizer/theme-archive-options.php:64
+msgid "Pagination method"
+msgstr ""
+
+#: inc/customizer/theme-archive-options.php:66
+msgctxt "pagination method"
+msgid "Numbered links"
+msgstr ""
+
+#: inc/customizer/theme-archive-options.php:67
+msgctxt "pagination method"
+msgid "\"Previous - Next\" links"
+msgstr ""
+
+#: inc/customizer/theme-colors-footer.php:9
+msgid "Main footer background color"
+msgstr ""
+
+#: inc/customizer/theme-colors-footer.php:19
+msgid "Main footer text color"
+msgstr ""
+
+#: inc/customizer/theme-colors-footer.php:29
+msgid "Footer element backgrounds"
+msgstr ""
+
+#: inc/customizer/theme-colors-footer.php:39
+msgid "Footer border color"
+msgstr ""
+
+#: inc/customizer/theme-colors-footer.php:49
+msgid "Bottom bar background color"
+msgstr ""
+
+#: inc/customizer/theme-colors-footer.php:59
+msgid "Bottom bar text color"
+msgstr ""
+
+#: inc/customizer/theme-colors-footer.php:69
+msgid "Bottom bar link color"
+msgstr ""
+
+#: inc/customizer/theme-colors-footer.php:79
+#: inc/customizer/theme-colors-sidebar.php:59
+msgid "Widget titles text color"
+msgstr ""
+
+#: inc/customizer/theme-colors-global.php:18
+msgid "Accent color"
+msgstr ""
+
+#: inc/customizer/theme-colors-global.php:28
+msgid "Secondary accent color"
+msgstr ""
+
+#: inc/customizer/theme-colors-global.php:38
+#: inc/customizer/theme-colors-header-top-bar.php:9
+#: inc/customizer/theme-colors-hero.php:44
+#: inc/customizer/theme-colors-sidebar.php:19
+msgid "Text color"
+msgstr ""
+
+#: inc/customizer/theme-colors-global.php:48
+msgid "Boxed elements backgrounds (i.e. author box)"
+msgstr ""
+
+#: inc/customizer/theme-colors-global.php:58
+#: inc/customizer/theme-colors-sidebar.php:49
+msgid "Border color"
+msgstr ""
+
+#: inc/customizer/theme-colors-global.php:68
+msgid "Button background color"
+msgstr ""
+
+#: inc/customizer/theme-colors-global.php:78
+msgid "Button text color"
+msgstr ""
+
+#: inc/customizer/theme-colors-global.php:88
+msgid "Button hover background color"
+msgstr ""
+
+#: inc/customizer/theme-colors-global.php:98
+msgid "Button hover text color"
+msgstr ""
+
+#: inc/customizer/theme-colors-global.php:108
+msgid "Button border color"
+msgstr ""
+
+#: inc/customizer/theme-colors-header-top-bar.php:19
+#: inc/customizer/theme-colors-sidebar.php:9
+msgid "Background color"
+msgstr ""
+
+#: inc/customizer/theme-colors-hero.php:14
+msgid "Show hero"
+msgstr ""
+
+#: inc/customizer/theme-colors-hero.php:31
+msgid "Hero image"
+msgstr ""
+
+#. translators: %s is an image dimension pair in the form "width x height" without spaces, e.g. 800x600
+#: inc/customizer/theme-colors-hero.php:33
+#, php-format
+msgid "Recommended size of at least %s pixels."
+msgstr ""
+
+#: inc/customizer/theme-colors-hero.php:53
+msgid "Background Color"
+msgstr ""
+
+#: inc/customizer/theme-colors-hero.php:54
+msgid ""
+"Select a color for your hero section. This will not be visible if you set "
+"a hero image, unless the image itself has transparent areas."
+msgstr ""
+
+#: inc/customizer/theme-colors-hero.php:64
+msgid "Overlay color"
+msgstr ""
+
+#: inc/customizer/theme-colors-hero.php:65
+msgid ""
+"Select an overlay color for your hero section. This will be visible "
+"<strong>on top</strong> of the image, so adjust the opacity to achieve the "
+"required result and reveal the hero image."
+msgstr ""
+
+#: inc/customizer/theme-colors-hero.php:78
+msgid "Image repeat"
+msgstr ""
+
+#: inc/customizer/theme-colors-hero.php:90
+msgid "Image horizontal position"
+msgstr ""
+
+#: inc/customizer/theme-colors-hero.php:102
+msgid "Image vertical position"
+msgstr ""
+
+#: inc/customizer/theme-colors-hero.php:114
+msgid "Image attachment"
+msgstr ""
+
+#: inc/customizer/theme-colors-hero.php:126
+msgid "Scale the image to cover its containing area."
+msgstr ""
+
+#: inc/customizer/theme-colors-sidebar.php:29
+msgid "Link color"
+msgstr ""
+
+#: inc/customizer/theme-colors-sidebar.php:39
+msgid "Link hover color"
+msgstr ""
+
+#: inc/customizer/theme-footer-bottom-bar.php:10
+msgid "Show bottom bar"
+msgstr ""
+
+#: inc/customizer/theme-footer-bottom-bar.php:23
+#: inc/customizer/theme-header-top-bar.php:71
+msgid "Show social icons"
+msgstr ""
+
+#: inc/customizer/theme-footer-style.php:22
+msgid "Full width footer"
+msgstr ""
+
+#: inc/customizer/theme-header-primary-menu.php:14
+#: inc/customizer/theme-header-top-bar.php:14
+msgid "Vertical padding (in pixels)"
+msgstr ""
+
+#: inc/customizer/theme-header-primary-menu.php:29
+msgid "Menu text size (in pixels)"
+msgstr ""
+
+#: inc/customizer/theme-header-style.php:22
+msgid "Logo / tagline alignment"
+msgstr ""
+
+#: inc/customizer/theme-header-style.php:34
+msgid "Full width header"
+msgstr ""
+
+#: inc/customizer/theme-header-top-bar.php:29
+msgid "Text size (in pixels)"
+msgstr ""
+
+#: inc/customizer/theme-header-top-bar.php:47
+msgid "Text 1"
+msgstr ""
+
+#: inc/customizer/theme-header-top-bar.php:48
+#: inc/customizer/theme-header-top-bar.php:60
+msgid "Accepts HTML"
+msgstr ""
+
+#: inc/customizer/theme-header-top-bar.php:59
+msgid "Text 2"
+msgstr ""
+
+#: inc/customizer/theme-header-top-bar.php:83
+msgid "Show language selector"
+msgstr ""
+
+#: inc/customizer/theme-header-top-bar.php:95
+msgid "Show search"
+msgstr ""
+
+#: inc/customizer/theme-other-sample-content.php:15
+msgid "Sample content bundle"
+msgstr ""
+
+#. translators: %s is a URL
+#: inc/customizer/theme-other-sample-content.php:19
+#, php-format
+msgid ""
+"<a href=\"%s\" target=\"_blank\">Download the theme's sample content "
+"files</a> to get things moving."
+msgstr ""
+
+#: inc/customizer/theme-post-options.php:9
+msgid "Show featured image"
+msgstr ""
+
+#: inc/customizer/theme-post-options.php:19
+msgid "Show date"
+msgstr ""
+
+#: inc/customizer/theme-post-options.php:29
+msgid "Show author"
+msgstr ""
+
+#: inc/customizer/theme-post-options.php:39
+msgid "Show comments"
+msgstr ""
+
+#: inc/customizer/theme-post-options.php:49
+msgid "Show categories"
+msgstr ""
+
+#: inc/customizer/theme-post-options.php:59
+msgid "Show tags"
+msgstr ""
+
+#: inc/customizer/theme-post-options.php:69
+msgid "Show author box"
+msgstr ""
+
+#: inc/customizer/theme-post-options.php:79
+msgid "Show related posts"
+msgstr ""
+
+#: inc/customizer/theme-post-options.php:90
+msgid "Enable lightbox for galleries"
+msgstr ""
+
+#: inc/customizer/theme-social.php:10
+msgid "Open social and sharing links in a new tab."
+msgstr ""
+
+#. translators: %s is a social network's name, e.g.: Facebook URL
+#: inc/customizer/theme-social.php:29
+#, php-format
+msgctxt "social network url"
+msgid "%s URL"
+msgstr ""
+
+#: inc/customizer/theme-social.php:41
+msgid "RSS Feed"
+msgstr ""
+
+#: inc/customizer/theme-titles-general.php:10
+msgid "Blog title"
+msgstr ""
+
+#: inc/customizer/theme-titles-general.php:21
+msgid "Search title"
+msgstr ""
+
+#: inc/customizer/theme-titles-general.php:31
+msgid "404 (not found) title"
+msgstr ""
+
+#: inc/customizer/theme-titles-post.php:3 template-parts/related.php:4
+msgid "Related articles"
+msgstr ""
+
+#: inc/customizer/theme-titles-post.php:9
+msgid "Related posts title"
+msgstr ""
+
+#: inc/customizer/theme-titles-post.php:19
+msgid "Related posts subtitle"
+msgstr ""
+
+#: inc/customizer/theme-typography-content.php:14
+msgid "H1 font size"
+msgstr ""
+
+#: inc/customizer/theme-typography-content.php:29
+msgid "H2 font size"
+msgstr ""
+
+#: inc/customizer/theme-typography-content.php:44
+msgid "H3 font size"
+msgstr ""
+
+#: inc/customizer/theme-typography-content.php:59
+msgid "H4 font size"
+msgstr ""
+
+#: inc/customizer/theme-typography-content.php:74
+msgid "H5 font size"
+msgstr ""
+
+#: inc/customizer/theme-typography-content.php:89
+msgid "H6 font size"
+msgstr ""
+
+#: inc/customizer/theme-typography-content.php:104
+msgid "Body font size"
+msgstr ""
+
+#: inc/customizer/theme-typography-widgets.php:14
+msgid "Title font size"
+msgstr ""
+
+#: inc/customizer/theme-typography-widgets.php:29
+msgid "Text font size"
+msgstr ""
+
+#: inc/helpers.php:6
+msgid "Facebook"
+msgstr ""
+
+#: inc/helpers.php:11
+msgid "Twitter"
+msgstr ""
+
+#: inc/helpers.php:16
+msgid "Instagram"
+msgstr ""
+
+#: inc/helpers.php:21
+msgid "Snapchat"
+msgstr ""
+
+#: inc/helpers.php:26
+msgid "Bloglovin"
+msgstr ""
+
+#: inc/helpers.php:31
+msgid "Pinterest"
+msgstr ""
+
+#: inc/helpers.php:36
+msgid "YouTube"
+msgstr ""
+
+#: inc/helpers.php:41
+msgid "Vimeo"
+msgstr ""
+
+#: inc/helpers.php:46
+msgid "Google Plus"
+msgstr ""
+
+#: inc/helpers.php:51
+msgid "LinkedIn"
+msgstr ""
+
+#: inc/helpers.php:56
+msgid "Tumblr"
+msgstr ""
+
+#: inc/helpers.php:61
+msgid "Flickr"
+msgstr ""
+
+#: inc/helpers.php:66
+msgid "Dribbble"
+msgstr ""
+
+#: inc/helpers.php:71
+msgid "WordPress"
+msgstr ""
+
+#: inc/helpers.php:76
+msgid "500px"
+msgstr ""
+
+#: inc/helpers.php:81
+msgid "Soundcloud"
+msgstr ""
+
+#: inc/helpers.php:86
+msgid "Spotify"
+msgstr ""
+
+#: inc/helpers.php:91
+msgid "Vine"
+msgstr ""
+
+#: inc/helpers.php:96
+msgid "Trip Advisor"
+msgstr ""
+
+#: inc/helpers.php:104
+msgid "Pages:"
+msgstr ""
+
+#: inc/onboarding.php:25
+msgid "Demo Import"
+msgstr ""
+
+#: inc/onboarding.php:57
+msgid ""
+"Blockchain Lite is a powerful business theme for WordPress. "
+"<strong>WooCommerce</strong> is also supported by Blockchain Lite."
+msgstr ""
+
+#: inc/onboarding.php:60 inc/onboarding/onboarding-page.php:594
+msgid "Recommended Plugins"
+msgstr ""
+
+#: inc/onboarding.php:61 inc/onboarding/onboarding-page.php:595
+msgid "Sample Content"
+msgstr ""
+
+#: inc/onboarding.php:62 inc/onboarding/onboarding-page.php:596
+msgid "Support"
+msgstr ""
+
+#: inc/onboarding.php:63
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: inc/onboarding.php:68 inc/onboarding/onboarding-page.php:321
+msgid "One Click Demo Import"
+msgstr ""
+
+#: inc/onboarding.php:69
+msgid "Import your demo content, widgets and theme settings with one click."
+msgstr ""
+
+#: inc/onboarding.php:72
+msgid "Elementor"
+msgstr ""
+
+#: inc/onboarding.php:73
+msgid "Elementor is a front-end drag & drop page builder for WordPress. "
+msgstr ""
+
+#: inc/onboarding.php:76
+msgid "WooCommerce"
+msgstr ""
+
+#: inc/onboarding.php:77
+msgid ""
+"A fully customizable, open source eCommerce platform built for WordPress. "
+msgstr ""
+
+#: inc/onboarding.php:84 inc/onboarding/onboarding-page.php:631
+msgid "Theme Documentation"
+msgstr ""
+
+#: inc/onboarding.php:85 inc/onboarding/onboarding-page.php:632
+msgid ""
+"If you don't want to import our demo sample content, just visit this page "
+"and learn how to set things up individually."
+msgstr ""
+
+#: inc/onboarding.php:89 inc/onboarding/onboarding-page.php:636
+msgid "Knowledge Base"
+msgstr ""
+
+#: inc/onboarding.php:90 inc/onboarding/onboarding-page.php:637
+msgid ""
+"Browse our library of step by step how-to articles, tutorials, and guides "
+"to get quick answers."
+msgstr ""
+
+#: inc/onboarding.php:94 inc/onboarding/onboarding-page.php:641
+msgid "Request Support"
+msgstr ""
+
+#: inc/onboarding.php:95 inc/onboarding/onboarding-page.php:642
+msgid ""
+"Got stuck? No worries, just visit our support page, submit your ticket and "
+"we will be there for you within 24 hours."
+msgstr ""
+
+#. translators: %1$s is the theme name. %2$s URL to onboarding page.
+#: inc/onboarding/onboarding-page.php:128
+#, php-format
+msgid ""
+"Welcome to %1$s. Check out the <a href=\"%2$s\">onboarding page</a> to get "
+"things started."
+msgstr ""
+
+#: inc/onboarding/onboarding-page.php:186
+msgid "Activating"
+msgstr ""
+
+#: inc/onboarding/onboarding-page.php:187
+msgid "Activate"
+msgstr ""
+
+#: inc/onboarding/onboarding-page.php:188
+msgid "Installing..."
+msgstr ""
+
+#: inc/onboarding/onboarding-page.php:274
+msgid "The following plugins are required. Please install and activate them."
+msgstr ""
+
+#: inc/onboarding/onboarding-page.php:277
+#: inc/onboarding/onboarding-page.php:302
+msgid ""
+"You do not have sufficient permissions to install plugins, please contact "
+"your administrator."
+msgstr ""
+
+#. translators: %s is the theme's name.
+#: inc/onboarding/onboarding-page.php:298
+#, php-format
+msgid ""
+"The following plugins are not required but they will provide additional "
+"functionality to %s."
+msgstr ""
+
+#: inc/onboarding/onboarding-page.php:323
+msgid "Import our sample content."
+msgstr ""
+
+#: inc/onboarding/onboarding-page.php:328
+msgid "Please note:"
+msgstr ""
+
+#: inc/onboarding/onboarding-page.php:329
+msgid ""
+"You need to install and activate One Click Demo Import before proceeding."
+msgstr ""
+
+#: inc/onboarding/onboarding-page.php:330
+msgid "Click here to do it now."
+msgstr ""
+
+#: inc/onboarding/onboarding-page.php:336
+msgid "Good to go!"
+msgstr ""
+
+#: inc/onboarding/onboarding-page.php:337
+msgid ""
+"Now you can import the sample content and have your theme set up like the "
+"demo using the One Click Demo Import Plugin."
+msgstr ""
+
+#: inc/onboarding/onboarding-page.php:338
+msgid "Get Started"
+msgstr ""
+
+#: inc/onboarding/onboarding-page.php:356
+msgid "Here are a few useful links to get you started."
+msgstr ""
+
+#. translators: %s is the plugin name.
+#: inc/onboarding/onboarding-page.php:409
+#: inc/onboarding/onboarding-page.php:438
+#, php-format
+msgid "The %s plugin was not found, click to install and activate."
+msgstr ""
+
+#: inc/onboarding/onboarding-page.php:412
+#: inc/onboarding/onboarding-page.php:441
+msgid "Install &amp; activate "
+msgstr ""
+
+#. translators: %s is the plugin name.
+#: inc/onboarding/onboarding-page.php:467
+#, php-format
+msgid "The %s plugin is installed but not active, click to activate."
+msgstr ""
+
+#: inc/onboarding/onboarding-page.php:470
+msgid "Activate "
+msgstr ""
+
+#. translators: %s is the plugin name.
+#: inc/onboarding/onboarding-page.php:488
+#, php-format
+msgid "%s is installed and activated."
+msgstr ""
+
+#: inc/onboarding/onboarding-page.php:546
+msgid ""
+"You do not have sufficient permissions to install plugins on this site."
+msgstr ""
+
+#. translators: %s is a URL.
+#: inc/onboarding/onboarding-page.php:560
+#, php-format
+msgid "Installing Plugin from URL: %s"
+msgstr ""
+
+#. translators: %s is the theme name.
+#: inc/onboarding/onboarding-page.php:575
+#: inc/onboarding/onboarding-page.php:578
+#, php-format
+msgid "About %s"
+msgstr ""
+
+#: inc/onboarding/onboarding-page.php:580
+msgid "Welcome to :theme_name:! - Version :theme_version:"
+msgstr ""
+
+#: inc/onboarding/onboarding-page.php:593
+msgid "Required Plugins"
+msgstr ""
+
+#: inc/sanitization.php:79 inc/sanitization.php:114
+msgid "Right"
+msgstr ""
+
+#: inc/sanitization.php:94
+msgid "No repeat"
+msgstr ""
+
+#: inc/sanitization.php:95
+msgid "Tile"
+msgstr ""
+
+#: inc/sanitization.php:96
+msgid "Tile Horizontally"
+msgstr ""
+
+#: inc/sanitization.php:97
+msgid "Tile Vertically"
+msgstr ""
+
+#: inc/sanitization.php:129
+msgid "Top"
+msgstr ""
+
+#: inc/sanitization.php:131
+msgid "Bottom"
+msgstr ""
+
+#: inc/sanitization.php:146
+msgid "Scroll"
+msgstr ""
+
+#: inc/sanitization.php:147
+msgid "Fixed"
+msgstr ""
+
+#. translators: If there are characters in your language that are not supported by Roboto, translate this to 'off'. Do not translate into your own language.
+#: inc/scripts-styles.php:15
+msgctxt "Roboto font: on or off"
+msgid "on"
+msgstr ""
+
+#: inc/scripts-styles.php:58
+msgid "Select file"
+msgstr ""
+
+#: inc/scripts-styles.php:59
+msgid "Select files"
+msgstr ""
+
+#: inc/scripts-styles.php:60
+msgid "Use this file"
+msgstr ""
+
+#: inc/scripts-styles.php:61
+msgid "Use these files"
+msgstr ""
+
+#: inc/scripts-styles.php:62
+msgid "Update gallery"
+msgstr ""
+
+#: inc/scripts-styles.php:63
+msgid "Loading..."
+msgstr ""
+
+#: inc/scripts-styles.php:64
+msgid "Gallery preview not available."
+msgstr ""
+
+#: inc/scripts-styles.php:65
+msgid "Remove image"
+msgstr ""
+
+#: inc/scripts-styles.php:66
+msgid "Remove from gallery"
+msgstr ""
+
+#: inc/sidebars-widgets.php:11
+msgid "Blog"
+msgstr ""
+
+#: inc/sidebars-widgets.php:13
+msgid "Widgets added here will appear on the blog section."
+msgstr ""
+
+#: inc/sidebars-widgets.php:21
+msgid "Page"
+msgstr ""
+
+#: inc/sidebars-widgets.php:23
+msgid "Widgets added here will appear on the static pages."
+msgstr ""
+
+#: inc/sidebars-widgets.php:31
+msgid "Shop"
+msgstr ""
+
+#: inc/sidebars-widgets.php:33
+msgid "Widgets added here will appear on the shop page."
+msgstr ""
+
+#: inc/sidebars-widgets.php:41
+msgid "Footer - 1st column"
+msgstr ""
+
+#: inc/sidebars-widgets.php:43
+msgid "Widgets added here will appear on the first footer column."
+msgstr ""
+
+#: inc/sidebars-widgets.php:50
+msgid "Footer - 2nd column"
+msgstr ""
+
+#: inc/sidebars-widgets.php:52
+msgid "Widgets added here will appear on the second footer column."
+msgstr ""
+
+#: inc/sidebars-widgets.php:59
+msgid "Footer - 3rd column"
+msgstr ""
+
+#: inc/sidebars-widgets.php:61
+msgid "Widgets added here will appear on the third footer column."
+msgstr ""
+
+#: inc/sidebars-widgets.php:68
+msgid "Footer - 4th column"
+msgstr ""
+
+#: inc/sidebars-widgets.php:70
+msgid "Widgets added here will appear on the fourth footer column."
+msgstr ""
+
+#: inc/template-tags.php:129 searchform.php:3
+msgid "Search for:"
+msgstr ""
+
+#: inc/template-tags.php:130
+msgid "Type and hit enter to search"
+msgstr ""
+
+#: inc/template-tags.php:224 inc/template-tags.php:253
+#, php-format
+msgid "A theme by <a href=\"%s\">CSSIgniter</a>"
+msgstr ""
+
+#: inc/template-tags.php:248
+#, php-format
+msgid "Powered by <a href=\"%s\">WordPress</a>"
+msgstr ""
+
+#: inc/template-tags.php:257
+#, php-format
+msgid "<a href=\"%1$s\">%2$s</a>"
+msgstr ""
+
+#: inc/template-tags.php:295 inc/template-tags.php:331
+#: inc/template-tags.php:361
+msgid "Menu"
+msgstr ""
+
+#: inc/template-tags.php:538
+msgid "Featured"
+msgstr ""
+
+#. translators: %s is the author's name.
+#: inc/template-tags.php:583
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. translators: %s: post title
+#: inc/template-tags.php:603
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/template-tags.php:723
+msgctxt "previous post"
+msgid "Previous"
+msgstr ""
+
+#: inc/template-tags.php:724
+msgctxt "next post"
+msgid "Next"
+msgstr ""
+
+#: inc/template-tags.php:725
+msgid "Posts navigation"
+msgstr ""
+
+#: inc/widgets/latest-post-type.php:13
+msgid ""
+"Displays a number of the latest (or random) posts from a specific post "
+"type."
+msgstr ""
+
+#: inc/widgets/latest-post-type.php:15
+msgid "Theme - Latest Post Type"
+msgstr ""
+
+#: inc/widgets/latest-post-type.php:89 inc/widgets/socials.php:45
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets/latest-post-type.php:92
+msgid "Select a post type to display the latest post from:"
+msgstr ""
+
+#: inc/widgets/latest-post-type.php:102
+msgid "Show random posts."
+msgstr ""
+
+#: inc/widgets/latest-post-type.php:103
+msgid "Number of posts to show:"
+msgstr ""
+
+#: inc/widgets/socials.php:10
+msgid "Displays the site's social icons."
+msgstr ""
+
+#: inc/widgets/socials.php:12
+msgid "Theme - Social Icons"
+msgstr ""
+
+#: inc/widgets/socials.php:46
+msgid ""
+"This widget displays your site's social icons. In order to set them up, "
+"you need to visit <strong>Appearance > Customize > Social Networks</"
+"strong> and provide the appropriate URLs where desired."
+msgstr ""
+
+#: searchform.php:4
+msgctxt "search box placeholder"
+msgid "Search"
+msgstr ""
+
+#: searchform.php:5
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: template-parts/article-none.php:3
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/article-none.php:9
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/article-none.php:13
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/article-none.php:18
+msgid ""
+"It seems we can't find what you're looking for. Perhaps searching can help."
+msgstr ""
+
+#: template-parts/article.php:11
+msgid "Read More"
+msgstr ""
+
+#: template-parts/item-post.php:18 template-parts/item-tall-post.php:18
+#: template-parts/item-tall.php:16 template-parts/item.php:16
+#: template-parts/widgets/home-item-product.php:22
+msgid "Learn More <i class=\"fa fa-angle-right\"></i>"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Blockchain Lite"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://www.cssigniter.com/themes/blockchain-lite/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Business theme for WordPress"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "CSSIgniter"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.cssigniter.com/"
+msgstr ""

@@ -1,0 +1,68 @@
+/** Woocommerce archive Page **/
+.woocommerce ul.products li.product .onsale{
+    top:7px;
+    right:6px;
+}
+.woocommerce span.onsale{
+    border-radius:0%;
+    background-color: #23A38F;
+}
+.woocommerce .widget_layered_nav ul li span{
+    float:right;
+}
+.woocommerce #respond input#submit, 
+.woocommerce a.button, 
+.woocommerce button.button, 
+.woocommerce input.button, 
+.woocommerce a.button.alt{
+    background-color:#23A38F;
+    color: #fff;
+}
+.woocommerce #respond input#submit:hover, 
+.woocommerce a.button:hover, 
+.woocommerce button.button:hover, 
+.woocommerce input.button:hover, 
+.woocommerce a.button.alt:hover{
+    background-color:#209381;
+    color:#fff;
+}
+.woocommerce ul.products li.product .price del{
+    display:inline;
+    padding-right:5px;
+}
+.woocommerce ul.products li.product .button{
+    margin-top:5px;
+}
+.woocommerce ul.products li.product .price{
+    margin-bottom:0px;
+}
+.woocommerce span.onsale{
+    top:0px;
+    left:0px;   
+}
+.woocommerce button.button.alt{
+    background-color:#209381;
+}
+.woocommerce button.button.alt:hover{
+   background-color:#23A38F;
+}
+.woocommerce div.product p.price, 
+.woocommerce div.product span.price, 
+.woocommerce ul.products li.product .price, 
+.woocommerce .woocommerce-message:before
+{
+    color:#209381;
+}
+.woocommerce .widget_price_filter .ui-slider .ui-slider-range, 
+.woocommerce .widget_price_filter .ui-slider .ui-slider-handle{
+    background-color:#23A38F;
+}
+.woocommerce .widget_price_filter .price_slider_wrapper .ui-widget-content{
+    background-color:#209381;
+}
+.woocommerce .woocommerce-message{
+    border-top-color: #209381;
+}
+.woocommerce table.shop_attributes td{
+    padding-left: 10px;
+}

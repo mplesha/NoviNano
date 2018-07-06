@@ -1,0 +1,15 @@
+<wpml-config>
+    <admin-texts>
+        <key name="accesspress_ray_options">
+            <key name="read_more_text" />
+            <key name="footer_copyright" />
+            <key name="call_to_action_post_readmore" />
+            <key name="featured_title" />
+            <key name="featured_text" />
+            <key name="featured_post_readmore" />
+            <key name="blogmore_text" />
+            <key name="blog_title" />
+            <key name="contact_address" />
+        </key>
+    </admin-texts>       
+</wpml-config>

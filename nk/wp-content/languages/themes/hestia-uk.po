@@ -1,0 +1,1105 @@
+# Translation of Themes - Hestia in Ukrainian
+# This file is distributed under the same license as the Themes - Hestia package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-05-16 08:20:35+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: uk_UA\n"
+"Project-Id-Version: Themes - Hestia\n"
+
+#. #-#-#-#-#  hestia.pot (Hestia 1.1.74)  #-#-#-#-#
+#. Description of the plugin/theme
+#: inc/features/feature-about-page.php:27
+msgid "Hestia is a modern WordPress theme for professionals. It fits creative business, small businesses (restaurants, wedding planners, sport/medical shops), startups, corporate businesses, online agencies and firms, portfolios, ecommerce (WooCommerce), and freelancers. It has a multipurpose one-page design, widgetized footer, blog/news page and a clean look, is compatible with: Flat Parallax Slider, Photo Gallery, Travel Map and Elementor Page Builder . The theme is responsive, WPML, Retina ready, SEO friendly, and uses Material Kit for design."
+msgstr "Hestia це сучасна WordPress тема для професіоналів. Вона підійде для творчого бізнесу, малого бізнесу (ресторани, весільні агенції, спортивні/медичні магазини), стартапи, корпоративні сайти, онлайн агенції та фірми, портфоліо, електрона комерція (WooCommerce), та фрілансерів. Вона має багато функціональний односторінковий дизайн, підвал сайту з віджетами, сторінка блогу/новин та простий вигляд, та сумісність з: Flat Parallax Slider, Photo Gallery, Travel Map та Elementor Page Builder . Вона адаптивна, WPML, підготовлена для Retina, оптимізована під SEO, та використовує Material Kit для дизайну."
+
+#: inc/features/feature-contact-form.php:20
+msgid "[pirate_forms]"
+msgstr "[pirate_forms]"
+
+#: inc/features/feature-header-settings.php:31
+msgid "Header Settings"
+msgstr "Налаштування Заголовку"
+
+#: inc/features/feature-color-settings.php:54
+msgid "Header Gradient"
+msgstr "Градієнт заголовку"
+
+#. translators: Upsell to get the pro version
+#: functions.php:1245
+msgid "Hestia front-page is not multi-language compatible, for this feature %s."
+msgstr "Головна сторінка Hestia не підтримує багатомовність, для цієї функції %s."
+
+#: inc/features/feature-header-settings.php:58
+msgid "Enable Header Image Sitewide"
+msgstr "Увімкнути зображення заголовку Sitewide"
+
+#: inc/customizer.php:161
+msgid "Header Background"
+msgstr "Фон заголовку"
+
+#: inc/typography/typography-settings.php:300
+#: inc/typography/typography-settings.php:436
+msgid "Content"
+msgstr "Зміст"
+
+#: inc/typography/typography-settings.php:175
+msgid "Posts & Pages"
+msgstr "Записи та сторінки"
+
+#: inc/features/feature-header-settings.php:166
+msgid "Enable Search in Menu"
+msgstr "Увімкнути пошук у меню"
+
+#: inc/features/feature-general-settings.php:130
+msgid "Enable Scroll to Top"
+msgstr "Увімкнути кнопку ”Нагору\""
+
+#: functions.php:1129
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Пошук &hellip;"
+
+#: functions.php:1126
+msgctxt "label"
+msgid "Search for:"
+msgstr "Шукати:"
+
+#. Template Name of the plugin/theme
+msgid "Page with Sidebar"
+msgstr "Сторінка з бічною панелю"
+
+#: functions.php:175 inc/features/feature-header-settings.php:102
+msgid "Menu"
+msgstr "Меню"
+
+#. translators: 1 - link to customizer setting. 2 - 'customizer'
+#: inc/sections/hestia-blog-section.php:41
+msgid "Change this subtitle in the %s."
+msgstr "Змінити підзаголовок у %s."
+
+#. translators: 1 - link to customizer setting. 2 - 'customizer'
+#: inc/sections/hestia-big-title-section.php:116
+#: inc/sections/hestia-big-title-section.php:123
+msgid "Change in the %s"
+msgstr "Змінити у %s"
+
+#: inc/features/feature-big-title-section.php:78
+#: inc/features/feature-header-settings.php:183
+#: inc/features/feature-header-settings.php:243
+#: inc/features/feature-individual-layout.php:31
+msgid "Layout"
+msgstr "Макет"
+
+#: functions.php:739 functions.php:743 functions.php:747
+msgid "Second"
+msgstr "Другий"
+
+#: functions.php:175 functions.php:326
+#: inc/features/feature-header-settings.php:69
+#: inc/features/feature-header-settings.php:102
+msgid "Very Top Bar"
+msgstr "Найвища верхня панель"
+
+#: functions.php:327 inc/features/feature-header-settings.php:147
+msgid "Navigation"
+msgstr "Навігація"
+
+#: inc/features/feature-header-settings.php:19
+msgid "Header Options"
+msgstr "Налаштування заголовку"
+
+#: inc/features/feature-general-settings.php:115
+msgid "Enable Sharing Icons"
+msgstr "Увімкнути іконки для поширення"
+
+#: inc/features/feature-navigation-tabs.php:40
+msgid "font size"
+msgstr "розмір шрифту"
+
+#: inc/typography/typography-settings.php:99
+msgid "Body"
+msgstr "Тіло"
+
+#: inc/features/feature-navigation-tabs.php:31
+#: inc/typography/typography-settings.php:74
+#: inc/typography/typography-settings.php:99
+msgid "font family"
+msgstr "Шрифт"
+
+#: inc/typography/typography-settings.php:74
+#: inc/typography/typography-settings.php:265
+msgid "Headings"
+msgstr "Заголовки"
+
+#: inc/typography/typography-settings.php:128
+msgid "Font Subsets"
+msgstr "Підстрокові шрифти"
+
+#: inc/typography/typography-settings.php:43
+msgid "Typography"
+msgstr "Типографія"
+
+#: inc/customizer-font-selector/class/class-hestia-font-selector.php:81
+msgid "Google Fonts"
+msgstr "Шрифти Google"
+
+#: inc/customizer-font-selector/class/class-hestia-font-selector.php:66
+msgid "Standard Fonts"
+msgstr "Стандартні Шрифти"
+
+#: inc/customizer-font-selector/class/class-hestia-font-selector.php:60
+#: inc/features/feature-individual-layout.php:56
+msgid "Default"
+msgstr "За замовченням"
+
+#: inc/features/feature-about-page.php:171
+msgid "Display a frontpage section wherever you like by adding its shortcode in page or post content."
+msgstr "Показувати розділ головної сторінки скрізь де ви хочете, додаючи її шорткоди у сторінку чи зміст запису."
+
+#: inc/features/feature-about-page.php:170
+msgid "Shortcodes for each section"
+msgstr "Шорткоди для різних розділів"
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:36
+msgctxt "comments title"
+msgid "%1$s Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] "%1$s Коментар"
+msgstr[1] "%1$s Коментарі"
+msgstr[2] "%1$s Коментарів"
+
+#. translators: %s: post title
+#: comments.php:32
+msgctxt "comments title"
+msgid "One comment"
+msgstr "Один коментар"
+
+#: inc/plugin-install/class-hestia-plugin-install-helper.php:123
+msgid "Activating "
+msgstr "Активується"
+
+#: inc/plugin-install/class-hestia-plugin-install-helper.php:60
+msgid "Install and activate"
+msgstr "Встановити та активувати"
+
+#: inc/features/feature-contact-section.php:267
+msgid "In order to add a contact form to this section, you need to install the Pirate Forms plugin."
+msgstr "Якщо ви хочете додати контактну форму у цей розділ, вам необхідно встановити плагін Pirate Forms."
+
+#: inc/sections/hestia-big-title-section.php:116
+#: inc/sections/hestia-big-title-section.php:123
+#: inc/sections/hestia-blog-section.php:41
+msgid "Customizer"
+msgstr "Налаштовувач"
+
+#: inc/features/feature-big-title-section.php:225
+#: inc/features/feature-big-title-section.php:226
+#: inc/features/feature-big-title-section.php:227
+#: inc/sections/hestia-big-title-section.php:129
+msgid "Change in the Customizer"
+msgstr "Змінити у Налаштовувачі"
+
+#: inc/features/feature-about-page.php:165
+#: inc/features/feature-theme-info-section.php:57
+msgid "The ability to reorganize your Frontpage Sections more easily and quickly."
+msgstr "Більш проста та швидка можливість реорганізувати розділи головної сторінки."
+
+#: inc/features/feature-about-page.php:120
+#: inc/features/feature-about-page.php:122
+msgid "Go to the Customizer"
+msgstr "Перейти то Налаштовувача"
+
+#: inc/features/feature-theme-info-section.php:56
+msgid "Drag and drop panels to change the order of sections."
+msgstr "Використовуйте перетягування для впорядкування послідовності розділів."
+
+#: inc/customizer-theme-info/class-hestia-customizer-theme-info.php:110
+msgid "The ability to reorganize your Frontpage sections more easily and quickly."
+msgstr "Більш проста та швидка можливість реорганізувати розділи головної сторінки."
+
+#: inc/customizer-theme-info/class-hestia-control-upsell-theme-info.php:68
+msgid "PRO"
+msgstr "PRO"
+
+#. Template Name of the plugin/theme
+msgid "Page Builder Full Width"
+msgstr "Page Builder на всю ширину"
+
+#. Template Name of the plugin/theme
+msgid "Page Builder Blank"
+msgstr "Page Builder порожній"
+
+#: inc/template-tags.php:1030
+msgid "This sidebar is active but empty. In order to use this layout, please add widgets in the sidebar"
+msgstr "Ця бокова панель активна, але порожня. У випадку використання цього макету, будь ласка додайте віджет у бокову панель."
+
+#: inc/features/feature-general-settings.php:97
+msgid "Blog Sidebar Layout"
+msgstr "Макет бокової панелі блогу"
+
+#: inc/features/feature-general-settings.php:64
+#: inc/features/feature-individual-layout.php:59
+msgid "Right Sidebar"
+msgstr "Права бокова панель"
+
+#: inc/features/feature-general-settings.php:60
+#: inc/features/feature-individual-layout.php:58
+msgid "Left Sidebar"
+msgstr "Ліва бокова панель"
+
+#: inc/features/feature-general-settings.php:56
+#: inc/features/feature-individual-layout.php:57
+msgid "Full Width"
+msgstr "На всю ширину"
+
+#: inc/features/feature-general-settings.php:78
+msgid "Page Sidebar Layout"
+msgstr "Макет бокової панелі сторінки"
+
+#: functions.php:325
+msgid "WooCommerce Sidebar"
+msgstr "Бокова панель WooCommerce"
+
+#. Template Name of the plugin/theme
+msgid "Fullwidth Template"
+msgstr "Макет на всю ширину"
+
+#: ti-notifications/ti-about-page/class-themeisle-about-page.php:1056
+#: ti-notifications/ti-customizer-notify/class-themeisle-customizer-notify.php:170
+msgid "Activating"
+msgstr "Активується"
+
+#: template-parts/content-single.php:76
+msgid "Tags: "
+msgstr "Позначки:"
+
+#: template-parts/content-single.php:68
+msgid "Categories:"
+msgstr "Категорії:"
+
+#: template-parts/content-none.php:34
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Здається ми не можемо знайти те, що ви шукаєте. Можливо вам допоможе пошук."
+
+#: template-parts/content-none.php:31
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "На жаль, але нічого не відповідає вашому пошуковому запиту. Будь ласка, спробуйте ще раз, використовуючи інші ключові слова."
+
+#. translators: %1$s is Link to new post, %2$s is Get started here
+#: template-parts/content-none.php:25
+msgid "Get started here"
+msgstr "Почніть звідси"
+
+#. translators: %s is Link to new post
+#: template-parts/content-none.php:20
+msgid "Ready to publish your first post? %s."
+msgstr "Готові опублікувати свій перший запис? %s."
+
+#. translators: %1$s is Time since post, %2$s is author Close tag
+#: template-parts/content-alternative.php:57 template-parts/content.php:69
+msgid "%1$s ago %2$s"
+msgstr "%1$s тому %2$s"
+
+#. translators: %1$s is Author name wrapped, %2$s is Time
+#: template-parts/content-alternative.php:48 template-parts/content.php:60
+msgid "By %1$s, %2$s"
+msgstr "Автором %1$s, %2$s"
+
+#. translators: %s is Search query
+#: search.php:41
+msgid "Search Results for: %s"
+msgstr "Пошукові результати для: %s"
+
+#. translators: %d is number of items
+#: inc/woocommerce/functions.php:67
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "%d елемент"
+msgstr[1] "%d елемента"
+msgstr[2] "%d елементів"
+
+#: inc/woocommerce/functions.php:63 inc/woocommerce/functions.php:114
+msgid "View your shopping cart"
+msgstr "Переглянути ваш кошик"
+
+#: inc/template-tags.php:490
+msgid "Related Posts"
+msgstr "Related Posts"
+
+#: inc/template-tags.php:423
+msgid "What's on your mind?"
+msgstr "Що в вас на думці?"
+
+#: inc/template-tags.php:420
+msgid "Website"
+msgstr "Сайт"
+
+#: inc/template-tags.php:419
+msgid "Email"
+msgstr "Email"
+
+#: inc/template-tags.php:418
+msgid "Name"
+msgstr "Ім'я"
+
+#. translators: %s is Link to login
+#: inc/template-tags.php:409
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Ви повинні <a href=\"%s\">увійти</a> щоб залишити коментар."
+
+#: inc/template-tags.php:373
+msgid "Reply"
+msgstr "Відповіcти"
+
+#: inc/customizer-page-editor/class/class-hestia-page-editor.php:77
+#: inc/template-tags.php:362
+msgid "(Edit)"
+msgstr "(Редагувати)"
+
+#. translators: %1$s is Date, %2$s is Time
+#: inc/template-tags.php:358
+msgid "&#183; %1$s at %2$s"
+msgstr "&#183; %1$s о %2$s"
+
+#: inc/template-tags.php:255
+msgid "Previous page"
+msgstr "Попередня сторінка"
+
+#: inc/template-tags.php:254
+msgid "Next page"
+msgstr "Наступна сторінка"
+
+#. translators: %s is Category name
+#: inc/template-tags.php:196
+msgid "View all posts in %s"
+msgstr "Переглянути всі записи у %s"
+
+#: functions.php:735 functions.php:739
+#: inc/sections/hestia-slider-section.php:172
+#: inc/sections/hestia-slider-section.php:181
+#: inc/sections/hestia-slider-section.php:190
+msgid "Button"
+msgstr "Кнопка"
+
+#: inc/sections/hestia-slider-section.php:171
+#: inc/sections/hestia-slider-section.php:180
+#: inc/sections/hestia-slider-section.php:189
+msgid "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+msgstr "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+
+#: inc/sections/hestia-slider-section.php:170
+#: inc/sections/hestia-slider-section.php:179
+#: inc/sections/hestia-slider-section.php:188
+msgid "Lorem Ipsum"
+msgstr "Lorem Ipsum"
+
+#. translators: 1 - link to customizer setting. 2 - 'customizer'
+#: inc/sections/hestia-contact-section.php:40
+#: inc/sections/hestia-shop-section.php:43
+#: inc/sections/hestia-subscribe-section.php:40
+msgid "Change this subtitle in %s."
+msgstr "Змінити цій підзаголовок у %s."
+
+#: inc/sections/hestia-contact-section.php:40
+#: inc/sections/hestia-shop-section.php:43
+#: inc/sections/hestia-subscribe-section.php:40
+msgid "customizer"
+msgstr "налаштовувач"
+
+#: inc/features/feature-theme-info-section.php:27
+msgid "View PRO Features"
+msgstr "Ознайомитись з особливостями PRO"
+
+#: inc/features/feature-subscribe-section.php:76
+#: inc/sections/hestia-subscribe-section.php:44
+msgid "Subscribe to our Newsletter"
+msgstr "Підпишіться на нашу розсилку"
+
+#: functions.php:323 inc/features/feature-subscribe-section.php:23
+#: inc/features/feature-subscribe-section.php:33
+msgid "Subscribe"
+msgstr "Підписатись"
+
+#: inc/features/feature-navigation-tabs.php:192
+#: inc/features/feature-shop-section.php:63
+#: inc/sections/hestia-shop-section.php:47
+msgid "Products"
+msgstr "Товари"
+
+#: inc/features/feature-shop-section.php:25
+#: inc/features/feature-shop-section.php:35
+msgid "Shop"
+msgstr "Магазин"
+
+#: inc/features/feature-general-settings.php:149
+msgid "If enabled, the theme will use a boxed layout."
+msgstr "Якщо ввімкнуто, тема буде використовувати вузький шаблон"
+
+#: inc/features/feature-general-settings.php:148
+msgid "Boxed Layout"
+msgstr "Вузький шаблон"
+
+#: inc/features/feature-general-settings.php:45
+#: inc/features/feature-navigation-tabs.php:76
+#: inc/features/feature-navigation-tabs.php:111
+#: inc/features/feature-navigation-tabs.php:144
+#: inc/features/feature-navigation-tabs.php:181
+msgid "General Settings"
+msgstr "Головні налаштування"
+
+#: inc/features/feature-contact-section.php:160
+#: inc/features/feature-navigation-tabs.php:155
+msgid "Contact Content"
+msgstr "Вміст контакту"
+
+#: inc/features/feature-contact-section.php:133
+#: inc/features/feature-subscribe-section.php:115
+msgid "Instructions"
+msgstr "Інструкції"
+
+#: inc/features/feature-contact-section.php:117
+msgid "Form Title"
+msgstr "Заголовок форми"
+
+#: inc/features/feature-contact-section.php:109
+#: inc/features/feature-contact-section.php:263
+#: inc/sections/hestia-contact-section.php:45
+msgid "Contact Us"
+msgstr "Зв'язатися з нами"
+
+#: inc/features/feature-contact-section.php:77
+#: inc/sections/hestia-contact-section.php:44
+msgid "Get in Touch"
+msgstr "Будемо на зв'язку"
+
+#: inc/features/feature-contact-section.php:68
+#: inc/features/feature-subscribe-section.php:67
+msgid "Background Image"
+msgstr "Зображення фону"
+
+#: inc/features/feature-contact-section.php:23
+#: inc/features/feature-contact-section.php:33
+msgid "Contact"
+msgstr "Контакт"
+
+#: inc/features/feature-color-settings.php:33
+msgid "Accent Color"
+msgstr "Колір Accent"
+
+#: inc/features/feature-blog-section.php:99
+#: inc/features/feature-shop-section.php:103
+msgid "Number of Items"
+msgstr "Кількість елементів"
+
+#: inc/features/feature-blog-section.php:83
+#: inc/features/feature-contact-section.php:101
+#: inc/features/feature-shop-section.php:87
+#: inc/features/feature-subscribe-section.php:100
+#: inc/typography/typography-settings.php:403
+msgid "Section Subtitle"
+msgstr "Підзаголовок розділу"
+
+#: inc/features/feature-blog-section.php:67
+#: inc/features/feature-contact-section.php:85
+#: inc/features/feature-shop-section.php:71
+#: inc/features/feature-subscribe-section.php:84
+#: inc/typography/typography-settings.php:370
+msgid "Section Title"
+msgstr "Заголовок розділу"
+
+#: inc/features/feature-blog-section.php:23
+#: inc/features/feature-blog-section.php:33
+#: inc/features/feature-blog-section.php:59
+#: inc/sections/hestia-blog-section.php:45
+msgid "Blog"
+msgstr "Блог"
+
+#: inc/features/feature-blog-section.php:75
+#: inc/features/feature-contact-section.php:93
+#: inc/features/feature-shop-section.php:79
+#: inc/features/feature-subscribe-section.php:92
+msgid "Change this subtitle in the Customizer"
+msgstr "Змініть цей підзаголовок у Налаштовувачі"
+
+#: inc/features/feature-big-title-section.php:181
+msgid "Button URL"
+msgstr "URL кнопки"
+
+#: functions.php:743 inc/features/feature-big-title-section.php:164
+msgid "Button text"
+msgstr "Текст кнопки"
+
+#: inc/features/feature-big-title-section.php:110
+msgid "Big Title Background"
+msgstr "Фон великого заголовку"
+
+#: inc/features/feature-big-title-section.php:21
+#: inc/features/feature-big-title-section.php:43
+#: inc/typography/typography-settings.php:337
+msgid "Big Title Section"
+msgstr "Розділ великого заголовку"
+
+#: inc/features/feature-about-section.php:79
+#: inc/features/feature-about-section.php:98
+msgid "About Content"
+msgstr "Вміст Про нас"
+
+#: inc/features/feature-about-section.php:56
+#: inc/features/feature-blog-section-lite.php:25
+#: inc/features/feature-blog-section.php:51
+#: inc/features/feature-contact-section.php:51
+#: inc/features/feature-header-settings.php:85
+#: inc/features/feature-pagebuilder-frontpage.php:40
+#: inc/features/feature-shop-section.php:55
+#: inc/features/feature-subscribe-section.php:50
+msgid "Disable section"
+msgstr "Вимкнути розділ"
+
+#: inc/features/feature-about-section.php:28
+#: inc/features/feature-about-section.php:38
+msgid "About"
+msgstr "Про нас"
+
+#: inc/features/feature-about-page.php:289
+msgid "Recommended Plugins"
+msgstr "Рекомендовані плагіни"
+
+#. translators: s - Orbit Fox Companion
+#: inc/features/feature-about-page.php:284
+msgid "If you want to take full advantage of the options this theme has to offer, please install and activate %s."
+msgstr "Якщо ви хочете скористатись усіма перевагами параметрів які пропонує ця тема, будь ласка, встановіть та активуйте %s."
+
+#: inc/features/feature-about-page.php:256
+msgid "Makes your Contact section more engaging by creating a good-looking contact form. Interaction with your visitors has never been easier."
+msgstr "Зробіть ваш розділ Контакти більш привабливим, створивши привабливу контактну форму. Взаємодія з вашими відвідувачами ніколи не була простішою."
+
+#: inc/features/feature-about-page.php:249
+msgid "It is highly recommended that you install the companion plugin to have access to the Frontpage features, Team and Testimonials sections."
+msgstr "Настійно рекомендується встановити супровідний плагін, щоб мати доступ до особливостей Головної сторінки, розділів Команда та Відгуки."
+
+#: inc/features/feature-about-page.php:213
+#: inc/features/feature-about-page.php:245
+#: inc/features/feature-about-page.php:292
+msgid "Deactivate"
+msgstr "Вимкнути"
+
+#: inc/features/feature-about-page.php:212
+#: inc/features/feature-about-page.php:244
+#: inc/features/feature-about-page.php:291
+#: inc/plugin-install/class-hestia-plugin-install-helper.php:80
+#: inc/plugin-install/class-hestia-plugin-install-helper.php:85
+msgid "Activate"
+msgstr "Активувати"
+
+#: inc/features/feature-about-page.php:211
+#: inc/features/feature-about-page.php:243
+#: inc/features/feature-about-page.php:290
+msgid "Install and Activate"
+msgstr "Встановити та активувати"
+
+#: inc/features/feature-about-page.php:210
+msgid "Version: "
+msgstr "Версія:"
+
+#: inc/features/feature-about-page.php:209
+msgid "Already activated"
+msgstr "Вже активовано"
+
+#: inc/features/feature-about-page.php:201
+#: inc/features/feature-theme-info-section.php:58
+msgid "24/7 HelpDesk Professional Support"
+msgstr "24/7 професійна підтримка HelpDesk-у"
+
+#: inc/features/feature-about-page.php:200
+#: inc/features/feature-theme-info-section.php:49
+msgid "Quality Support"
+msgstr "Якісна підтримка"
+
+#: inc/features/feature-about-page.php:183
+#: inc/features/feature-theme-info-section.php:53
+msgid "Change colors for the header overlay, header text and navbar."
+msgstr "Змінити колір нашарування заголовку, тексту заголовку та панелі навігації."
+
+#: inc/features/feature-about-page.php:182
+#: inc/features/feature-theme-info-section.php:45
+msgid "Fully Customizable Colors"
+msgstr "Повністю настроюванні кольори"
+
+#: inc/features/feature-about-page.php:177
+#: inc/features/feature-theme-info-section.php:52
+msgid "You will be able to add more content to your site header with an awesome slider."
+msgstr "Ви матимете можливість додати більше вмісту до заголовку вашого сайту з чудовим слайдером."
+
+#: inc/features/feature-about-page.php:176
+#: inc/features/feature-theme-info-section.php:44
+msgid "Header Slider"
+msgstr "Заголовок слайдеру"
+
+#: inc/features/feature-about-page.php:159
+msgid "You can use any background image you want."
+msgstr "Ви можете використовувати будь-який фон."
+
+#: inc/features/feature-about-page.php:158
+msgid "Background image"
+msgstr "Фонове зображення"
+
+#: inc/features/feature-about-page.php:153
+msgid "Big title, Features, About, Team, Testimonials, Subscribe, Blog, Contact"
+msgstr "Великий заголовок, Особливості, Про нас, Команда, Рекомендації, Підписка, Блог, Контакти"
+
+#: inc/features/feature-about-page.php:147
+msgid "Ready for e-commerce. You can build an online store here."
+msgstr "Готова до e-commerce. Тут ви можете створити онлайн магазин."
+
+#: inc/features/feature-about-page.php:146
+msgid "WooCommerce Compatible"
+msgstr "Сумісна з WooCommerce"
+
+#: inc/features/feature-about-page.php:141
+msgid "Responsive layout. Works on every device."
+msgstr "Адаптивна розмітка. Працює на всіх пристроях."
+
+#: inc/features/feature-about-page.php:140
+msgid "Mobile friendly"
+msgstr "Адаптивна"
+
+#. translators: s - theme name
+#: inc/features/feature-about-page.php:135
+msgid "Get %s now!"
+msgstr "Отримати %s зараз!"
+
+#: inc/features/feature-about-page.php:121
+msgid "Using the WordPress Customizer you can easily customize every aspect of the theme."
+msgstr "Використовуючи WordPress Customizer, ви можете легко налаштувати кожен аспект теми."
+
+#: inc/features/feature-about-page.php:103
+msgid "We have compiled a list of steps for you to take so we can ensure that the experience you have using one of our products is very easy to follow."
+msgstr "Ми склали список кроків, які потрібно виконувати, щоб ми могли переконатися, що використання вами одного з наших продуктів дається ваш легко."
+
+#: inc/features/feature-about-page.php:102
+#: inc/features/feature-about-page.php:104
+msgid "Recommended actions"
+msgstr "Рекомендовані дії"
+
+#: inc/features/feature-about-page.php:92
+msgid "In the documentation below you will find an easy way to build a great looking landing page using a drag-and-drop content builder plugin."
+msgstr "У документації нижче ви знайдете рекомендації до побудови чудової цільової сторінки використовуючи плагін конструктор перетягування вмісту."
+
+#: inc/features/feature-about-page.php:90
+msgid "Build a landing page with a drag-and-drop content builder"
+msgstr "Створіть цільову сторінку використовуючи конструктор перетягування вмісту."
+
+#: inc/features/feature-about-page.php:83
+msgid "If you find yourself in a situation where everything on your site is running very slowly, you might consider having a look at the documentation below where you will find the most common issues causing this and possible solutions for each of the issues."
+msgstr "Якщо ви опинитесь у ситуації, коли все, що відбувається на вашому сайті, працює дуже повільно, ви можете ознайомитися з документацією нижче, де ви знайдете найбільш поширені проблеми, що викликають, та можливі рішення для кожної з цих проблем."
+
+#: inc/features/feature-about-page.php:81
+msgid "Speed up your site"
+msgstr "Прискорте ваш сайт"
+
+#: inc/features/feature-about-page.php:75
+#: inc/features/feature-about-page.php:84
+#: inc/features/feature-about-page.php:93
+msgid "View how to do this"
+msgstr "Переглянути як це зробити"
+
+#: inc/features/feature-about-page.php:74
+msgid "If you want to make changes to the theme's files, those changes are likely to be overwritten when you next update the theme. In order to prevent that from happening, you need to create a child theme. For this, please follow the documentation below."
+msgstr "Якщо ви хочете внести зміни до файлів теми, ці зміни, ймовірно, будуть перезаписані, коли ви наступного разу оновите тему. Щоб запобігти цьому, потрібно створити тему-нащадок. Для цього, будь ласка, дійте згідно наведеної нижче документації."
+
+#: inc/features/feature-about-page.php:72
+msgid "Create a child theme"
+msgstr "Створити тему нащадок"
+
+#: inc/features/feature-about-page.php:65
+msgid "Want to get the gist on the latest theme changes? Just consult our changelog below to get a taste of the recent fixes and features implemented."
+msgstr "Хочете дізнатись про останні зміни теми? Просто ознайомтесь з списком змін нижче, щоб отримати знання щодо останніх виправлень і запроваджених функцій."
+
+#: inc/features/feature-about-page.php:57
+#: inc/features/feature-about-page.php:111
+msgid "Read full documentation"
+msgstr "Читати повну документацію"
+
+#: functions.php:810 inc/features/feature-about-page.php:56
+#: inc/features/feature-about-page.php:112
+msgid "Need more details? Please check our full documentation for detailed information on how to use Hestia."
+msgstr "Необхідно більше інформації? Будь ласка, ознайомтесь з нашою повною документацією для більш детальної інформації про те як використовувати Hestia."
+
+#: inc/features/feature-about-page.php:47
+msgid "We want to make sure you have the best experience using Hestia, and that is why we have gathered all the necessary information here for you. We hope you will enjoy using Hestia as much as we enjoy creating great products."
+msgstr "Ми хочемо переконатися, що ви задоволені використанням Hestia, і саме тому ми зібрали всю необхідну інформацію для вас. Ми сподіваємось, що вам сподобається Hestia, адже ми насолоджуємося створенням чудових продуктів."
+
+#: inc/features/feature-about-page.php:45
+#: inc/features/feature-about-page.php:48
+msgid "Contact Support"
+msgstr "Напишіть на підтримку"
+
+#: inc/features/feature-about-page.php:40
+msgid "Free vs PRO"
+msgstr "Free чи PRO"
+
+#: inc/features/feature-about-page.php:39
+#: inc/features/feature-about-page.php:63
+#: inc/features/feature-about-page.php:66
+msgid "Changelog"
+msgstr "Список змін"
+
+#: inc/features/feature-about-page.php:38
+msgid "Support"
+msgstr "Підтримка"
+
+#: inc/features/feature-about-page.php:37
+msgid "Useful Plugins"
+msgstr "Корисні пагіни"
+
+#: inc/features/feature-about-page.php:36
+#: inc/features/feature-about-page.php:288
+msgid "Recommended Actions"
+msgstr "Рекомендовані дії"
+
+#: inc/features/feature-about-page.php:35
+msgid "Getting Started"
+msgstr "Починаємо"
+
+#. translators: s - theme name
+#: inc/features/feature-about-page.php:25
+msgid "Welcome to %s! - Version "
+msgstr "Ласкаво просимо до %s! - Версія"
+
+#: functions.php:810 inc/features/feature-about-page.php:20
+#: inc/features/feature-about-page.php:22
+msgid "About Hestia"
+msgstr "Про Hestia"
+
+#: inc/customizer.php:138 inc/features/feature-blog-section-lite.php:20
+msgid "Blog Settings"
+msgstr "Налаштування блогу"
+
+#: inc/customizer.php:131 inc/features/feature-about-page.php:152
+#: inc/typography/typography-settings.php:198
+msgid "Frontpage Sections"
+msgstr "Розділ головної сторінки"
+
+#: inc/customizer.php:124 inc/features/feature-navigation-tabs.php:85
+msgid "Appearance Settings"
+msgstr "Налаштування вигляду"
+
+#: inc/customizer-theme-info/class-hestia-customizer-theme-info.php:109
+#: inc/features/feature-about-page.php:195
+#: inc/features/feature-theme-info-section.php:55
+msgid "A fully customizable pricing plans section."
+msgstr "Повністю налаштовуємий  розділ тарифних планів."
+
+#: inc/customizer-theme-info/class-hestia-customizer-theme-info.php:108
+#: inc/features/feature-about-page.php:189
+#: inc/features/feature-theme-info-section.php:54
+msgid "Portfolio section with two possible layouts."
+msgstr "Розділ Портфоліо з двома можливими макетами."
+
+#: functions.php:1245
+#: inc/customizer-theme-info/class-hestia-customizer-theme-info.php:106
+#: inc/features/feature-theme-info-section.php:61
+msgid "Get the PRO version!"
+msgstr "Отримати PRO версію!"
+
+#: inc/customizer-theme-info/class-hestia-customizer-theme-info.php:102
+#: inc/features/feature-about-page.php:164
+#: inc/features/feature-theme-info-section.php:48
+msgid "Section Reordering"
+msgstr "Розділ переупорядкування"
+
+#: inc/customizer-theme-info/class-hestia-customizer-theme-info.php:101
+#: inc/features/feature-about-page.php:194
+#: inc/features/feature-theme-info-section.php:47
+msgid "Pricing Plans Section"
+msgstr "Розділ цінових планів"
+
+#: inc/customizer-theme-info/class-hestia-customizer-theme-info.php:100
+#: inc/features/feature-about-page.php:188
+#: inc/features/feature-theme-info-section.php:46
+#: inc/plugin-install/class-hestia-plugin-install-helper.php:85
+msgid "Jetpack Portfolio"
+msgstr "Jetpack портфоліо"
+
+#: inc/customizer-theme-info/class-hestia-customizer-theme-info.php:83
+#: inc/features/feature-about-page.php:54
+#: inc/features/feature-about-page.php:113
+msgid "Documentation"
+msgstr "Документація"
+
+#. translators: %s Path in plugin
+#: inc/customizer-subscribe-info/class-hestia-subscribe-info.php:93
+msgid "And then you need to navigate to its Settings, and use the following in the Subscription form:"
+msgstr "І тоді вам потрібно перейти до його Налаштування та використати наступне у формі підписки:"
+
+#. translators: %s Path in plugin wrapped
+#: inc/customizer-subscribe-info/class-hestia-subscribe-info.php:85
+msgid "After installing the plugin, you need to navigate to %s and configure the plugin."
+msgstr "Після встановлення плагіна вам потрібно перейти до %s та налаштувати плагін."
+
+#: inc/customizer-subscribe-info/class-hestia-subscribe-info.php:77
+#: inc/features/feature-navigation-tabs.php:121
+msgid "SendinBlue plugin"
+msgstr "SendinBlue плагін"
+
+#. translators: %1$s is Path wrapped in <b>, %2$s is Plugin link
+#: inc/customizer-subscribe-info/class-hestia-subscribe-info.php:75
+msgid "The main content of this section is customizable in: %1$s. There you must add the \"SendinBlue Newsletter\" widget. But first you will need to install %2$s."
+msgstr "Основний зміст цього розділу налаштовується в: %1$s. Там ви повинні додати віджет \"SendinBlue Newsletter\". Але спочатку вам потрібно буде встановити %2$s."
+
+#. translators: %s is Path
+#: inc/customizer-subscribe-info/class-hestia-subscribe-info.php:68
+msgid "Customize > Widgets > Blog Subscribe Section"
+msgstr "Налаштування > Віджети > Розділ підписка на блог"
+
+#. translators: %s is Path
+#: inc/customizer-subscribe-info/class-hestia-subscribe-info.php:59
+msgid "Customize > Widgets > Subscribe Section"
+msgstr "Налаштування > Віджети > Розділ Підписка"
+
+#: inc/customizer-repeater/class/class-hestia-repeater.php:792
+#: inc/customizer-repeater/class/class-hestia-repeater.php:830
+msgid "Add Icon"
+msgstr "Додати іконку"
+
+#: inc/customizer-repeater/class/class-hestia-repeater.php:787
+#: inc/customizer-repeater/class/class-hestia-repeater.php:824
+msgid "Remove Icon"
+msgstr "Видалити іконку"
+
+#: inc/customizer-repeater/class/class-hestia-repeater.php:756
+msgid "Social icons"
+msgstr "Соціальні значки"
+
+#: inc/customizer-repeater/class/class-hestia-repeater.php:742
+msgid "None"
+msgstr "Відсутнє"
+
+#: inc/customizer-repeater/class/class-hestia-repeater.php:737
+msgid "Image type"
+msgstr "Тип зображення"
+
+#: inc/customizer-repeater/class/class-hestia-repeater.php:724
+msgid "Upload Image"
+msgstr "Завантажити зображення"
+
+#: inc/customizer-repeater/class/class-hestia-repeater.php:721
+#: inc/customizer-repeater/class/class-hestia-repeater.php:741
+msgid "Image"
+msgstr "Зображення"
+
+#. translators: Fontawesome link with full list of icons available
+#: inc/customizer-iconpicker/class-hestia-iconpicker.php:76
+#: inc/customizer-repeater/class/class-hestia-repeater.php:685
+#: inc/customizer-repeater/class/class-hestia-repeater.php:763
+msgid "http://fontawesome.io/icons/"
+msgstr "http://fontawesome.io/icons/"
+
+#. translators: 1. link to font awesome icons
+#. translators: Fontawesome link with full list of icons available
+#: inc/customizer-iconpicker/class-hestia-iconpicker.php:75
+#: inc/customizer-repeater/class/class-hestia-repeater.php:683
+#: inc/customizer-repeater/class/class-hestia-repeater.php:761
+msgid "Note: Some icons may not be displayed here. You can see the full list of icons at %1$s."
+msgstr "Примітка: Деякі іконки можуть не відобразитись тут. Ви можете переглянути повний список іконок тут %1$s."
+
+#: inc/customizer-repeater/class/class-hestia-repeater.php:677
+#: inc/customizer-repeater/class/class-hestia-repeater.php:740
+msgid "Icon"
+msgstr "Іконка"
+
+#: inc/customizer-repeater/class/class-hestia-repeater.php:489
+#: inc/customizer-repeater/class/class-hestia-repeater.php:605
+msgid "Delete field"
+msgstr "Видалити поле"
+
+#: inc/customizer-repeater/class/class-hestia-repeater.php:470
+#: inc/customizer-repeater/class/class-hestia-repeater.php:593
+#: inc/features/feature-contact-form.php:28
+msgid "Shortcode"
+msgstr "Скорочений код"
+
+#: functions.php:747
+#: inc/customizer-repeater/class/class-hestia-repeater.php:441
+#: inc/customizer-repeater/class/class-hestia-repeater.php:460
+#: inc/customizer-repeater/class/class-hestia-repeater.php:566
+#: inc/customizer-repeater/class/class-hestia-repeater.php:584
+#: inc/customizer-repeater/class/class-hestia-repeater.php:784
+#: inc/customizer-repeater/class/class-hestia-repeater.php:810
+msgid "Link"
+msgstr "Посилання"
+
+#: inc/customizer-repeater/class/class-hestia-repeater.php:432
+#: inc/customizer-repeater/class/class-hestia-repeater.php:451
+#: inc/customizer-repeater/class/class-hestia-repeater.php:557
+#: inc/customizer-repeater/class/class-hestia-repeater.php:575
+#: inc/features/feature-big-title-section.php:147
+msgid "Text"
+msgstr "Текст"
+
+#: inc/customizer-repeater/class/class-hestia-repeater.php:423
+#: inc/customizer-repeater/class/class-hestia-repeater.php:548
+msgid "Subtitle"
+msgstr "Підзаголовок"
+
+#: inc/customizer-repeater/class/class-hestia-repeater.php:414
+#: inc/customizer-repeater/class/class-hestia-repeater.php:539
+#: inc/features/feature-big-title-section.php:129
+#: inc/typography/typography-settings.php:229
+msgid "Title"
+msgstr "Заголовок"
+
+#: functions.php:735 functions.php:739
+#: inc/customizer-repeater/class/class-hestia-repeater.php:393
+#: inc/customizer-repeater/class/class-hestia-repeater.php:404
+#: inc/customizer-repeater/class/class-hestia-repeater.php:519
+#: inc/customizer-repeater/class/class-hestia-repeater.php:529
+msgid "Color"
+msgstr "Колір"
+
+#: inc/customizer-repeater/class/class-hestia-repeater.php:148
+msgid "Customizer Repeater"
+msgstr "Customizer Repeater"
+
+#: inc/customizer-repeater/class/class-hestia-repeater.php:143
+msgid "Add new field"
+msgstr "Додати нове поле"
+
+#: inc/customizer-page-editor/class/class-hestia-page-editor.php:61
+#: inc/features/feature-about-section.php:117
+msgid "About background"
+msgstr "Про фон"
+
+#: inc/customizer-info/class/class-hestia-customizer-info-singleton.php:85
+msgid "WooCommerce plugin"
+msgstr "WooCommerce плагін"
+
+#. translators: %1$s is Plugin Name
+#: inc/customizer-info/class/class-hestia-customizer-info-singleton.php:84
+msgid "To have access to a shop section please install and configure %1$s."
+msgstr "Для доступу до розділу магазину, будь ласка, встановіть та налаштуйте %1$s."
+
+#. translators: %1$s is Plugin name
+#: inc/customizer-contact-info/class-hestia-contact-info.php:43
+msgid "In order to add a contact form to this section, you need to install the %s plugin."
+msgstr "При необхідності додання форми до цього розділу, вам необхідно встановити %s плагін."
+
+#. translators: %s is Path in plugin
+#: inc/customizer-contact-info/class-hestia-contact-info.php:38
+msgid "Settings > Pirate Forms"
+msgstr "Налаштування > Pirate Forms"
+
+#. translators: %s is Path in plugin wrapped
+#: inc/customizer-contact-info/class-hestia-contact-info.php:36
+msgid "You should be able to see the form on your front-page. You can configure settings from %s, in your WordPress dashboard."
+msgstr "Ви маєте бачити форму на вашій головній сторінці. Ви можете змінити налаштування з %s, з Майстерні WordPress."
+
+#: inc/template-tags.php:1003
+msgid "Toggle Navigation"
+msgstr "Перемкнути навігацію"
+
+#: functions.php:731
+msgid "Button Text"
+msgstr "Текст кнопки"
+
+#: functions.php:559
+msgid "Read more&hellip;"
+msgstr "Читати далі&hellip;"
+
+#: functions.php:490 inc/woocommerce/functions.php:427
+msgid "View cart"
+msgstr "Переглянути кошик"
+
+#: functions.php:396
+msgctxt "Roboto Slab font: on or off"
+msgid "on"
+msgstr "на"
+
+#: functions.php:395
+msgctxt "Roboto font: on or off"
+msgid "on"
+msgstr "на"
+
+#: functions.php:338
+msgid "Footer Three"
+msgstr "Третій підвал сайту"
+
+#: functions.php:337
+msgid "Footer Two"
+msgstr "Другий підвал сайту"
+
+#: functions.php:336
+msgid "Footer One"
+msgstr "Перший підвал сайту"
+
+#: functions.php:324
+msgid "Blog Subscribe Section"
+msgstr "Розділ підписки на блог"
+
+#: functions.php:322
+msgid "Sidebar"
+msgstr "Бічна панель"
+
+#: functions.php:174
+msgid "Footer Menu"
+msgstr "Меню підвалу"
+
+#: functions.php:173 functions.php:835
+msgid "Primary Menu"
+msgstr "Головне меню"
+
+#: inc/template-tags.php:795
+msgid "WordPress"
+msgstr "WordPress"
+
+#. translators: %s is WordPress
+#: inc/template-tags.php:794
+msgid "http://wordpress.org"
+msgstr "http://wordpress.org"
+
+#. #-#-#-#-#  hestia.pot (Hestia 1.1.74)  #-#-#-#-#
+#. translators: %s is Theme name
+#. #-#-#-#-#  hestia.pot (Hestia 1.1.74)  #-#-#-#-#
+#. Theme Name of the plugin/theme
+#: inc/customizer-theme-info/class-hestia-customizer-theme-info.php:81
+#: inc/template-tags.php:789
+msgid "Hestia"
+msgstr "Hestia"
+
+#. translators: %1$s is Theme Name, %2$s is WordPress
+#: inc/template-tags.php:785
+msgid "%1$s | Powered by %2$s"
+msgstr "%1$s | працює на %2$s"
+
+#: comments.php:59
+msgid "Comments are closed."
+msgstr "Коментарі закрито."
+
+#. translators: %s is Image sizes for attachment single page.
+#: attachment.php:74
+msgid "Size: %s"
+msgstr "Розмір: %s"
+
+#. translators: %1$s is Author name, %2$s is Date
+#. translators: %1$s is Author name wrapped, %2$s is Date
+#: attachment.php:20 inc/template-tags.php:1304
+msgid "Published by %1$s on %2$s"
+msgstr "Опубліковано %1$s на %2$s"
+
+#. Author URI of the plugin/theme
+msgid "https://themeisle.com"
+msgstr "https://themeisle.com"
+
+#. Author of the plugin/theme
+msgid "ThemeIsle"
+msgstr "ThemeIsle"
+
+#. Theme URI of the plugin/theme
+msgid "https://themeisle.com/themes/hestia/"
+msgstr "https://themeisle.com/themes/hestia/"

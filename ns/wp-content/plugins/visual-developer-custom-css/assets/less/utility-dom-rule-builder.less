@@ -1,0 +1,89 @@
+.visual-developer-utility-dom-rule-builder-body {
+  overflow: hidden !important;
+}
+
+#visual-developer-utility-dom-rule-builder-overlay {
+  top        : 0;
+  left       : 0;
+  position   : fixed;
+  display    : block;
+  padding    : 0;
+  background : #191A1E;
+  background : rgba(26, 28, 31, 0.70);
+  z-index    : @minZIndex + 1000;
+
+
+  #visual-developer-utility-dom-rule-builder-container {
+    width      : 360px;
+    padding    : 10px;
+    background : rgba(26, 28, 31, 0.90);
+    position   : fixed;
+    z-index    : @minZIndex + 1001;
+
+    > h2 {
+      color          : #FFFFFF;
+      text-align     : left;
+      padding-bottom : 5px;
+      display        : inline-block;
+      margin-left    : 10px;
+    }
+
+    > .visual-developer-utility-dom-rule-builder-cancel-creation {
+      margin        : 0;
+      display       : inline-block;
+      background    : #FF644B;
+      color         : #FFFFFF;
+      font-size     : 12px;
+      padding       : 5px 10px;
+      cursor        : pointer;
+      border-radius : 2px;
+    }
+
+    > #visual-developer-utility-dom-rule-builder-rule-preview {
+      width  : 97%;
+      margin : 10px 0 0 0;
+    }
+
+    > .visual-developer-utility-dom-rule-builder-node-item-container {
+      width  : 97%;
+      margin : 10px 0 0 0;
+
+      > .visual-developer-utility-dom-rule-builder-node-item {
+        float      : left;
+        background : #191A1E;
+        color      : #FFFFFF;
+        padding    : 10px 20px;
+        font-size  : 12px;
+        display    : block;
+        margin     : 0 10px;
+        cursor     : pointer;
+
+        &.visual-developer-utility-dom-rule-builder-node-item-target-children:before {
+          width         : 0;
+          height        : 0;
+          content       : "";
+          border-top    : 15px solid transparent;
+          border-bottom : 15px solid transparent;
+          border-right  : 15px solid #191A1E;
+          position      : absolute;
+          margin-left   : -34px;
+          margin-top    : -8px;
+        }
+
+        &.visual-developer-utility-dom-rule-builder-node-item-first {
+          margin-left : 0;
+        }
+      }
+    }
+
+    > .visual-developer-utility-dom-rule-builder-finish-creation {
+      margin     : 10px 0 0 0;
+      display    : inline-block;
+      background : #85C50C;
+      color      : #FFFFFF;
+      font-size  : 12px;
+      padding    : 10px 20px;
+      cursor     : pointer;
+    }
+  }
+}

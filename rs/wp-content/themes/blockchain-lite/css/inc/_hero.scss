@@ -1,0 +1,175 @@
+/* -----------------------------------------
+	04. Hero Area
+----------------------------------------- */
+
+/* Basic Styles
+=================================== */
+.page-hero {
+	position: relative;
+	display: flex;
+	align-items: center;
+	padding: 90px 0;
+	background-color: $accent-secondary;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	color: $white;
+
+	// Overlay color, apply background color here
+	&::before {
+		content: "";
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		z-index: 12;
+		background-color: rgba($accent-secondary, .5);
+	}
+
+	.slick-initialized & {
+		display: flex;
+	}
+
+	.btn {
+		margin-top: 45px;
+		color: inherit;
+	}
+
+	@include media-breakpoint-down(lg) {
+		padding: 60px 0;
+	}
+
+	@include media-breakpoint-down(sm) {
+		padding: 35px 0;
+	}
+
+	@include media-breakpoint-down(xs) {
+		.container {
+			width: 100%;
+		}
+	}
+}
+
+.page-hero-lg {
+	height: $hero-home-height-lg;
+	overflow: hidden;
+	text-align: center;
+
+	.page-hero-slideshow & {
+		height: 100%;
+	}
+
+	@include media-breakpoint-down(md) {
+		height: $hero-home-height-md;
+	}
+
+	@include media-breakpoint-down(sm) {
+		height: $hero-home-height-sm;
+		padding-top: 160px;
+	}
+}
+
+.page-hero-align-center {
+	text-align: center;
+}
+
+.page-hero-align-left {
+	text-align: left;
+}
+
+.page-hero-align-right {
+	text-align: right;
+}
+
+.page-hero-align-top {
+	align-items: flex-start;
+
+	@include media-breakpoint-down(md) {
+		align-items: center;
+	}
+}
+
+.page-hero-align-middle {
+	align-items: center;
+}
+
+.page-hero-align-bottom {
+	align-items: flex-end;
+
+	@include media-breakpoint-down(md) {
+		align-items: center;
+	}
+}
+
+.page-hero-content {
+	position: relative;
+	z-index: 15;
+}
+
+.page-hero-title {
+	margin: 0;
+	font-size: 42px;
+	line-height: 1;
+
+	.page-hero & {
+		color: inherit;
+	}
+
+	.page-hero-lg & {
+		font-size: 72px;
+	}
+
+	@include media-breakpoint-down(lg) {
+		.page-hero-lg & {
+			font-size: 62px;
+		}
+	}
+
+	@include media-breakpoint-down(md) {
+		font-size: 34px;
+
+		.page-hero-lg & {
+			font-size: 48px;
+		}
+	}
+
+	@include media-breakpoint-down(sm) {
+		font-size: 28px;
+
+		.page-hero-lg & {
+			font-size: 32px;
+		}
+	}
+}
+
+.page-hero-subtitle {
+	margin: 10px 0 0;
+	font-size: 18px;
+	line-height: 1.5;
+
+	.page-hero-lg & {
+		font-size: 20px;
+
+		@include media-breakpoint-down(sm) {
+			font-size: 16px;
+		}
+	}
+
+	@include media-breakpoint-down(sm) {
+		font-size: 16px;
+	}
+
+	@include media-breakpoint-up(lg) {
+		max-width: 50%;
+
+		.page-hero-align-center & {
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.page-hero-align-right & {
+			margin-left: auto;
+		}
+	}
+}

@@ -1,0 +1,396 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Fashify v10.0.8\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2017-03-21 17:47+0300\n"
+"Last-Translator: Игорь <dybabiz@ya.ru>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"Language: ru\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ fashify
+#: 404.php:19
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ой! Это страница не может быть найдена."
+
+# @ fashify
+#: 404.php:23
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Ничего не было найдено. Может попробовать одну из следующих ссылок или новый поиск?"
+
+# @ fashify
+#: archive.php:68 home.php:99 search.php:66
+msgid "Page"
+msgstr "Страница "
+
+# @ fashify
+#. translators: %s: post title
+#: comments.php:33
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "Один комментарий для &ldquo;%s&rdquo;"
+
+# @ fashify
+#. translators: 1: number of comments, 2: post title
+#: comments.php:38
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s комментариев для &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s комментариев для &ldquo;%2$s&rdquo;"
+
+# @ fashify
+#: comments.php:53 comments.php:75
+msgid "Comment navigation"
+msgstr "Навигация по комментариям"
+
+# @ fashify
+#: comments.php:56 comments.php:78
+msgid "Older Comments"
+msgstr "Старые комментарии"
+
+# @ fashify
+#: comments.php:57 comments.php:79
+msgid "Newer Comments"
+msgstr "Новые комментарии"
+
+# @ fashify
+#: comments.php:92
+msgid "Comments are closed."
+msgstr "Обсуждение закрыто."
+
+# @ fashify
+#: footer.php:42
+#, php-format
+msgid "Copyright &copy; %1$s %2$s. All Rights Reserved."
+msgstr "Copyright &copy; %1$s %2$s. Все права защищены."
+
+# @ fashify
+#: footer.php:42
+msgid "Y"
+msgstr ""
+
+# @ fashify
+#: functions.php:61
+msgid "Primary"
+msgstr "Основное"
+
+# @ fashify
+#: functions.php:62
+msgid "Social Links"
+msgstr "Ссылки соц. сетей"
+
+# @ fashify
+#: functions.php:104
+msgctxt "libre_franklin font: on or off"
+msgid "on"
+msgstr ""
+
+# @ fashify
+#: functions.php:125
+msgid "Sidebar"
+msgstr "Сайдбар"
+
+# @ fashify
+#: functions.php:127 functions.php:137
+msgid "Add widgets here."
+msgstr "Добавьте свои виджеты."
+
+# @ fashify
+#: functions.php:135
+msgid "Footer"
+msgstr "Подвал"
+
+# @ fashify
+#: header.php:25
+msgid "Skip to content"
+msgstr "Наверх"
+
+# @ fashify
+#: header.php:67
+msgid "Menu"
+msgstr "﻿Меню"
+
+# @ fashify
+#: inc/customizer.php:28
+msgid "Theme Options"
+msgstr "Опции темы"
+
+# @ fashify
+#: inc/customizer.php:37
+msgid "Global"
+msgstr "Глобальные настройки"
+
+# @ fashify
+#: inc/customizer.php:51
+msgid "Site Layout"
+msgstr "Схема размещения"
+
+# @ fashify
+#: inc/customizer.php:55
+msgid "Left Sidebar"
+msgstr "Сайдбар слева"
+
+# @ fashify
+#: inc/customizer.php:56
+msgid "Right Sidebar"
+msgstr "Сайдбар справа"
+
+# @ fashify
+#: inc/customizer.php:70
+msgid "Archive/Search Layout:"
+msgstr "Архив/Поиск расположение:"
+
+# @ fashify
+#: inc/customizer.php:74
+msgid "Default"
+msgstr "По умолчанию"
+
+# @ fashify
+#: inc/customizer.php:75
+msgid "Grid"
+msgstr "Сетка"
+
+# @ fashify
+#: inc/customizer.php:76
+msgid "List"
+msgstr "Список"
+
+# @ fashify
+#: inc/customizer.php:87 template-parts/content-staff.php:14
+msgid "Staff Picks"
+msgstr "Подоборка Персонала"
+
+# @ fashify
+#: inc/customizer.php:102
+msgid "Show/Hide the staff pick"
+msgstr "Показать/скрыть подбора персонала"
+
+# @ fashify
+#: inc/customizer.php:117
+msgid "Staff Category:"
+msgstr "Категория персонала:"
+
+# @ fashify
+#: inc/customizer.php:133
+msgid "Number:"
+msgstr "Номер:"
+
+# @ fashify
+#: inc/customizer.php:136
+msgid "Enter number post display on Staff section."
+msgstr "Введите номер записи дисплей на сотрудников секции."
+
+# @ fashify
+#: inc/customizer.php:148
+msgid "Primary Color"
+msgstr "Основной цвет"
+
+# @ fashify
+#: inc/customizer.php:159
+msgid "Secondary Color"
+msgstr "Вторичный Цвет"
+
+# @ fashify
+#: inc/extras.php:75
+msgid "Search for:"
+msgstr "Поиск для:"
+
+# @ fashify
+#: inc/extras.php:76
+msgid "Search"
+msgstr "Поиск"
+
+# @ fashify
+#: inc/template-tags.php:28 inc/template-tags.php:65
+#, php-format
+msgctxt "post date"
+msgid " on %s"
+msgstr " - %s"
+
+# @ fashify
+#: inc/template-tags.php:33 inc/template-tags.php:70
+#, php-format
+msgctxt "post author"
+msgid "Posted by %s"
+msgstr "Автор: %s"
+
+# @ fashify
+#: inc/template-tags.php:37 inc/template-tags.php:74 inc/template-tags.php:90
+msgid ", "
+msgstr ""
+
+# @ fashify
+#: inc/template-tags.php:38 inc/template-tags.php:75
+#, php-format
+msgid " in %1$s"
+msgstr " - %1$s"
+
+# @ fashify
+#: inc/template-tags.php:96
+msgid "Posted in"
+msgstr "Категория:"
+
+# @ fashify
+#: inc/template-tags.php:102
+msgid "Tagged in"
+msgstr "Метки:"
+
+# @ fashify
+#: inc/template-tags.php:160
+msgid "Pingback:"
+msgstr ""
+
+# @ fashify
+#: inc/template-tags.php:160
+msgid "Edit"
+msgstr "Изменить"
+
+# @ fashify
+#: inc/template-tags.php:174
+msgid "Your comment is awaiting moderation."
+msgstr "Спасибо! Ваш комментарий ожидает проверки."
+
+# @ fashify
+#: inc/template-tags.php:179
+msgid "says:"
+msgstr "говорит:"
+
+# @ fashify
+#. translators: 1: date, 2: time
+#: inc/template-tags.php:183
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "﻿%1$s в %2$s"
+
+# @ fashify
+#: inc/template-tags.php:239
+#, php-format
+msgid "Fashify Theme by %1$s"
+msgstr ""
+
+# @ fashify
+#: inc/widgets.php:10
+msgid "Fashify Posts"
+msgstr ""
+
+# @ fashify
+#: inc/widgets.php:13
+msgid "Displays custom posts."
+msgstr "Отображение пользовательских сообщений."
+
+# @ fashify
+#: inc/widgets.php:71
+msgid "Recent Posts"
+msgstr "Свежие записи"
+
+# @ fashify
+#: inc/widgets.php:82 inc/widgets.php:95
+msgid "Title"
+msgstr "Заголовок "
+
+# @ fashify
+#: inc/widgets.php:87
+msgid "Number of photos"
+msgstr "Количество фотографий"
+
+# @ fashify
+#: inc/widgets.php:92
+msgid "Order by"
+msgstr "Сортировать по"
+
+# @ fashify
+#: inc/widgets.php:94
+msgid "Date"
+msgstr "Дата"
+
+# @ fashify
+#: inc/widgets.php:96
+msgid "Comment count"
+msgstr "Количество комментариев"
+
+# @ fashify
+#: inc/widgets.php:97
+msgid "Random"
+msgstr "Случайно"
+
+# @ fashify
+#: inc/widgets.php:100
+msgid "Order"
+msgstr "Порядок"
+
+# @ fashify
+#: inc/widgets.php:102
+msgid "DESC"
+msgstr "Убывание"
+
+# @ fashify
+#: inc/widgets.php:103
+msgid "ASC"
+msgstr "Возрастание"
+
+# @ fashify
+#: search.php:24
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Результаты поиска для: %s"
+
+# @ fashify
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Найдено ничего"
+
+# @ fashify
+#: template-parts/content-none.php:21
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Готовы опубликовать свою первую запись? <a href=\"%1$s\">Начните здесь</a>."
+
+# @ fashify
+#: template-parts/content-none.php:25
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Извините, но по данным критериям поиска ничего не найдено. Пожалуйста, попробуйте другие слова."
+
+# @ fashify
+#: template-parts/content-none.php:31
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "По данному адресу ничего не найдено. Воспользуйтесь поиском."
+
+# @ fashify
+#: template-parts/content-page.php:22 template-parts/content-single.php:30
+msgid "Pages:"
+msgstr "Страницы:"
+
+# @ fashify
+#. translators: %s: Name of current post
+#: template-parts/content-page.php:33
+#, php-format
+msgid "Edit %s"
+msgstr "Изменить %s"
+
+# @ fashify
+#: template-parts/content-single.php:38
+msgid "Previous article"
+msgstr "Предыдущая запись"
+
+# @ fashify
+#: template-parts/content-single.php:39
+msgid "Next article"
+msgstr "Следующая запись"
+
+# @ fashify
+#: template-parts/content-single.php:41
+msgid "Continue Reading"
+msgstr "Подробнее"

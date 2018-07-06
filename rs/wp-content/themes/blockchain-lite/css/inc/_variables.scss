@@ -1,0 +1,85 @@
+// Grid
+// Variables used by Bootstrap Grid (v4)
+// =========================================
+$grid-breakpoints: (
+	xs: 0,
+	sm: 576px,
+	md: 768px,
+	lg: 992px,
+	xl: 1200px
+) !default;
+
+$container-max-widths: (
+	sm: 540px,
+	md: 720px,
+	lg: 940px,
+	xl: 1170px
+) !default;
+
+$grid-columns: 12 !default;
+$grid-gutter-width-base: 30px !default;
+$grid-gutter-widths: (
+	xs: $grid-gutter-width-base,
+	sm: $grid-gutter-width-base,
+	md: $grid-gutter-width-base,
+	lg: $grid-gutter-width-base,
+	xl: $grid-gutter-width-base
+) !default;
+
+// WordPress Galleries gutter widths
+$grid-gutter-widths-galleries: (
+	xs: $grid-gutter-width-base / 3,
+	sm: $grid-gutter-width-base / 3,
+	md: $grid-gutter-width-base / 3,
+	lg: $grid-gutter-width-base / 3,
+	xl: $grid-gutter-width-base / 3
+) !default;
+
+// Base Generic
+// =========================================
+$font-size-base: 16px;
+$line-height-base: 1.625;
+
+// Hero
+// =========================================
+$hero-home-height-lg: 100vh;
+$hero-home-height-md: 650px;
+$hero-home-height-sm: 550px;
+
+// Sections & Spacing
+// =========================================
+$section-padding-lg: 100px;
+$section-padding-md: 70px;
+$section-padding-sm: 50px;
+
+$widget-margin-lg: 60px;
+$widget-margin-md: 50px;
+$widget-margin-sm: 40px;
+
+// Colors
+// =========================================
+$white: #fff !default;
+$black: #000 !default;
+$grey: #f7f7f7 !default;
+$green: #62d102 !default;
+$red: #ff0201 !default;
+
+$body-bg: $white !default;
+$accent-color: #019afe !default;
+$accent-secondary: #31356b !default;
+$text-color: #585858 !default;
+$text-color-dark: #242424 !default;
+$text-on-accent: $white;
+$border-color: #ebebeb !default;
+$text-color-footer: $text-on-accent !default;
+$color-on-secondary: #8d8fab !default;
+$bg-on-secondary: #65678f !default;
+
+$button-bg-color: $accent-color !default;
+$button-text-color: $text-on-accent !default;
+$button-border-color: $accent-color !default;
+
+// Fonts
+// =========================================
+$primary-font: Roboto, sans-serif;
+$secondary-font: Roboto, sans-serif;

@@ -1,0 +1,338 @@
+/* -----------------------------------------
+	08. Widgets Styling
+----------------------------------------- */
+.widget {
+	margin: 0 0 $widget-margin-lg;
+	font-size: 15px;
+	line-height: 1.466666667;
+
+	@include media-breakpoint-down(md) {
+		margin-bottom: $widget-margin-md;
+	}
+
+	@include media-breakpoint-down(sm) {
+		margin-bottom: $widget-margin-sm;
+	}
+
+	/* Nullify bottom margin for last elements in widgets and sidebars */
+	.sidebar & {
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	p {
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+
+	select {
+		width: 100%;
+	}
+}
+
+.widget-title {
+	font-size: 18px;
+	padding-bottom: 12px;
+	margin-bottom: 25px;
+	border-bottom: 2px solid $border-color;
+	font-weight: 400;
+	color: $accent-secondary;
+
+	.footer & {
+		color: currentColor;
+		border-color: $color-on-secondary;
+	}
+
+	label {
+		text-transform: none;
+		display: block;
+		font-size: inherit;
+		margin: 0;
+		line-height: inherit;
+		font-weight: inherit;
+	}
+}
+
+.text-success {
+	color: $green !important;
+}
+
+.text-danger {
+	color: $red !important;
+}
+
+/* WIDGET: List Widgets
+========================================= */
+// sass-lint:disable class-name-format
+.widget_meta,
+.widget_pages,
+.widget_categories,
+.widget_archive,
+.widget_product_categories,
+.widget_layered_nav {
+	ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+
+		ul {
+			margin-left: 15px;
+		}
+	}
+
+	li {
+		line-height: normal;
+		display: block;
+		position: relative;
+
+		a {
+			display: block;
+			color: $text-color;
+			border-bottom: 1px solid $border-color;
+			margin-bottom: 7px;
+			padding-bottom: 7px;
+			position: relative;
+
+			.footer & {
+				color: currentColor;
+				border-color: $color-on-secondary;
+			}
+
+			&:hover {
+				border-color: $accent-color;
+			}
+		}
+
+		.count,
+		.ci-count {
+			position: absolute;
+			right: 0;
+			top: 0;
+			font-size: .9em;
+		}
+	}
+}
+
+.widget_nav_menu {
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+
+		ul {
+			margin-left: 15px;
+		}
+	}
+
+	> div {
+		> ul {
+			> li {
+				&:first-child {
+					> a {
+						border-top-left-radius: 3px;
+						border-top-right-radius: 3px;
+					}
+				}
+
+				&:last-child {
+					> a {
+						border-bottom-left-radius: 3px;
+						border-bottom-right-radius: 3px;
+					}
+				}
+			}
+		}
+	}
+
+	li {
+		display: block;
+	}
+
+	a {
+		display: flex;
+		align-items: center;
+		padding: 15px;
+		line-height:  normal;
+		background-color: $accent-secondary;
+		color: $text-on-accent;
+		margin-bottom: 1px;
+		font-size: 15px;
+
+		.footer & {
+			background-color: $bg-on-secondary;
+		}
+
+		&:hover {
+			background-color: $accent-color;
+			color: $text-on-accent;
+		}
+	}
+
+	.current-menu-item {
+		> a {
+			background-color: $accent-color;
+			color: $text-on-accent;
+		}
+	}
+
+	.fa {
+		min-width: 20px;
+		margin-right: 3px;
+		flex: none;
+		line-height: 1;
+		font-size: 14px;
+	}
+}
+
+.widget_recent_comments,
+.widget_rss,
+.widget_recent_entries {
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+	}
+
+	li {
+		display: block;
+		padding: 11px 0;
+		border-bottom: 1px solid $border-color;
+
+		.footer & {
+			border-color: $color-on-secondary;
+		}
+	}
+}
+
+.widget_recent_entries {
+	.post-date {
+		display: block;
+		font-size: 12px;
+	}
+}
+
+.entry-tags a, // sass-lint:disable-line force-element-nesting
+.tag-cloud-link {
+	display: inline-block;
+	padding: 4px 14px;
+	font-size: 12px !important;
+	border-radius: 20px;
+	border: 1px solid $text-color;
+	color: $text-color;
+	margin-bottom: 3px;
+
+	&:hover {
+		border-color: $button-bg-color;
+		background-color: $button-bg-color;
+		color: $button-text-color;
+	}
+}
+
+/* WIDGET: #RSS
+========================================= */
+.widget_rss {
+	.rss-date {
+		display: block;
+		font-size: 12px;
+		margin: 5px 0;
+	}
+}
+// sass-lint:enable class-name-format
+
+/* WIDGET: #Search
+========================================= */
+.searchform,
+.woocommerce-product-search {
+	> div {
+		position: relative;
+	}
+
+	input[type="text"],
+	input[type="search"] {
+		// Styling for the search input if required
+	}
+
+	.searchsubmit,
+	button[type="submit"] {
+		position: absolute;
+		top: 0;
+		right: 0;
+		height: 100%;
+		border: 0;
+		padding: 0 20px;
+		background: none;
+		color: inherit;
+		border-radius: 0;
+	}
+}
+
+/* WIDGET: #Text Widget
+========================================= */
+.widget_text { // sass-lint:disable-line class-name-format
+	p {
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+}
+
+/* WIDGET: #Calendar
+================================================== */
+#wp-calendar {
+	width: 100%;
+
+	a {
+		font-weight: bold;
+		font-style: italic;
+	}
+
+	caption {
+		text-align: left;
+		margin-top: 10px;
+		background: none repeat scroll 0 0 rgba($black, .03);
+		padding: 9px;
+	}
+
+	thead {
+		font-size: 10px;
+
+		th {
+			background: rgba($black, .1);
+			font-weight: bold;
+			padding: 8px;
+		}
+	}
+
+	tbody {
+		td {
+			background: none;
+			border: 1px solid rgba($black, .1);
+			text-align: center;
+			padding: 3px;
+
+			&:hover {
+				background: rgba($black, .1);
+			}
+		}
+
+		.pad {
+			background: none;
+		}
+	}
+
+	tfoot {
+		#next {
+			font-size: 10px;
+			text-transform: uppercase;
+			text-align: right;
+		}
+
+		#prev {
+			font-size: 10px;
+			text-transform: uppercase;
+			padding-top: 10px;
+		}
+	}
+}

@@ -1,0 +1,2027 @@
+# Translation of Themes - Zerif Lite in Ukrainian
+# This file is distributed under the same license as the Themes - Zerif Lite package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-02-19 04:28:42+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: uk_UA\n"
+"Project-Id-Version: Themes - Zerif Lite\n"
+
+#. #-#-#-#-#  zerif-lite.pot (Zerif Lite 1.8.5.40)  #-#-#-#-#
+#. Description of the plugin/theme
+#: functions.php:180
+msgid "Zerif LITE is a free one page WordPress theme. It's perfect for web agency business,corporate business,personal and parallax business portfolio, photography sites and freelancer.Is built on BootStrap with parallax support, is responsive, clean, modern, flat and minimal. Zerif Lite is ecommerce (WooCommerce) Compatible, WPML, RTL, Retina-Ready, SEO Friendly and with parallax, full screen image is one of the best business themes."
+msgstr "Zerif LITE це безкоштовна односторінкова тема для WordPress. Вона ідеально підходить для веб-агентства, корпоративного бізнесу, особистого та параллакс бізнес-портфоліо, фото-сайтів та фрілансерів. Вона побудована на BootStrap з підтримкою паралакса, чуйна, чиста, сучасна, проста і мінімалістична. Zerif Lite - сумісна з електроною комерцією (WooCommerce), WPML, RTL, Retina-Ready, дружня з SEO та параллакс, має повноекранне зображення - це одна з найкращих бізнес-тем."
+
+#. #-#-#-#-#  zerif-lite.pot (Zerif Lite 1.8.5.40)  #-#-#-#-#
+#. Theme Name of the plugin/theme
+#: inc/class/class-customizer-theme-info-control/class-customizer-theme-info-root.php:81
+msgid "Zerif Lite"
+msgstr "Zerif Lite"
+
+#. Translators: %s: widget title
+#: functions.php:957
+msgid "Go to %s"
+msgstr "Перейти до %s"
+
+#. Translators: %s: ThemeIsle link
+#: footer.php:215
+msgid "developed by %s"
+msgstr "розроблено %s"
+
+#: inc/customizer.php:1098
+msgid "You can replace the homepage slider with any plugin you like, just copy the shortcode generated and paste it here."
+msgstr "Ви можете замінити слайдер на головній сторінці будь яким плагіном, за вашим смаком, просто скопіюйте скорочений код і вставте його сюди."
+
+#: inc/customizer.php:1097
+msgid "Slider shortcode"
+msgstr "Скорочений код слайдера"
+
+#: ti-about-page/class-ti-about-page.php:1058
+#: ti-customizer-notify/class-ti-customizer-notify.php:172
+msgid "Activating"
+msgstr "Активується"
+
+#: functions.php:380 functions.php:409 functions.php:462
+msgid "Install and Activate"
+msgstr "Встановити та активувати"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:149
+msgid "Recommended plugins"
+msgstr "Рекомендовані плагіни"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:30
+#: inc/admin/welcome-screen/welcome-screen.php:226
+msgid "Getting started"
+msgstr "Початок роботи"
+
+#. translators: ResponsiveBoat child theme
+#: inc/admin/welcome-screen/sections/child-themes.php:120
+msgid "Get %s now"
+msgstr "Отримати %s зараз"
+
+#: functions.php:370
+msgid "Remove \"Zerif Lite developed by ThemeIsle\" copyright from the footer."
+msgstr "Видалити авторське право \"Zerif Lite розроблено ThemeIsle\" з підвалу сайту."
+
+#: inc/customizer-info/class/class-zerif-customize-upsell.php:72
+msgid "Get it"
+msgstr "Отримати"
+
+#: inc/customizer.php:801
+msgid "Keep the old static frontpage template?"
+msgstr "Зберегти шаблон старої статичної головної сторінки?"
+
+#: functions.php:255 functions.php:257
+msgid "Recommended actions"
+msgstr "Рекомендовані дії"
+
+#: inc/customizer.php:814
+msgid "Blog Header Options"
+msgstr "Налаштування заголовку блогу"
+
+#: front-page.php:38 home.php:13 inc/customizer.php:839
+msgid "Zerif supports a custom frontpage"
+msgstr "Користувацька головна сторінка підтримки Zerif"
+
+#: inc/customizer.php:2004
+msgid "Change this text in BottomButton Ribbon"
+msgstr "Змінити цей текст в Стрічці нижня кнопка"
+
+#: inc/customizer.php:2069 sections/ribbon_with_right_button.php:16
+msgid "Change this text in RightButton Ribbon"
+msgstr "Змінити цей текст в Стрічці права кнопка"
+
+#. translators: ThemeIsle Companion
+#. translators: ThemeIsle Companion install link
+#: sections/our_focus.php:49 sections/our_focus.php:52
+msgid "You need to install the %s plugin to be able to add Team members, Testimonials, Our Focus and Clients widgets."
+msgstr "Вам необхідно встановити %s плагін, для можливості додавання віджетів Члени команди, Рекомендації, Наші цілі та Кліенти."
+
+#: footer.php:35 inc/customizer.php:2579
+msgid "youremail@site.com"
+msgstr "youremail@site.com"
+
+#. translators: Pirate Forms plugin install link
+#. translators: Pirate Forms plugin
+#. translators: Pirate Forms plugin install link
+#: content-frontpage.php:106 inc/customizer.php:2258 template-frontpage.php:108
+msgid "You need to install %s to create a contact form."
+msgstr "Вам необхідно встановити %s для створення контактної форми."
+
+#: footer.php:43 inc/customizer.php:2634
+msgid "0 332 548 954"
+msgstr "0 332 548 954"
+
+#: inc/customizer.php:2360
+msgid "Footer options"
+msgstr "Параметри підвалу сайту"
+
+#: inc/customizer.php:696
+msgid "Advanced options"
+msgstr "Додаткові параметри"
+
+#: functions.php:190
+msgid "Useful Plugins"
+msgstr "Корисні плагіни"
+
+#. translators: ThemeIsle Companion install link
+#: functions.php:456
+msgid "If you want to take full advantage of the options this theme has to offer, please install and activate %s"
+msgstr "Якщо ви хочете скористатись усіма перевагами параметрів які пропонує ця тема, будь ласка, встановіть та активуйте %s."
+
+#: inc/class/class-customizer-theme-info-control/class-customizer-theme-info-root.php:98
+msgid "Ribbon Section"
+msgstr "Розділ Стрічка"
+
+#: inc/customizer.php:149
+msgid "Get full color schemes support for your site."
+msgstr "Отримати підтримку повно-кольорової схеми для вашого сайту."
+
+#: inc/class/class-customizer-theme-info-control/class-customizer-theme-info-root.php:97
+#: inc/customizer.php:122
+msgid "Subscribe section"
+msgstr "Розділ Підписка"
+
+#: inc/class/class-customizer-theme-info-control/class-customizer-theme-info-root.php:96
+#: inc/customizer.php:121
+msgid "Packages section"
+msgstr "Розділ Пакет"
+
+#: inc/customizer.php:120 inc/customizer.php:146
+msgid "Extra colors"
+msgstr "Додаткові кольори"
+
+#: inc/customizer.php:118 inc/customizer.php:171
+msgid "Background video"
+msgstr "Фонове відео"
+
+#: inc/customizer.php:117
+msgid "Section Reordering"
+msgstr "Розділ переупорядкування"
+
+#: functions.php:422
+msgid "Makes your contact page more engaging by creating a good-looking contact form on your website. The interaction with your visitors was never easier."
+msgstr "Зробіть вашу сторінку контакти більш привабливою, створивши гарну контактну форму на вашому веб-сайті. Взаємодія з відвідувачами ніколи не була легшою."
+
+#: functions.php:415
+msgid "It is highly recommended that you install the companion plugin to have access to the frontpage sections widgets."
+msgstr "Настійно рекомендується встановити супровідний плагін, щоб мати доступ до особливостей розділу віджетів головної сторінки."
+
+#: functions.php:382 functions.php:411 functions.php:464
+msgid "Deactivate"
+msgstr "Вимкнути"
+
+#: functions.php:379
+msgid "Version: "
+msgstr "Версія:"
+
+#: functions.php:256
+msgid "We have compiled a list of steps for you, to take make sure the experience you will have using one of our products is very easy to follow."
+msgstr "Ми склали список кроків, які потрібно виконувати, щоб ми могли переконатися, що використання вами одного з наших продуктів дається ваш легко."
+
+#: functions.php:218
+msgid "Want to get the gist on the latest theme changes? Just consult our changelog below to get a taste of the recent fixes and features implemented."
+msgstr "Хочете дізнатись про останні зміни теми? Просто ознайомтесь з списком змін нижче, щоб отримати знання щодо останніх виправлень і запроваджених функцій."
+
+#: functions.php:198 functions.php:201
+msgid "Contact Support"
+msgstr "Зв'язатися з тех. підтримкою"
+
+#: functions.php:173 functions.php:175
+msgid "About Zerif Lite"
+msgstr "Про Zerif Lite"
+
+#. translators: %s: post title
+#: comments.php:28
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "Один коментар до &ldquo;%s&rdquo;"
+
+#. translators: Theme Name
+#: functions.php:178
+msgid "Welcome to %s! - Version "
+msgstr "Ласкаво просимо до %s! - Версія"
+
+#. translators: Older post arrow
+#. translators: Older posts arrow
+#. translators: Older posts arrow
+#. translators: Older posts arrow
+#. translators: Older posts navigation arrow
+#. translators: Older posts navigation arrow
+#. translators: Older posts navigation arrow
+#. translators: Older posts navigation arrow
+#: archive-download.php:60 archive.php:61 front-page.php:88 home.php:67
+#: index.php:50 search.php:49 template-blog-large.php:66 template-blog.php:63
+msgid "%s Older posts"
+msgstr "%s Попередні записи"
+
+#. translators: Newer post arrow
+#. translators: Newer posts arrow
+#. translators: Newer posts arrow
+#. translators: Newer posts arrow
+#. translators: Newer posts navigation arrow
+#. translators: Newer posts navigation arrow
+#. translators: Newer posts navigation arrow
+#. translators: Newer posts navigation arrow
+#: archive-download.php:58 archive.php:59 front-page.php:86 home.php:65
+#: index.php:48 search.php:47 template-blog-large.php:64 template-blog.php:61
+msgid "Newer posts %s"
+msgstr "Наступні записи %s"
+
+#. Template Name of the plugin/theme
+msgid "Frontpage"
+msgstr "Головна сторінка"
+
+#. translators: Our team section
+#. translators: Our team section in customizer
+#. translators: Testimonials section
+#. translators: Testimonials section link in customizer
+#: sections/our_team.php:36 sections/our_team.php:39
+#: sections/testimonials.php:48 sections/testimonials.php:51
+msgid "Add widgets in this area by going to the %s"
+msgstr "Додайте віджети в цьому регіоні, перейшовши до %s"
+
+#: inc/customizer.php:2694
+msgid "The preloader is used as a creative way to make waiting a bit less boring for the visitor."
+msgstr "Попередній завантажувач це творчий спосіб, щоб зробити очікування для відвідувача менш нудним."
+
+#: inc/customizer.php:2694
+msgid "The preloader is the circular progress element that first appears on the site. When the loader finishes its progress animation, the whole page elements are revealed."
+msgstr "Попередній завантажувач - це круглий елемент просування завантаження сторінки, який спочатку з'являється на сайті. Коли завантажувач завершує анімацію просування, всі елементи сторінки з'вляються."
+
+#: inc/customizer.php:2693
+msgid "With smooth scrolling, it slides down smoothly, so you can see how much it scrolls. This makes it easier to resume reading from where you were before."
+msgstr "З плавним прокручуванням вона прогортається гладко, так що ви можете бачити, на скільки вона прогорнулась. Це полегшує відновлення читання з того місця, де ви були раніше."
+
+#: inc/customizer.php:2693
+msgid "Smooth scrolling can be very useful if you read a lot of long pages. Normally, when you press Page Down, the view jumps directly down one page."
+msgstr "Плавне прокручування може бути дуже корисним, якщо ви читаєте багато довгих сторінок. Зазвичай, коли ви натискаєте Page Down, перегляд спливає прямо на одну сторінку вниз."
+
+#: inc/customizer.php:2692
+msgid "Web accessibility also benefits others, including older people with changing abilities due to aging."
+msgstr "Доступність Інтернету також корисна іншим, у тому числі людей похилого віку, які змінюють здібності через старіння"
+
+#: inc/customizer.php:2692
+msgid "Web accessibility means that people with disabilities can use the Web. More specifically, Web accessibility means that people with disabilities can perceive, understand, navigate, and interact with the Web, and that they can contribute to the Web."
+msgstr "Доступність Інтернету означає, що люди з обмеженими можливостями можуть користуватися Інтернетом. Більш конкретно, веб-доступність означає, що люди з обмеженими можливостями можуть сприймати, розуміти, здійснювати навігацію та взаємодіяти з Інтернетом, а також робити свій внесок у роботу Інтернету."
+
+#: inc/customizer.php:2691
+msgid "If you are using other scripts like Cyrillic or Greek , you need to check this box to enable the safe fonts for better compatibility."
+msgstr "Якщо ви використовуєте інші шрифти, такі як кирилиця чи грецька, вам слід позначити цей прапорець, щоб забезпечити безпечні шрифти для кращої сумісності."
+
+#: inc/customizer.php:2691
+msgid "Zerif Lite main font is Montserrat, which only supports the Latin script."
+msgstr "Головний шрифт Zerif Lite це Montserrat, який підтримує лише латинський шрифт."
+
+#: inc/customizer.php:1461 inc/customizer.php:1528 inc/customizer.php:1595
+#: inc/customizer.php:1662 sections/about_us.php:64 sections/about_us.php:71
+#: sections/about_us.php:78 sections/about_us.php:85
+msgid "Edit skill"
+msgstr "Редагувати вміння"
+
+#. translators: Our focus section
+#. translators: About us section
+#. translators: Our team section
+#. translators: Our focus section in customizer
+#. translators: Our team section in customizer
+#. translators: About us section in customizer
+#: inc/customizer.php:1243 inc/customizer.php:1362 inc/customizer.php:1819
+#: inc/template-tags.php:276 inc/template-tags.php:317
+#: inc/template-tags.php:479
+msgid "Change this subtitle in %s"
+msgstr "Змінити цій підзаголовок у %s"
+
+#: inc/customizer.php:1003 inc/customizer.php:1048 sections/big_title.php:48
+#: sections/big_title.php:60
+msgid "Customize this button"
+msgstr "Налаштуйте цю кнопку"
+
+#. translators: Big title section
+#. translators: Customizer link for Big title section
+#: inc/customizer.php:969 inc/template-tags.php:433
+msgid "This piece of text can be changed in %s"
+msgstr "Ця частина тексту може бути змінена у %s"
+
+#: inc/customizer-info/class/class-zerif-customize-upsell.php:92
+msgid "It adds 5 new sections, the ability to re-order existing ones and easily add custom content to frontpage."
+msgstr "Це додасть 5 нових розділів, можливість змінювати послідовність існуючих та легко додавати спеціальний вміст на головну сторінку."
+
+#: inc/customizer-info/class/class-zerif-customize-upsell.php:81
+msgid "It adds a background video and a background slider."
+msgstr "Це додасть фонове відео та фоновий слайдер."
+
+#: functions.php:189 functions.php:460
+msgid "Recommended Actions"
+msgstr "Рекомендовані дії"
+
+#: functions.php:984
+msgid "Go to"
+msgstr "Перейти до"
+
+#: functions.php:495
+msgid "Read more about "
+msgstr "Читати більше про"
+
+#. translators: About us section
+#. translators: About use section in customizer
+#. translators: BottomButton Ribbon in customizer
+#: inc/customizer.php:1417 sections/about_us.php:53
+#: sections/ribbon_with_bottom_button.php:17
+msgid "Change this text in %s"
+msgstr "Змініть цей текст у %s"
+
+#: content-large.php:75 content.php:68
+msgid "[&hellip;]"
+msgstr "[&hellip;]"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: class-tgm-plugin-activation.php:2627
+msgid "Activate %2$s"
+msgstr "Активувати %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: class-tgm-plugin-activation.php:2621
+msgid "Update %2$s"
+msgstr "Оновіть %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: class-tgm-plugin-activation.php:2616
+msgid "Install %2$s"
+msgstr "Встановіть %2$s"
+
+#: class-tgm-plugin-activation.php:2546
+msgid "No plugins to install, update or activate."
+msgstr "Немає плагінів для встановлення, оновлення або активації."
+
+#. translators: 1: install status, 2: update status
+#: class-tgm-plugin-activation.php:2355
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#. translators: %s: version number
+#: class-tgm-plugin-activation.php:1995
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: class-tgm-plugin-activation.php:394
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr "Необхідно встановити, оновити або активувати ще один або кілька обов'язкових і рекомендованих плагінів."
+
+#. translators: %s: plugin name.
+#: class-tgm-plugin-activation.php:330
+msgid "Updating Plugin: %s"
+msgstr "Оновлення плагіна: %s"
+
+#. Template Name of the plugin/theme
+msgid "Full width with no title template"
+msgstr "Повна ширина без заголовку шаблон"
+
+#: inc/admin/welcome-screen/sections/github.php:29
+msgid "Get involved at WordPress.org."
+msgstr "Візьміть участь у WordPress.org."
+
+#: inc/admin/welcome-screen/sections/github.php:27
+msgid "Are you a polyglot? Want to translate Zerif Lite into your own language?"
+msgstr "Ви поліглот? Хочете перекласти тему Zerif Lite на вашу рідну мову?"
+
+#: inc/admin/welcome-screen/sections/github.php:16
+msgid "Found a bug? Want to contribute with a fix or create a new feature?"
+msgstr "Знайшли помилку? Бажаєте допомогти її виправити або створити нову можливість?"
+
+#: inc/admin/welcome-screen/sections/github.php:11
+msgid "How can I contribute?"
+msgstr "Як я можу допомогти?"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:269
+msgid "Download Easy Content Types"
+msgstr "Заватнажити Easy Content Types"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:259
+msgid "Custom Post Types, Taxonomies and Metaboxes in Minutes"
+msgstr "Користувацькі типи записів, таксономія і мета за лічені хвилини"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:258
+msgid "Easy Content Types"
+msgstr "Easy Content Types"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:166
+msgid "Install Page Builder by SiteOrigin"
+msgstr "Встановити Page Builder від SiteOrigin"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:156
+msgid "Build responsive page layouts using the widgets you know and love using this simple drag and drop page builder."
+msgstr "Побудувати адаптований макет сторінки за допомогою віджетів, які ви знаєте, з використанням форми перетягування контенту."
+
+#: inc/admin/welcome-screen/sections/getting-started.php:155
+msgid "Page Builder by SiteOrigin"
+msgstr "Page Builder від SiteOrigin"
+
+#: functions.php:245 inc/admin/welcome-screen/sections/getting-started.php:55
+msgid "In the below documentation you will find an easy way to build a great looking landing page using a drag-and-drop content builder plugin."
+msgstr "У документації нижче ви знайдете рекомендації до побудови чудової цільової сторінки використовуючи плагін конструктор перетягування вмісту."
+
+#: functions.php:243 inc/admin/welcome-screen/sections/getting-started.php:54
+msgid "Build a landing page with a drag-and-drop content builder"
+msgstr "Побудувати цільову сторінку з формою перетягування контенту"
+
+#: content-large.php:75 content.php:68 sections/latest_news.php:96
+#: sections/latest_news.php:136
+msgid "about "
+msgstr "Деталі"
+
+#: inc/customizer.php:2469
+msgid "Footer Content"
+msgstr "Нижній контент"
+
+#: footer.php:202 inc/customizer.php:633 inc/customizer.php:2461
+msgid "Instagram link"
+msgstr "Посилання Instagram "
+
+#: inc/customizer.php:2366
+msgid "Footer Social Icons"
+msgstr "Нижні соціальні іконки"
+
+#: inc/customizer.php:2485
+msgid "Footer Copyright"
+msgstr "Нижній копірайт"
+
+#. translators: Footer area number
+#: functions.php:552
+msgid "Footer area %d"
+msgstr "Нижній регіон %d"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:289
+msgid "Install Revive Old Post"
+msgstr "Встановити Revive Old Post "
+
+#: inc/admin/welcome-screen/sections/getting-started.php:279
+msgid "A plugin to share about your old posts on twitter, facebook, linkedin to get more hits for them and keep them alive."
+msgstr "Плагін для поширення ваших старих записів на  twitter, facebook, linkedin, щоб отримати більше переходів для них і зберегти їх актуальними."
+
+#: inc/admin/welcome-screen/sections/getting-started.php:278
+msgid "Revive Old Post"
+msgstr "Revive Old Post"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:130
+#: sections/latest_news.php:96 sections/latest_news.php:136
+msgid "Read more"
+msgstr "Читати далі"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:129
+msgid " At the address below you will find a cool set of original WordPress plugins that can give you great benefits despite being a little lesser known out there."
+msgstr "За посиланням нижче ви знайдете чудовий набір оригінальних плагінів WordPress, які можуть надати вам великі переваги, не дивлячись на те, що вони це мало відомі."
+
+#: inc/admin/welcome-screen/sections/getting-started.php:128
+msgid "30 Experts Share: The Top *Non-Obvious* WordPress Plugins That'll Make You a Better Blogger"
+msgstr "30 експертних досвідів: топ *неочікувані* плагіни WordPress, які допоможуть вам стати кращим блогером"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:79
+msgid "Find out how to add a search bar in the top menu bar, in an easy way be following the link below."
+msgstr "Дізнайтеся, як додати рядок пошуку в меню вгорі простим способом, перейшовши по посиланню нижче."
+
+#: inc/admin/welcome-screen/sections/getting-started.php:78
+msgid "Add a search bar in the top menu"
+msgstr "Додати пошук у верхне меню"
+
+#: inc/admin/welcome-screen/sections/child-themes.php:126
+msgid "ResponsiveBoat - Current theme"
+msgstr "ResponsiveBoat - поточна тема"
+
+#. translators: Zerif Pro name
+#: functions.php:288
+msgid "Get %s now!"
+msgstr "Отримати %s зараз!"
+
+#: inc/admin/welcome-screen/sections/child-themes.php:111
+#: inc/admin/welcome-screen/sections/child-themes.php:113
+msgid "ResponsiveBoat"
+msgstr "ResponsiveBoat"
+
+#: inc/admin/welcome-screen/sections/child-themes.php:37
+msgid "Get now"
+msgstr "Отримати зараз"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:123
+msgid "Set up your portfolio section in an easy way be following the link below."
+msgstr "Налаштуйте розділ вашого портфоліо у простий спосіб, перейшовши за посиланням нижче."
+
+#: inc/admin/welcome-screen/sections/getting-started.php:122
+msgid "Configure the portfolio"
+msgstr "Налаштувати портфоліо"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:61
+msgid "In the below documentation you will find an easy way to translate Zerif Lite into your native language or any other language you need for you site."
+msgstr "У наведеній нижче документації ви знайдете простий спосіб перекладу Zerif Lite на рідну мову або будь-яку іншу мову, необхідну для вашого сайту."
+
+#: inc/customizer.php:2206
+msgid "For more advanced settings please go to Settings -> Pirate Forms"
+msgstr "Для додаткових налаштувань, будь ласка, перейдіть на сторінку Налаштування -> Pirate Forms"
+
+#: inc/customizer.php:1897
+msgid "Use pinterest layout?"
+msgstr "Використовувати макет пінтересту?"
+
+#: inc/customizer.php:1759
+msgid "Content"
+msgstr "Змiст поста"
+
+#: inc/customizer.php:1162
+msgid "Image 2"
+msgstr "Зображення 2"
+
+#: inc/customizer.php:1143
+msgid "Image 1"
+msgstr "Зображення 1"
+
+#: inc/customizer.php:1126
+msgid "Use parallax effect?"
+msgstr "Використовувати ефект паралаксу?"
+
+#: inc/customizer.php:1063
+msgid "Green button label"
+msgstr "Мітка зеленої кнопки"
+
+#: inc/customizer.php:766
+msgid "Enable accessibility?"
+msgstr "Увімкнути доступність?"
+
+#: functions.php:193 inc/admin/welcome-screen/welcome-screen.php:231
+msgid "Free VS PRO"
+msgstr "Безкоштовна проти PRO"
+
+#: functions.php:192 functions.php:216 functions.php:219
+#: inc/admin/welcome-screen/welcome-screen.php:230
+msgid "Changelog"
+msgstr "Список змін"
+
+#: inc/admin/welcome-screen/welcome-screen.php:229
+msgid "Contribute"
+msgstr "Допомогти"
+
+#: inc/admin/welcome-screen/welcome-screen.php:228
+msgid "Child themes"
+msgstr "Тема нащадок"
+
+#: inc/admin/welcome-screen/welcome-screen.php:227
+msgid "Actions required"
+msgstr "Необхідні дії"
+
+#: inc/admin/welcome-screen/welcome-screen.php:76
+msgid "Get started with Zerif Lite"
+msgstr "Почати роботу з Zerif Lite"
+
+#. translators: Welcome page link
+#: inc/admin/welcome-screen/welcome-screen.php:75
+msgid "Welcome! Thank you for choosing Zerif Lite! To fully take advantage of the best our theme can offer please make sure you visit our %1$swelcome page%2$s."
+msgstr "Вітаємо! Дякуємо, що обрали Zerif Lite! Щоб повністю скористатись найкращими можливостями, запропонованими нашою темою, будь ласка, переконайтеся, що ви відвідуєте нашу %1$sстартову сторінку%2$s."
+
+#. translators: wordpress.org review page
+#: inc/admin/welcome-screen/sections/github.php:40
+msgid "Rate our theme on %1$sWordPress.org%2$s. We'd really appreciate it!"
+msgstr "Оцініть нашу тему на %1$sWordPress.org%2$s. Ми дуже цінуємо це!"
+
+#: inc/admin/welcome-screen/sections/github.php:38
+msgid "Are you enjoying Zerif Lite?"
+msgstr "Вам подобається Zerif Lite?"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:60
+#: inc/admin/welcome-screen/sections/github.php:32
+msgid "Translate Zerif Lite"
+msgstr "Перекласти Zerif Lite"
+
+#: inc/admin/welcome-screen/sections/github.php:21
+msgid "Zerif Lite on GitHub"
+msgstr "Zerif Lite на GitHub"
+
+#: inc/admin/welcome-screen/sections/github.php:18
+msgid "GitHub is the place to go!"
+msgstr "GitHub місце, яке варто відвідати!"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:249
+msgid "Install Visualizer"
+msgstr "Встановити Visualizer"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:239
+msgid "A simple, easy to use and quite powerful chart tool to create, manage and embed interactive charts into your WordPress posts and pages."
+msgstr "Простий та легкий у використанні і досить потужний інструмент для створення діаграм, керування та вставлення інтерактивних діаграм у ваші записи та сторінки WordPress."
+
+#: inc/admin/welcome-screen/sections/getting-started.php:238
+msgid "Visualizer: Charts and Graphs"
+msgstr "Visualizer: Чарти та графіки"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:208
+msgid "Install Custom Login Customizer"
+msgstr "Встановити Custom Login Customizer"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:198
+msgid "Login Customizer plugin allows you to easily customize your login page straight from your WordPress Customizer! You can preview your changes before you save them!"
+msgstr "Плагін для входу для користувача дозволяє легко налаштувати вашу сторінку входу безпосередньо зі свого WordPress Customizer! Ви можете переглянути свої зміни, перш ніж зберегти їх!"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:197
+msgid "Custom Login Customizer"
+msgstr "Custom Login Customizer"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:187
+msgid "Install WP Product Review"
+msgstr "Встановити WP Product Review"
+
+#: functions.php:378 inc/admin/welcome-screen/sections/getting-started.php:160
+#: inc/admin/welcome-screen/sections/getting-started.php:181
+#: inc/admin/welcome-screen/sections/getting-started.php:202
+#: inc/admin/welcome-screen/sections/getting-started.php:221
+#: inc/admin/welcome-screen/sections/getting-started.php:243
+#: inc/admin/welcome-screen/sections/getting-started.php:263
+#: inc/admin/welcome-screen/sections/getting-started.php:283
+#: inc/admin/welcome-screen/sections/getting-started.php:302
+msgid "Already activated"
+msgstr "Вже активовано"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:177
+msgid "Easily turn your basic posts into in-depth reviews with ratings, pros and cons, affiliate links, rich snippets and user reviews."
+msgstr "Легко перетворюйте свої прості записи у поглиблені огляди з рейтингом, плюсами і мінусами, партнерськими посиланнями, розширеними сніппетами та відгуками користувачів."
+
+#: inc/admin/welcome-screen/sections/getting-started.php:176
+msgid "WP Product Review"
+msgstr "WP Product Review"
+
+#: functions.php:461
+msgid "Recommended Plugins"
+msgstr "Рекомендовані плагіни"
+
+#: functions.php:210 functions.php:264
+#: inc/admin/welcome-screen/sections/getting-started.php:142
+msgid "Read full documentation"
+msgstr "Читати повну документацію"
+
+#: functions.php:209 functions.php:265
+#: inc/admin/welcome-screen/sections/getting-started.php:141
+msgid "Need more details? Please check our full documentation for detailed information on how to use Zerif Lite."
+msgstr "Необхідно більше інформації? Будь ласка, ознайомтесь з нашою повною документацією для більш детальної інформації про те як використовувати Zerif Lite."
+
+#: inc/admin/welcome-screen/sections/getting-started.php:140
+msgid "View full documentation"
+msgstr "Переглянути повну документацію"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:117
+msgid "You don't like the way Zerif Lite looks with its background opacity? No problem. Just remove it using the steps below."
+msgstr "Вам не подобається, як виглядає Zerif Lite із фоновою прозорістю? Без проблем. Просто видаліть його, виконавши наведені нижче кроки."
+
+#: inc/admin/welcome-screen/sections/getting-started.php:116
+msgid "Remove the opacity"
+msgstr "Вимкнути прозорість"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:111
+msgid "Zerif Lite has three page templates available, two for the blog and one for full width pages. To make sure you take full advantage of those page templates, make sure you read the documentation."
+msgstr "Zerif Lite має три шаблони сторінок, дві для блогу та одну для сторінок із повною шириною. Щоб переконатися, що ви скористаєтеся усіма перевагами цих шаблонів сторінок, переконайтеся, що ви прочитали документацію."
+
+#: inc/admin/welcome-screen/sections/getting-started.php:110
+msgid "Change the page template"
+msgstr "Змініть шаблон сторінки"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:105
+msgid "To better suit your site's needs, you can change each section's anchor to what you want. The entire process is described below."
+msgstr "Щоб краще відповідати потребам вашого сайту, ви можете змінити якір кожного розділу на потрібний. Весь процес описано нижче."
+
+#: inc/admin/welcome-screen/sections/getting-started.php:104
+msgid "Change anchors"
+msgstr "Змінити якорі"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:99
+msgid "Linking the frontpage sections with the top menu is very simple, all you need to do is assign section anchors to the menu. In the below documentation you will find a nice tutorial about this."
+msgstr "З'єднання розділів першої сторінки з головним меню дуже просте, все що вам потрібно зробити, це призначити якорі розділів до меню. У наведеній нижче документації ви знайдете хороший посібник про це."
+
+#: inc/admin/welcome-screen/sections/getting-started.php:98
+msgid "Link Menu to sections"
+msgstr "Прив'язати меню до розділу"
+
+#: functions.php:236 inc/admin/welcome-screen/sections/getting-started.php:93
+msgid "If you find yourself in the situation where everything on your site is running very slow, you might consider having a look at the below documentation where you will find the most common issues causing this and possible solutions for each of the issues."
+msgstr "Якщо ви опинитеся в ситуації, коли все на вашому сайті працює дуже повільно, можливо, варто переглянути на наведену нижче документацію, де ви знайдете найбільш поширені проблеми, що викликають і можливі рішення для кожної з цих проблем."
+
+#: functions.php:234 inc/admin/welcome-screen/sections/getting-started.php:92
+msgid "Speed up your site"
+msgstr "Прискорити ваш сайт"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:73
+msgid "You can turn off the animation effects you see when Zerif Lite loads a section in an easy way with just few changes. Check the documentation below."
+msgstr "Ви можете вимкнути ефекти анімації які ви бачите, коли Zerif Lite легко завантажує розділ за допомогою лише кількох змін. Перевірте документацію нижче."
+
+#: inc/admin/welcome-screen/sections/getting-started.php:72
+msgid "Turn off the animations"
+msgstr "Вимкнути анімації"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:67
+msgid "In the below documentation you will find an easy way to change the default dimensions for you social icons."
+msgstr "У документації нижче ви знайдете простий спосіб змінити стандартні розміри для соціальних піктограм."
+
+#: inc/admin/welcome-screen/sections/getting-started.php:66
+msgid "Change dimensions for footer social icons"
+msgstr "Змінити розміри соціальних піктограм у підвалі сайту"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:85
+msgid "If you are in the position where you want to change the default appearance of the big title section, you may want to replace it with a nice looking slider. This can be accomplished by following the documention below."
+msgstr "Якщо ви перебуваєте в тому місці, де ви хочете змінити типовий вигляд розділу великого заголовка, можливо, ви захочете замінити його красивим слайдером. Це можна виконати, дотримуючись нижченаведеної документації."
+
+#: inc/admin/welcome-screen/sections/getting-started.php:84
+msgid "Slider in big title section"
+msgstr "Слайдер у розділі великого заголовку"
+
+#: functions.php:228 functions.php:237 functions.php:246
+#: inc/admin/welcome-screen/sections/getting-started.php:50
+#: inc/admin/welcome-screen/sections/getting-started.php:56
+#: inc/admin/welcome-screen/sections/getting-started.php:62
+#: inc/admin/welcome-screen/sections/getting-started.php:68
+#: inc/admin/welcome-screen/sections/getting-started.php:74
+#: inc/admin/welcome-screen/sections/getting-started.php:80
+#: inc/admin/welcome-screen/sections/getting-started.php:86
+#: inc/admin/welcome-screen/sections/getting-started.php:94
+#: inc/admin/welcome-screen/sections/getting-started.php:100
+#: inc/admin/welcome-screen/sections/getting-started.php:106
+#: inc/admin/welcome-screen/sections/getting-started.php:112
+#: inc/admin/welcome-screen/sections/getting-started.php:118
+#: inc/admin/welcome-screen/sections/getting-started.php:124
+msgid "View how to do this"
+msgstr "Подивіться як це зробити"
+
+#: functions.php:227 inc/admin/welcome-screen/sections/getting-started.php:49
+msgid "If you want to make changes to the theme's files, those changes are likely to be overwritten when you next update the theme. In order to prevent that from happening, you need to create a child theme. For this, please follow the documentation below."
+msgstr "Якщо ви хочете внести зміни до файлів теми, ці зміни, ймовірно, будуть перезаписані, коли ви наступного разу оновите тему. Щоб запобігти цьому, потрібно створити тему-нащадок. Для цього, будь ласка, дійте згідно наведеної нижче документації."
+
+#: functions.php:225 inc/admin/welcome-screen/sections/getting-started.php:48
+msgid "Create a child theme"
+msgstr "Створити тему нащадок"
+
+#: inc/admin/welcome-screen/sections/getting-started.php:42
+msgid "FAQ"
+msgstr "ЧаП"
+
+#: functions.php:273 functions.php:275
+#: inc/admin/welcome-screen/sections/getting-started.php:34
+msgid "Go to Customizer"
+msgstr "Перейти до Налаштовувача"
+
+#: functions.php:274 inc/admin/welcome-screen/sections/getting-started.php:33
+msgid "Using the WordPress Customizer you can easily customize every aspect of the theme."
+msgstr "Використовуючи Налаштовувач WordPress, ви можете легко налаштувати кожен аспект теми."
+
+#: inc/admin/welcome-screen/sections/getting-started.php:32
+msgid "Customize everything in a single place."
+msgstr "Налаштовуйте все в одному місці."
+
+#: functions.php:188
+msgid "Getting Started"
+msgstr "Починаємо"
+
+#: functions.php:200 inc/admin/welcome-screen/sections/getting-started.php:22
+msgid "We want to make sure you have the best experience using Zerif Lite and that is why we gathered here all the necessary informations for you. We hope you will enjoy using Zerif Lite, as much as we enjoy creating great products."
+msgstr "Ми хочемо переконатися, що ви задоволені використанням Zerif Lite, і саме тому ми зібрали всю необхідну інформацію для вас. Ми сподіваємось, що вам сподобається Zerif Lite, адже ми насолоджуємося створенням чудових продуктів."
+
+#: inc/admin/welcome-screen/sections/getting-started.php:21
+msgid "Our most popular free one page WordPress theme, Zerif Lite!"
+msgstr "Наша найбільш популярна односторінкова тема на WordPress - Zerif Lite!"
+
+#: inc/admin/welcome-screen/sections/free_pro.php:136
+msgid "Get Zerif PRO now!"
+msgstr "Отримати Zerif PRO зараз!"
+
+#: inc/admin/welcome-screen/sections/free_pro.php:128
+msgid "Remove \"Zerif Lite powered by WordPress\" copyright from the footer."
+msgstr "Видалити копірайт \"Zerif Lite працює на WordPress\" з підвалу сайту."
+
+#: functions.php:369 inc/admin/welcome-screen/sections/free_pro.php:127
+msgid "No credit footer link"
+msgstr "Відсутнє посилання на розробників"
+
+#: functions.php:364 inc/admin/welcome-screen/sections/free_pro.php:120
+msgid "Write an original text in each Contact us section field."
+msgstr "Напишіть оригінальний текст для кожного поля розділу Зв'яжіться з нами."
+
+#: functions.php:363 inc/admin/welcome-screen/sections/free_pro.php:119
+msgid "Change labels for the Contact Us section"
+msgstr "Змініть мітку для розділу Зв'яжіться з нами"
+
+#: functions.php:358 inc/admin/welcome-screen/sections/free_pro.php:112
+msgid "Add pricing tables for your products and use newsletter forms to attract the clients."
+msgstr "Додай таблиці вартості для товарів та використовуйте розсилку новин для залучення клієнтів."
+
+#: functions.php:357 inc/admin/welcome-screen/sections/free_pro.php:111
+msgid "Packages/Subscribe sections"
+msgstr "Розділи пакети/підписка"
+
+#: functions.php:352 inc/admin/welcome-screen/sections/free_pro.php:104
+msgid "You will benefit of our full support for any issues you have with the theme."
+msgstr "Ви отримаєте допомогу від нашої підтримки у будь-яких питань, які ви маєте з темою."
+
+#: functions.php:191 functions.php:351
+#: inc/admin/welcome-screen/sections/free_pro.php:103 inc/customizer.php:124
+msgid "Support"
+msgstr "Техпідтримка"
+
+#: functions.php:346 inc/admin/welcome-screen/sections/free_pro.php:96
+msgid "Apart from static images, you can use videos or sliders on the background."
+msgstr "Крім статичних зображень, ви можете використовувати фонове відео або слайдер."
+
+#: functions.php:345 inc/admin/welcome-screen/sections/free_pro.php:95
+msgid "Background slider/video"
+msgstr "Фоновий слайдер/відео"
+
+#: functions.php:340 inc/admin/welcome-screen/sections/free_pro.php:88
+msgid "Arrange the sections by your priorities."
+msgstr "Впорядкуйте розділи за пріоритетами."
+
+#: functions.php:339 inc/admin/welcome-screen/sections/free_pro.php:87
+msgid "Sections order"
+msgstr "Порядок розділів"
+
+#: functions.php:334 inc/admin/welcome-screen/sections/free_pro.php:80
+msgid "Showcase your best projects in the portfolio section."
+msgstr "Продемонструйте свої кращі проекти в розділі портфоліо."
+
+#: functions.php:333 inc/admin/welcome-screen/sections/free_pro.php:79
+#: inc/class/class-customizer-theme-info-control/class-customizer-theme-info-root.php:95
+#: inc/customizer.php:119
+msgid "Portfolio"
+msgstr "Портфоліо"
+
+#: functions.php:328 inc/admin/welcome-screen/sections/free_pro.php:72
+msgid "Embed your current location to your website by using a Google map."
+msgstr "Вставити поточне місце розташування на ваш сайт, використовуючи Google мапу."
+
+#: functions.php:327 inc/admin/welcome-screen/sections/free_pro.php:71
+#: inc/class/class-customizer-theme-info-control/class-customizer-theme-info-root.php:99
+#: inc/customizer.php:123
+msgid "Google map section"
+msgstr "Розділ Google мапа"
+
+#: functions.php:322 inc/admin/welcome-screen/sections/free_pro.php:64
+msgid "You can change the colors of each section. You have unlimited options."
+msgstr "Можна змінити колір кожного розділу. Ви маєте необмежені можливості."
+
+#: functions.php:321 inc/admin/welcome-screen/sections/free_pro.php:63
+msgid "Unlimited color option"
+msgstr "Необмежена кількість кольорів"
+
+#: functions.php:316 inc/admin/welcome-screen/sections/free_pro.php:56
+msgid "You can use any background image you want."
+msgstr "Ви можете використовувати будь-який фон."
+
+#: functions.php:315 inc/admin/welcome-screen/sections/free_pro.php:55
+msgid "Background image"
+msgstr "Фонове зображення"
+
+#: functions.php:310 inc/admin/welcome-screen/sections/free_pro.php:48
+msgid "Big title, Our focus, About us, Our team, Testimonials, Ribbons, Latest news, Contat us"
+msgstr "Великий заголовок, Наші цілі, Про нас, Наша команда, Рекомендації, Стрічка, Останні новини, Зв'язатися з нами"
+
+#: functions.php:309 inc/admin/welcome-screen/sections/free_pro.php:47
+#: inc/customizer.php:894
+msgid "Frontpage sections"
+msgstr "Розділ Головна сторінка"
+
+#: functions.php:304 inc/admin/welcome-screen/sections/free_pro.php:40
+msgid "Ready for e-commerce. You can build an online store here."
+msgstr "Готова до e-commerce. Тут ви можете створити онлайн магазин."
+
+#: functions.php:303 inc/admin/welcome-screen/sections/free_pro.php:39
+msgid "WooCommerce Compatible"
+msgstr "Сумісно з WooCommerce"
+
+#: functions.php:298 inc/admin/welcome-screen/sections/free_pro.php:32
+msgid "Responsive layout. Works on every device."
+msgstr "Адаптивний веб-дизайн. Працює на кожному пристрії."
+
+#: functions.php:297 inc/admin/welcome-screen/sections/free_pro.php:31
+msgid "Mobile friendly"
+msgstr "Адаптивна"
+
+#: functions.php:292 inc/admin/welcome-screen/sections/free_pro.php:24
+msgid "Smooth, catchy and easy scrolling experience."
+msgstr "Плавна, помітна та легка прокрутка."
+
+#: functions.php:291 inc/admin/welcome-screen/sections/free_pro.php:23
+#: inc/customizer.php:1110
+msgid "Parallax effect"
+msgstr "Ефект паралакс"
+
+#: inc/admin/welcome-screen/sections/child-themes.php:97
+msgid "Zifer Child - Current theme"
+msgstr "Zifer Child - поточна тема"
+
+#: inc/admin/welcome-screen/sections/child-themes.php:84
+msgid "Zifer"
+msgstr "Zifer"
+
+#: inc/admin/welcome-screen/sections/child-themes.php:82
+msgid "Zifer Child Theme"
+msgstr "Zifer тема нащадок"
+
+#: inc/admin/welcome-screen/sections/child-themes.php:153
+msgid "Zerius - Current theme"
+msgstr "Zerius - поточна тема"
+
+#: inc/admin/welcome-screen/sections/child-themes.php:140
+msgid "Zerius"
+msgstr "Zerius"
+
+#: inc/admin/welcome-screen/sections/child-themes.php:138
+msgid "Zerius Child Theme"
+msgstr "Zerius тема нащадок"
+
+#: inc/admin/welcome-screen/sections/child-themes.php:70
+msgid "OnePirate - Current theme"
+msgstr "OnePirate - поточна тема"
+
+#. translators: ZblackBeard install link
+#. translators: Zifer Child install link
+#. translators: Zerius install link
+#: inc/admin/welcome-screen/sections/child-themes.php:64
+#: inc/admin/welcome-screen/sections/child-themes.php:91
+#: inc/admin/welcome-screen/sections/child-themes.php:147
+msgid "Install %s now"
+msgstr "Встановити %s"
+
+#: inc/admin/welcome-screen/sections/child-themes.php:57
+msgid "OnePirate"
+msgstr "OnePirate"
+
+#: inc/admin/welcome-screen/sections/child-themes.php:55
+msgid "OnePirate Child Theme"
+msgstr "OnePirate тема нащадок"
+
+#: inc/admin/welcome-screen/sections/child-themes.php:44
+#: inc/admin/welcome-screen/sections/child-themes.php:71
+#: inc/admin/welcome-screen/sections/child-themes.php:98
+#: inc/admin/welcome-screen/sections/child-themes.php:127
+#: inc/admin/welcome-screen/sections/child-themes.php:154
+msgid "Customize"
+msgstr "Налаштувати"
+
+#: inc/admin/welcome-screen/sections/child-themes.php:43
+msgid "Zblackbeard - Current theme"
+msgstr "Zblackbeard - поточна тема"
+
+#: inc/admin/welcome-screen/sections/child-themes.php:30
+msgid "ZBlackBeard"
+msgstr "ZBlackBeard"
+
+#: inc/admin/welcome-screen/sections/child-themes.php:28
+msgid "ZBlackBeard Child Theme"
+msgstr "ZBlackBeard тема нащадок"
+
+#: inc/admin/welcome-screen/sections/child-themes.php:18
+msgid "Below you will find a selection of Zerif Lite child themes that will totally transform the look of your site."
+msgstr "Нижче ви знайдете добірку тем нащадків Zerif Lite, які повністю змінять зовнішній вигляд вашого сайту."
+
+#: inc/admin/welcome-screen/sections/child-themes.php:16
+msgid "Get a whole new look for your site"
+msgstr "Отримайте абсолютно новий вигляд для вашого сайту"
+
+#: inc/admin/welcome-screen/sections/actions-required.php:86
+#: inc/admin/welcome-screen/welcome-screen.php:116
+msgid "Hooray! There are no required actions for you right now."
+msgstr "Ура! Наразі вам нічого не треба робити.."
+
+#: inc/admin/welcome-screen/sections/actions-required.php:11
+msgid "Keep up with Zerif Lite's latest news"
+msgstr "Залишайтесь в курсі останніх новин Zerif Lite."
+
+#: inc/template-tags.php:530
+msgid "Skip to content"
+msgstr "Перейти до вмісту"
+
+#: functions.php:1724
+msgid "Open links in new window?"
+msgstr "Відкрити посилання у новому вікні?"
+
+#: functions.php:1474
+msgid "Zerif - Team member widget"
+msgstr " Zerif - віджет Член команди"
+
+#: functions.php:1363 functions.php:1370
+msgid "Client"
+msgstr "Кліент"
+
+#: functions.php:1329
+msgid "Zerif - Clients widget"
+msgstr "Zerif - віджет Кліенти"
+
+#: functions.php:1123
+msgid "Zerif - Testimonial widget"
+msgstr "Zerif - віджет відгуки "
+
+#: functions.php:1089 functions.php:1294 functions.php:1440 functions.php:1752
+msgid "Uploaded image"
+msgstr "Завантажити зображння"
+
+#: functions.php:919
+msgid "Zerif - Our focus widget"
+msgstr "Zerif - віджет Наша мета. "
+
+#: functions.php:884
+msgid "Our team section widgets"
+msgstr "Віджети розділу Наша команда"
+
+#: functions.php:880
+msgid "Testimonials section widgets"
+msgstr "Віджети розділу Відгуки"
+
+#: functions.php:876
+msgid "Our focus section widgets"
+msgstr "Розділ віджету Наша мета."
+
+#. translators: %s: Name of current post
+#: content-page-no-title.php:17 content-page.php:27
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Продовжувати читання %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: class-tgm-plugin-activation.php:2770
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "Жодних плагінів не обрано для встановлення. Жодних дій не виконано."
+
+#: class-tgm-plugin-activation.php:2772
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "Жодних плагінів не обрано для оновлення. Жодних дій не виконано."
+
+#: class-tgm-plugin-activation.php:2815
+msgid "No plugins are available to be updated at this time."
+msgstr "Немає доступних плагінів для оновлення."
+
+#: class-tgm-plugin-activation.php:2921
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "Жодних плагінів не обрано для активації. Жодних дій не виконано."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: class-tgm-plugin-activation.php:3513
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Оновлення плаґіну %1$s (%2$d/%3$d)"
+
+#: class-tgm-plugin-activation.php:2697
+msgid "Upgrade message from the plugin author:"
+msgstr "Повідомлення про оновлення від автора плагіна:"
+
+#: class-tgm-plugin-activation.php:2736
+msgid "Update"
+msgstr "Оновлення"
+
+#: class-tgm-plugin-activation.php:2566
+msgid "Version"
+msgstr "Версія"
+
+#: class-tgm-plugin-activation.php:2511
+msgid "Minimum required version:"
+msgstr "Мінімально необхідна версія:"
+
+#: class-tgm-plugin-activation.php:2503
+msgid "Installed version:"
+msgstr "Встановлена версія:"
+
+#: class-tgm-plugin-activation.php:2495
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "невідомо"
+
+#. translators: 1: number of plugins.
+#: class-tgm-plugin-activation.php:2413
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "Для активації <span class=\"count\">(%s)</span>"
+msgstr[1] "Для активації <span class=\"count\">(%s)</span>"
+msgstr[2] "Для активації <span class=\"count\">(%s)</span>"
+
+#: class-tgm-plugin-activation.php:2523
+msgid "Available version:"
+msgstr "Доступна версія:"
+
+#. translators: 1: number of plugins.
+#: class-tgm-plugin-activation.php:2409
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "<span class=\"count\">(%s)</span> доступне оновлення"
+msgstr[1] "<span class=\"count\">(%s)</span> доступні оновлення"
+msgstr[2] "<span class=\"count\">(%s)</span> доступних оновлень"
+
+#. translators: 1: number of plugins.
+#: class-tgm-plugin-activation.php:2405
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "Встановити <span class=\"count\">(%s)</span>"
+msgstr[1] "Встановити <span class=\"count\">(%s)</span>"
+msgstr[2] "Встановити <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: class-tgm-plugin-activation.php:2401
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Всі <span class=\"count\">(%s)</span>"
+msgstr[1] "Всі <span class=\"count\">(%s)</span>"
+msgstr[2] "Всі <span class=\"count\">(%s)</span>"
+
+#: class-tgm-plugin-activation.php:2346
+msgid "Update recommended"
+msgstr "Оновлення рекомендовано"
+
+#: class-tgm-plugin-activation.php:2343
+msgid "Requires Update"
+msgstr "Потребує оновлення"
+
+#: class-tgm-plugin-activation.php:2340
+msgid "Required Update not Available"
+msgstr "Рекомендовано оновлення недоступне"
+
+#: class-tgm-plugin-activation.php:2334
+msgid "Active"
+msgstr "Підписка активна"
+
+#: class-tgm-plugin-activation.php:2308
+msgid "External Source"
+msgstr "Зовнішнє джерело"
+
+#: class-tgm-plugin-activation.php:1129 class-tgm-plugin-activation.php:2961
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "та"
+
+#: class-tgm-plugin-activation.php:941
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr "Архів плагіна складається з більш ніж одного файлу, але ці файли не знаходяться в папці."
+
+#: class-tgm-plugin-activation.php:933 class-tgm-plugin-activation.php:941
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr "Будь ласка, зв'яжіться з автором плагіна та попросіть запакувати плагін відповідно до правил WordPress."
+
+#: class-tgm-plugin-activation.php:933
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr "Архів плагіна не містить теки з бажаним слаґом і перейменування не спрацювало."
+
+#: class-tgm-plugin-activation.php:521
+msgid "Update Required"
+msgstr "Потрібне оновлення"
+
+#: class-tgm-plugin-activation.php:520
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "Цей плагін потрібно оновити для сумісності з вашою темою."
+
+#: class-tgm-plugin-activation.php:395
+msgid "Please contact the administrator of this site for help."
+msgstr "Будь ласка, зв'яжіться з адміністратором цього сайту, щоб отримати допомогу."
+
+#. translators: 1: plugin name.
+#: class-tgm-plugin-activation.php:390
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr "Плагін не активовано. Для цієї теми потрібна новіша версія %s. Будь ласка, оновіть плагін."
+
+#. translators: 1: plugin name.
+#: class-tgm-plugin-activation.php:388
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Ніяких дій не здійснено. Плагін %1$s було вже активовано."
+
+#: class-tgm-plugin-activation.php:373
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "Почати оновлення плагіна"
+msgstr[1] "Почати оновлення плагінів"
+msgstr[2] "Почати оновлення плагінів"
+
+#. Template Name of the plugin/theme
+msgid "Full Width Page"
+msgstr "Сторінка на всю ширину"
+
+#: front-page.php:37 home.php:12 inc/customizer.php:822
+msgid "Blog"
+msgstr "Блог"
+
+#: sidebar.php:40
+msgid "Meta"
+msgstr "Мета"
+
+#: sections/latest_news.php:171
+msgid "Next"
+msgstr "Наступн."
+
+#: sections/latest_news.php:165
+msgid "Previous"
+msgstr "Назад"
+
+#: inc/template-tags.php:392
+msgid "Latest news"
+msgstr "Останні новини"
+
+#. translators: Search query
+#: search.php:30
+msgid "Search Results for: %s"
+msgstr "Результати пошуку для фрази: %s"
+
+#. translators: 1 - Publish date, 2 - Author
+#: inc/template-tags.php:78
+msgid "<span class=\"posted-on\">Posted on %1$s</span><span class=\"byline\"> by %2$s</span>"
+msgstr "<span class=\"posted-on\">Опубліковано %1$s</span><span class=\"byline\"> %2$s</span>"
+
+#: inc/template-tags.php:39 single.php:30
+msgctxt "Next post link"
+msgid "%title <span class=\"meta-nav\">&rarr;</span>"
+msgstr "%title <span class=\"meta-nav\">&rarr;</span>"
+
+#: inc/template-tags.php:37 single.php:31
+msgctxt "Previous post link"
+msgid "<span class=\"meta-nav\">&larr;</span> %title"
+msgstr "<span class=\"meta-nav\">&larr;</span> %title"
+
+#: inc/template-tags.php:31
+msgid "Post navigation"
+msgstr "Навігація по запису"
+
+#: inc/class/class-customizer-theme-info-control/class-customizer-theme-info-root.php:102
+#: inc/customizer-info/class/class-zerif-customize-upsell.php:70
+#: inc/customizer-info/class/class-zerif-customize-upsell.php:81
+#: inc/customizer-info/class/class-zerif-customize-upsell.php:92
+#: inc/customizer.php:98 inc/customizer.php:127 inc/customizer.php:152
+#: inc/customizer.php:174
+msgid "View PRO version"
+msgstr "Ознайомитись з PRO версією"
+
+#: functions.php:207 functions.php:266
+#: inc/class/class-customizer-theme-info-control/class-customizer-theme-info-root.php:83
+msgid "Documentation"
+msgstr "Документація"
+
+#: inc/customizer.php:2346
+msgid "Secret key"
+msgstr "Таємний ключ"
+
+#: inc/customizer.php:2331
+msgid "Create an account here"
+msgstr "Створити обліковий запис"
+
+#: inc/customizer.php:2330
+msgid "Site key"
+msgstr "Ключ сайту"
+
+#: inc/customizer.php:2314
+msgid "Hide reCaptcha?"
+msgstr "Приховати reCaptcha?"
+
+#: inc/customizer.php:2291
+msgid "Send Message"
+msgstr "Відправити повідомлення"
+
+#: inc/customizer.php:2282
+msgid "Email address"
+msgstr "Електронна пошта"
+
+#: inc/customizer.php:2268
+msgid "Contact us section subtitle"
+msgstr "Підзаголовок розділу Зворотній зв'язок"
+
+#: inc/customizer.php:2249
+msgid "Contact us section title"
+msgstr "Заголовок розділу Зворотній зв'язок"
+
+#: content-frontpage.php:93 inc/customizer.php:2005 inc/customizer.php:2070
+#: inc/customizer.php:2239 sections/ribbon_with_bottom_button.php:18
+#: sections/ribbon_with_right_button.php:17 template-frontpage.php:95
+msgid "Get in touch"
+msgstr "Будемо на зв'язку"
+
+#: inc/customizer.php:2232
+msgid "Hide contact us section?"
+msgstr "Приховати розділ Зворотній зв'язок?"
+
+#: inc/customizer.php:2211
+msgid "Contact us section"
+msgstr "Розділ Зворотній зв'язок"
+
+#: inc/customizer.php:2076
+msgid "RightButton Ribbon"
+msgstr "Права кнопка Стрічки "
+
+#: inc/customizer.php:2055 inc/customizer.php:2128
+msgid "Button link"
+msgstr "Посилання кнопки"
+
+#: inc/customizer.php:2038 inc/customizer.php:2111 inc/customizer.php:2298
+msgid "Button label"
+msgstr "Текст командної кнопки"
+
+#: inc/customizer.php:1990 sections/ribbon_with_bottom_button.php:17
+msgid "BottomButton Ribbon"
+msgstr "Нижня кнопка Стрічки"
+
+#: inc/customizer.php:1970 inc/customizer.php:1982
+msgid "Ribbon sections"
+msgstr "Розділ Стрічка"
+
+#: inc/customizer.php:2192
+msgid "Latest News subtitle"
+msgstr "Підзаголовок для Останні новини"
+
+#: inc/customizer.php:2176
+msgid "Latest News title"
+msgstr "Заголовок для Останні новини"
+
+#: inc/customizer.php:2160
+msgid "Hide latest news section?"
+msgstr "Приховати розділ Останні новини?"
+
+#: inc/customizer.php:2140
+msgid "Latest News section"
+msgstr "Розділ Останні новини"
+
+#: inc/customizer.php:1939
+msgid "Testimonials subtitle"
+msgstr "Підзаголовок Рекомендації"
+
+#: inc/customizer.php:1908 inc/template-tags.php:341
+msgid "Testimonials"
+msgstr "Відгуки"
+
+#: inc/customizer.php:1881
+msgid "Hide testimonials section?"
+msgstr "Скрити секцію відгуків?"
+
+#: inc/customizer.php:1834
+msgid "Our team subtitle"
+msgstr "Підзаголовок Наша команда"
+
+#: inc/customizer.php:1792 inc/template-tags.php:296
+msgid "YOUR TEAM"
+msgstr "ВАША КОМАНДА"
+
+#: inc/customizer.php:1781
+msgid "Hide our team section?"
+msgstr "Приховати розділ Наша команда?"
+
+#: inc/customizer.php:1747
+msgid "Clients area"
+msgstr "Регіон Кліенти"
+
+#: inc/customizer.php:1708
+msgid "Feature no4 percentage"
+msgstr "Відсоток особливості №4"
+
+#: inc/customizer.php:1691
+msgid "Feature no4 text"
+msgstr "Текст особливості №4"
+
+#: inc/customizer.php:1676
+msgid "Feature no4 title"
+msgstr "Заголовок особливості №4"
+
+#: inc/customizer.php:1651
+msgid "Feature no#4"
+msgstr "Особливість №4"
+
+#: inc/customizer.php:1642
+msgid "Feature no3 percentage"
+msgstr "Відсоток особливості №3"
+
+#: inc/customizer.php:1625
+msgid "Feature no3 text"
+msgstr "Текст особливості №3"
+
+#: inc/customizer.php:1610
+msgid "Feature no3 title"
+msgstr "Заголовок особливості №3"
+
+#: inc/customizer.php:1584
+msgid "Feature no#3"
+msgstr "Особливість №3"
+
+#: inc/customizer.php:1575
+msgid "Feature no2 percentage"
+msgstr "Відсоток особливості №2"
+
+#: inc/customizer.php:1558
+msgid "Feature no2 text"
+msgstr "Текст особливості №2"
+
+#: inc/customizer.php:1543
+msgid "Feature no2 title"
+msgstr "Заголовок особливості №2"
+
+#: inc/customizer.php:1517
+msgid "Feature no#2"
+msgstr "Особливість №2"
+
+#: inc/customizer.php:1508
+msgid "Feature no1 percentage"
+msgstr "Відсоток особливості №1"
+
+#: inc/customizer.php:1491
+msgid "Feature no1 text"
+msgstr "Текст особливості №1"
+
+#: inc/customizer.php:1476
+msgid "Feature no1 title"
+msgstr "Заголовок особливості №1"
+
+#: inc/customizer.php:1450
+msgid "Feature no#1"
+msgstr "Особливість №1"
+
+#: inc/customizer.php:1408
+msgid "Big left side title"
+msgstr "Великий заголовок зліва"
+
+#: inc/customizer.php:847 inc/customizer.php:1377
+msgid "Subtitle"
+msgstr "Підзаголовок"
+
+#: inc/customizer.php:1335 inc/template-tags.php:458
+msgid "About"
+msgstr "Деталі"
+
+#: inc/customizer.php:931 inc/customizer.php:1307
+msgid "Main content"
+msgstr "Основний контент"
+
+#: inc/customizer.php:1324
+msgid "Hide about us section?"
+msgstr "Приховати розділ Про нас?"
+
+#: inc/customizer.php:1258
+msgid "Our focus subtitle"
+msgstr "Підзаголовок для Наша мета"
+
+#: inc/customizer.php:1217 inc/template-tags.php:254
+msgid "FEATURES"
+msgstr "Функції"
+
+#: inc/customizer.php:1196
+msgid "Hide our focus section?"
+msgstr "Приховати розділ Наша мета?"
+
+#: inc/customizer.php:1079
+msgid "Green button link"
+msgstr "Посилання зеленої кнопки"
+
+#: inc/customizer.php:1034
+msgid "Red button link"
+msgstr "Посилання червоної кнопки"
+
+#: inc/customizer.php:1018
+msgid "Red button label"
+msgstr "Мітка червоної кнопки"
+
+#: inc/customizer.php:948
+msgid "Hide big title section?"
+msgstr "Приховати розділ Великого заголовку?"
+
+#: inc/customizer.php:910 inc/customizer.php:922 inc/customizer.php:969
+#: inc/template-tags.php:433
+msgid "Big title section"
+msgstr "Розділ великого заголовку"
+
+#: inc/customizer.php:2539
+msgid "Address"
+msgstr "Адреса"
+
+#: inc/customizer.php:2512
+msgid "Address section - icon"
+msgstr "Іконка розділу Адреса"
+
+#: inc/customizer.php:2649
+msgid "Phone number"
+msgstr "Номер телефону"
+
+#: inc/customizer.php:2622
+msgid "Phone number section - icon"
+msgstr "Іконка розділу Номер телефону"
+
+#: inc/customizer.php:2594
+msgid "Email"
+msgstr "Електронна пошта"
+
+#: inc/customizer.php:2567
+msgid "Email section - icon"
+msgstr "Іконка розділу Електрона пошта"
+
+#: inc/customizer.php:2445
+msgid "Dribbble link"
+msgstr "Посилання на Dribbble"
+
+#: inc/customizer.php:750
+msgid "Disable smooth scroll?"
+msgstr "Відключити плавне прокручування?"
+
+#: inc/customizer.php:734
+msgid "Disable preloader?"
+msgstr "Вимкнути попередній завантажувач?"
+
+#: inc/customizer.php:703
+msgid "General options"
+msgstr "Головні параметри"
+
+#: header.php:73
+msgid "Toggle navigation"
+msgstr "Перемкнути навігацію"
+
+#: inc/admin/welcome-screen/sections/child-themes.php:38
+#: inc/admin/welcome-screen/sections/child-themes.php:65
+#: inc/admin/welcome-screen/sections/child-themes.php:92
+#: inc/admin/welcome-screen/sections/child-themes.php:121
+#: inc/admin/welcome-screen/sections/child-themes.php:148
+msgid "Live Preview"
+msgstr "Попередній Перегляд"
+
+#: footer.php:190 functions.php:1603 functions.php:1712 inc/customizer.php:606
+#: inc/customizer.php:2413
+msgid "Linkedin link"
+msgstr "Посилання на Linkedin "
+
+#: footer.php:198 functions.php:1592 functions.php:1704 inc/customizer.php:624
+msgid "Dribble link"
+msgstr "Посилання на Dribble "
+
+#: footer.php:194 functions.php:1581 functions.php:1696 inc/customizer.php:615
+#: inc/customizer.php:2429
+msgid "Behance link"
+msgstr "Посилання на Behance "
+
+#: footer.php:186 functions.php:1570 functions.php:1688 inc/customizer.php:597
+#: inc/customizer.php:2398
+msgid "Twitter link"
+msgstr "Посилання Twitter "
+
+#: footer.php:182 functions.php:1557 functions.php:1680 inc/customizer.php:588
+#: inc/customizer.php:2382
+msgid "Facebook link"
+msgstr "Посилання Facebook "
+
+#: functions.php:1672
+msgid "Description"
+msgstr "Опис"
+
+#: functions.php:1664
+msgid "Position"
+msgstr "Розташування"
+
+#: functions.php:1656
+msgid "Name"
+msgstr "Ім’я"
+
+#: functions.php:1254
+msgid "Author details"
+msgstr "Деталі автора"
+
+#: functions.php:1246
+msgid "Author link"
+msgstr "Посилання на автора"
+
+#: functions.php:1238
+msgid "Author"
+msgstr "Автор"
+
+#: functions.php:1097 functions.php:1302 functions.php:1448 functions.php:1760
+msgid "Upload Image"
+msgstr "Завантажити зображення"
+
+#: functions.php:1065 functions.php:1270 functions.php:1414 functions.php:1728
+msgid "Image"
+msgstr "Зображення"
+
+#: functions.php:1057 functions.php:1406
+msgid "Link"
+msgstr "Посилання"
+
+#: functions.php:1049 functions.php:1262 inc/customizer.php:1442
+#: inc/customizer.php:2021 inc/customizer.php:2094
+msgid "Text"
+msgstr "Текст"
+
+#: functions.php:1041 inc/customizer.php:830 inc/customizer.php:984
+#: inc/customizer.php:1231 inc/customizer.php:1350 inc/customizer.php:1734
+#: inc/customizer.php:1807 inc/customizer.php:1923
+msgid "Title"
+msgstr "Назва"
+
+#: functions.php:841
+msgid "Default title"
+msgstr "Заголовок за замовчуванням"
+
+#. translators: Name of plugins installed and activated successfully
+#: functions.php:803
+msgid "All plugins installed and activated successfully. %s"
+msgstr "Все плагіни успішно встановлені і активовані.%s"
+
+#: class-tgm-plugin-activation.php:331 functions.php:781
+msgid "Something went wrong with the plugin API."
+msgstr "Щось пішло не так з API плагіна."
+
+#: functions.php:584
+msgctxt "Monserrat font: on or off"
+msgid "on"
+msgstr "увімкнути"
+
+#: functions.php:577
+msgctxt "Homemade font: on or off"
+msgid "on"
+msgstr "увімкнути"
+
+#: functions.php:576
+msgctxt "Lato font: on or off"
+msgid "on"
+msgstr "увімкнено"
+
+#: inc/customizer.php:1819 inc/customizer.php:1848 inc/template-tags.php:317
+#: sections/our_team.php:36 sections/our_team.php:39
+msgid "Our team section"
+msgstr "Секція \"Наша команда\""
+
+#: functions.php:539 inc/customizer.php:1287 inc/customizer.php:1299
+#: inc/customizer.php:1362 inc/customizer.php:1417 inc/template-tags.php:479
+#: sections/about_us.php:53
+msgid "About us section"
+msgstr "Секція \"Про нас\""
+
+#: inc/customizer.php:1861 inc/customizer.php:1953 sections/testimonials.php:48
+#: sections/testimonials.php:51
+msgid "Testimonials section"
+msgstr "Секція \"Відгуки\""
+
+#: inc/customizer.php:1176 inc/customizer.php:1243 inc/customizer.php:1271
+#: inc/template-tags.php:276
+msgid "Our focus section"
+msgstr "Секція \"Наша мета\""
+
+#: functions.php:528
+msgid "Sidebar"
+msgstr "Бокова панель"
+
+#: functions.php:54 functions.php:1898
+msgid "Primary Menu"
+msgstr "Головне меню"
+
+#: footer.php:27 inc/customizer.php:2524
+msgid "Company address"
+msgstr "Адреса компанії"
+
+#. translators: 1 - Categories list, 2 - Tags list, 3- Permalink
+#: content-single.php:70
+msgid "This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Цей запис опубліковано у %1$s. Додати у закладки <a href=\"%3$s\" rel=\"bookmark\">посилання</a>."
+
+#. translators: 1 - Categories list, 2 - Tags list, 3- Permalink
+#: content-single.php:66
+msgid "This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Цей запис було опубліковано в %1$s та позначено %2$s. Додати у закладки <a href=\"%3$s\" rel=\"bookmark\">посилання</a>."
+
+#. translators: Permalink
+#: content-single.php:58
+msgid "Bookmark the <a href=\"%3$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Додати у закладки <a href=\"%3$s\" rel=\"bookmark\">посилання</a>."
+
+#. translators: Permalink
+#: content-single.php:54
+msgid "This entry was tagged %2$s. Bookmark the <a href=\"%3$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Цей запис було позначено %2$s. Додати у закладки <a href=\"%3$s\" rel=\"bookmark\">посилання</a>."
+
+#: content-none.php:29
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Інформацію на запит знайти не вдалося. Можливо, буде корисний пошук по сайту."
+
+#: content-none.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Вибачте, за вашим запитом нічого не знайдено. Спробуйте інші ключові слова."
+
+#. translators: Add new post link
+#: content-none.php:19
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Готові опублікувати свій перший запис? <a href=\"%1$s\">Почніть звідси</a>."
+
+#: content-none.php:12
+msgid "Nothing Found"
+msgstr "Нічого не знайдено"
+
+#: content-large.php:154 content-page-no-title.php:33 content-page.php:43
+#: content-single.php:85 content.php:125
+msgid "Edit"
+msgstr "Редагувати"
+
+#: content-large.php:150 content.php:120
+msgid "% Comments"
+msgstr "%s коментарів"
+
+#: content-large.php:150 content.php:120
+msgid "1 Comment"
+msgstr "1 коментар"
+
+#: content-large.php:150 content.php:120
+msgid "Leave a comment"
+msgstr "Залишити коментар"
+
+#. translators: Tags list
+#: content-large.php:140 content.php:110
+msgid "Tagged %1$s"
+msgstr "Позначено %1$s"
+
+#. translators: Categories list
+#. Translators: Categories list
+#: content-large.php:122 content.php:95
+msgid "Posted in %1$s"
+msgstr "Опубліковано %1$s"
+
+#. translators: used between list items, there is a space after the comma
+#: content-large.php:114 content-large.php:132 content-single.php:43
+#: content-single.php:47 content.php:88 content.php:103
+msgid ", "
+msgstr ", "
+
+#: content-large.php:82 content-page-no-title.php:24 content-page.php:34
+#: content-single.php:29 content.php:75
+msgid "Pages:"
+msgstr "Сторінки:"
+
+#: comments.php:97
+msgid "Comments are closed."
+msgstr "Коментувати не дозволено."
+
+#: comments.php:55 comments.php:84
+msgid "Newer Comments &rarr;"
+msgstr "Новіші коментарі &rarr;"
+
+#: comments.php:53 comments.php:82
+msgid "&larr; Older Comments"
+msgstr "&larr; Старіші коментарі"
+
+#: comments.php:51 comments.php:80
+msgid "Comment navigation"
+msgstr "Навігація по коментарях"
+
+#. translators: 1: number of comments, 2: post title
+#: comments.php:32
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s коментар до &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s коментарі до &ldquo;%2$s&rdquo;"
+msgstr[2] "%1$s коментарів до &ldquo;%2$s&rdquo;"
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: class-tgm-plugin-activation.php:3535
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Встановлюємо плагін %1$s(%2$d/%3$d)"
+
+#: class-tgm-plugin-activation.php:3533
+msgid "All installations have been completed."
+msgstr "Всі установки були завершені."
+
+#. translators: 1: plugin name.
+#: class-tgm-plugin-activation.php:3532
+msgid "%1$s installed successfully."
+msgstr "%1$s встановлений успішно."
+
+#. translators: 1: plugin name.
+#: class-tgm-plugin-activation.php:3518
+msgid "The installation of %1$s failed."
+msgstr "Установка %1$s завершилася невдало."
+
+#. translators: 1: plugin name, 2: error message.
+#: class-tgm-plugin-activation.php:3516
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "При установці%1$s виникла помилка: <strong>%2$s </strong>."
+
+#: class-tgm-plugin-activation.php:3530
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "Починається процес установки. Це може зайняти тривалий час надеяких системах, будь ласка, зачекайте."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: class-tgm-plugin-activation.php:3527
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Встановлюємо і активуємо плагін %1$s (%2$d/%3$d)"
+
+#: class-tgm-plugin-activation.php:3525
+msgid "All installations and activations have been completed."
+msgstr "Всі установки і активації завершені."
+
+#: class-tgm-plugin-activation.php:3524 class-tgm-plugin-activation.php:3532
+msgid "Hide Details"
+msgstr "Сховати деталі"
+
+#: class-tgm-plugin-activation.php:3524 class-tgm-plugin-activation.php:3532
+msgid "Show Details"
+msgstr "Показати деталі"
+
+#. translators: 1: plugin name.
+#: class-tgm-plugin-activation.php:3524
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s встановлений і успішно активований."
+
+#: class-tgm-plugin-activation.php:3522
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "Починається процес встановлення і активації. Це може зайняти тривалийчас на деяких системах, будь ласка, зачекайте."
+
+#: class-tgm-plugin-activation.php:3171
+msgid "Plugin activation failed."
+msgstr "Невдала активація плагіна."
+
+#: class-tgm-plugin-activation.php:2947
+msgid "No plugins are available to be activated at this time."
+msgstr "Відсутні плагіни для активації в цей час. "
+
+#: class-tgm-plugin-activation.php:2813
+msgid "No plugins are available to be installed at this time."
+msgstr "На даний час немає доступних для встановлення плагінів."
+
+#: class-tgm-plugin-activation.php:2567
+msgid "Status"
+msgstr "Статус"
+
+#: class-tgm-plugin-activation.php:2562
+msgid "Type"
+msgstr "Тип"
+
+#: class-tgm-plugin-activation.php:2561
+msgid "Source"
+msgstr "Джерело"
+
+#: class-tgm-plugin-activation.php:2560
+msgid "Plugin"
+msgstr "Плаґін"
+
+#: class-tgm-plugin-activation.php:2739 functions.php:381 functions.php:410
+#: functions.php:463
+msgid "Activate"
+msgstr "Активувати"
+
+#: class-tgm-plugin-activation.php:2730
+#: inc/admin/welcome-screen/sections/getting-started.php:227
+#: inc/admin/welcome-screen/sections/getting-started.php:308
+msgid "Install"
+msgstr "Встановити"
+
+#: class-tgm-plugin-activation.php:2332
+msgid "Installed But Not Activated"
+msgstr "Встановлено, але не активований"
+
+#: class-tgm-plugin-activation.php:2328
+msgid "Not Installed"
+msgstr "Не встановлено"
+
+#: class-tgm-plugin-activation.php:2289
+msgid "Recommended"
+msgstr "Рекомендований"
+
+#: class-tgm-plugin-activation.php:2286
+msgid "Required"
+msgstr "Обов’язково"
+
+#: class-tgm-plugin-activation.php:2305
+msgid "WordPress Repository"
+msgstr "Репозиторій WordPress"
+
+#: class-tgm-plugin-activation.php:2311
+msgid "Pre-Packaged"
+msgstr "Пре-упаковані"
+
+#: class-tgm-plugin-activation.php:384 class-tgm-plugin-activation.php:825
+#: class-tgm-plugin-activation.php:2546 class-tgm-plugin-activation.php:3595
+msgid "Return to the Dashboard"
+msgstr "Повернутися в консоль"
+
+#: class-tgm-plugin-activation.php:393
+msgid "Dismiss this notice"
+msgstr "Прибрати це повідомлення"
+
+#. translators: 1: dashboard link.
+#: class-tgm-plugin-activation.php:392
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Все плагіни успішно встановлені і активовані.%1$s"
+
+#: class-tgm-plugin-activation.php:386 class-tgm-plugin-activation.php:2965
+msgid "The following plugin was activated successfully:"
+msgstr "Наступний плагін було успішно активовано:"
+
+#: class-tgm-plugin-activation.php:385 class-tgm-plugin-activation.php:3172
+#: functions.php:801
+msgid "Plugin activated successfully."
+msgstr "Плагін успішно активовано."
+
+#: class-tgm-plugin-activation.php:383 functions.php:800
+msgid "Return to Required Plugins Installer"
+msgstr "Повернутися до Устанвка необхідних плагінів"
+
+#: class-tgm-plugin-activation.php:378 functions.php:799
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Розпочати активацію плагіна"
+msgstr[1] "Розпочати активацію плагінів"
+msgstr[2] "Розпочати активацію плагінів"
+
+#. translators: 1: plugin name(s).
+#: class-tgm-plugin-activation.php:368 functions.php:798
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Початок встановлення плагіна"
+msgstr[1] "Початок встановлення плагінів"
+msgstr[2] ""
+
+#. translators: Nme of plugin that can't be updated
+#: functions.php:797
+msgid "Sorry, but you do not have the correct permissions to update the %s plugin. Contact the administrator of this site for help on getting the plugin updated."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %s plugins. Contact the administrator of this site for help on getting the plugins updated."
+msgstr[0] "Просимо вибачення, але у вас нема прав для оновлення %s плагіна. Зв'яжіться з адміністратором для допомоги в установці."
+msgstr[1] "Просимо вибачення, але у вас нема прав для оновлення %s плагінів. Зв'яжіться з адміністратором для допомоги в установці."
+msgstr[2] "Просимо вибачення, але у вас нема прав для оновлення %s плагінів. Зв'яжіться з адміністратором для допомоги в установці."
+
+#. translators: Name of plugin that needs to be updated
+#: functions.php:795
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] "Наступний плагін повинен бути оновлений до останньої версії для забезпечення максимальної сумісності з цією темою: %1$s."
+msgstr[1] "Наступні плагіни повинні бути оновлені до останньої версії для забезпечення максимальної сумісності з цією темою: %1$s."
+msgstr[2] "Наступні плагіни повинні бути оновлені до останньої версії для забезпечення максимальної сумісності з цією темою: %1$s."
+
+#. translators: Name of plguin that can't be activated
+#: functions.php:793
+msgid "Sorry, but you do not have the correct permissions to activate the %s plugin. Contact the administrator of this site for help on getting the plugin activated."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %s plugins. Contact the administrator of this site for help on getting the plugins activated."
+msgstr[0] "Просимо вибачення, але у вас нема прав для активації %s плагіна. Зв'яжіться з адміністратором для допомоги в установці."
+msgstr[1] "Просимо вибачення, але у вас нема прав для активації %s плагінів. Зв'яжіться з адміністратором для допомоги в установці."
+msgstr[2] "Просимо вибачення, але у вас нема прав для активації %s плагінів. Зв'яжіться з адміністратором для допомоги в установці."
+
+#. translators: Name of recommended plugin that is not active
+#: functions.php:791
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "Наступний рекомендований плагін наразі неактивен: %1$s."
+msgstr[1] "Наступні рекомендовані плагіни наразі неактивні: %1$s."
+msgstr[2] "Наступні рекомендовані плагіни наразі неактивні: %1$s."
+
+#. translators: Name of required plugin that is not active
+#: functions.php:789
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "Наступний необхідний плагін наразі неактивен: %1$s."
+msgstr[1] "Наступні необхідні плагіни наразі неактивні: %1$s."
+msgstr[2] "Наступні необхідні плагіни наразі неактивні: %1$s."
+
+#. translators: Name of required plugin
+#: functions.php:787
+msgid "Sorry, but you do not have the correct permissions to install the %s plugin. Contact the administrator of this site for help on getting the plugin installed."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %s plugins. Contact the administrator of this site for help on getting the plugins installed."
+msgstr[0] "Просимо вибачення, але у вас нема прав для встановлення %s плагіна. Зв'яжіться з адміністратором для допомоги в установці."
+msgstr[1] "Просимо вибачення, але у вас нема прав для встановлення %s плагінів. Зв'яжіться з адміністратором для допомоги в установці."
+msgstr[2] "Просимо вибачення, але у вас нема прав для встановлення %s плагінів. Зв'яжіться з адміністратором для допомоги в установці."
+
+#. translators: Name of recommended plugin
+#: functions.php:785
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "Ця тема рекомендує наступний плагін: %1$s."
+msgstr[1] "Ця тема рекомендує наступні плагіни: %1$s."
+msgstr[2] "Ця тема рекомендує наступні плагіни: %1$s."
+
+#. translators: Name of required plugin
+#: functions.php:783
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "Ця тема потребує наступного плагіна: %1$s."
+msgstr[1] "Ця тема потребує наступних плагінів: %1$s."
+msgstr[2] ""
+
+#. translators: %s: plugin name.
+#. translators: name of installing plugin
+#: class-tgm-plugin-activation.php:328 functions.php:780
+msgid "Installing Plugin: %s"
+msgstr "Встановлення плаґіну: %s"
+
+#: class-tgm-plugin-activation.php:326 functions.php:778
+msgid "Install Plugins"
+msgstr "Встановити плаґіни"
+
+#: class-tgm-plugin-activation.php:325 functions.php:777
+msgid "Install Required Plugins"
+msgstr "Встановіть потрібні плагіни"
+
+#: sidebar.php:25
+msgid "Archives"
+msgstr "Архіви"
+
+#: inc/template-tags.php:174
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Нічого не знайдено. Спробуйте використати один з наведених нижче посилань, або скористайтесь форму пошуку."
+
+#: inc/template-tags.php:163
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ой! Сторінка не знайдена."
+
+#. Author URI of the plugin/theme
+msgid "https://themeisle.com"
+msgstr "https://themeisle.com"
+
+#. #-#-#-#-#  zerif-lite.pot (Zerif Lite 1.8.5.40)  #-#-#-#-#
+#. Author of the plugin/theme
+#: footer.php:215
+msgid "ThemeIsle"
+msgstr "ThemeIsle"
+
+#. Theme URI of the plugin/theme
+msgid "https://themeisle.com/themes/zerif-lite/"
+msgstr "https://themeisle.com/themes/zerif-lite/"
