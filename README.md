@@ -19,6 +19,12 @@ in corresponding folder.
 
 Every version of site is packaged through the plugin [Duplicator](https://wordpress.org/plugins/duplicator).
 
+1. Go to [Releases pages](/releases) and download package (with suffixs \_archive.zip) and its installer (with suffixs \_installer.php)
+2. Put them on your server
+3. Create database for your project
+4. Run installer through the server
+5. Follow deployment steps
+
 ### Contributors
 - Svetlana Bereziuk
 - Marta Dziaruk
