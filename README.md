@@ -19,7 +19,7 @@ in corresponding folder.
 
 Every version of site is packaged through the plugin [Duplicator](https://wordpress.org/plugins/duplicator).
 
-1. Go to [Releases pages](releases) and download package (ends with \_archive.zip) and its installer (ends suffixs \_installer.php)
+1. Go to [Releases pages](https://github.com/mplesha/NoviNano/releases) and download package (ends with \_archive.zip) and its installer (ends suffixs \_installer.php)
 2. Put them on your server
 3. Create database for your project
 4. Run installer through the server
