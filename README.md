@@ -7,7 +7,9 @@ restructuring surfaces using femtosecond laser technology.
 ### Description
 
 Here we have 7 versions of site of NoviNano.
+
 ![](./NoviNano.jpg)
+
 The sites were developed with WordPress and each version is located
 in corresponding folder.
 
